@@ -1,0 +1,18 @@
+// import google font
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+@import './variables';
+
+@import 'bootstrap/scss/bootstrap.scss';
+
+
+@import './customTest.scss';
+
+h1 {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 6em;
+}
+
+#header-div {
+    display: flex;
+    justify-content: center;
+}
