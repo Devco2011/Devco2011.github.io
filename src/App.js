@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import { NavBar } from './nav/Nav'
 import { Header } from './main/Header'
+import { About } from './main/About'
 
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
 
       <NavBar />
       <Header />
+      <About />
 
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
