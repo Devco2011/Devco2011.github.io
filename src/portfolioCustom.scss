@@ -12,7 +12,22 @@ h1 {
     font-size: 6em;
 }
 
+h4 {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 3em; 
+}
+
 #header-div {
     display: flex;
     justify-content: center;
+    padding-top: 8em;
+}
+
+.navBrand {
+    font-family: 'Fjalla One', sans-serif;
+    padding-right: 2em;
+}
+
+.nav-link {
+    margin-right: 2em;
 }

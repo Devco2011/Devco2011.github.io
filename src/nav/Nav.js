@@ -9,15 +9,15 @@ export const NavBar = (props) => {
 
 
 
-            <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+            <Navbar className="navBarContainer" collapseOnSelect expand="lg" bg="dark" variant="dark" sticky="top">
 
                 <Container className="justify-content-center">
                     <Row className="justify-content-center">
-                        <Navbar.Brand href="#home">DEVON COX</Navbar.Brand>
+                        <Navbar.Brand className="navBrand" href="#home">DEVON COX</Navbar.Brand>
                         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                         <Navbar.Collapse id="responsive-navbar-nav">
                             <Nav className="mr-auto">
-                                <Nav.Link href="#about">ABOUT</Nav.Link>
+                                <Nav.Link className="nav-link" href="#about">ABOUT</Nav.Link>
                                 <Nav.Link href="#caseStudies">CASE STUDIES</Nav.Link>
                             </Nav>
                             <Nav>
