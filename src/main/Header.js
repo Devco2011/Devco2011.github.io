@@ -11,7 +11,7 @@ export const Header = () => {
                         <h4>UI/UX Designer + Front-End Developer</h4>
                     </Col>
                     <Col md={10} className="tagLine">
-                        <p>Eager to learn. Excited to grow. Ready to work.</p>
+                        <h3>Eager to learn. Excited to grow. Ready to work.</h3>
                     </Col>
                     <Col md={10} className="jumpTo">
                         <p>Jump to <a href="#work">case studies</a> if you'd like.</p>

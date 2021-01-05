@@ -36,7 +36,7 @@ h4 {
     text-align: center;
     flex-wrap: wrap;
     padding-top: 8em;
-    padding-bottom: 8em;
+    padding-bottom: 3em;
 }
 .tagLine {
     padding-top: 1em;
@@ -46,11 +46,79 @@ h4 {
     font-size: 3em; 
 }
 .jumpTo {
-    padding-top: 1em;
+    padding-top: 3em;
     text-align: center;
     color: #fff;
     font-family: 'Fjalla One', sans-serif;
-    font-size: 2em; 
+     
+}
+.jumpTo2 {
+    text-align: right;
+    color: #fff;
+    
+     
+}
+
+.about-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    padding-top: 8em;
+    padding-bottom: 8em;
+}
+.about-div {
+    margin-top: 5em;
+}
+p {
+    font-size: 1.2em;
+}
+
+
+.stickmanThumbsUp {
+    float: right;
+    margin-top: 5em;
+    margin-right: 15%;
+        
+    @media (min-width: 23.4375rem) {
+            width: 4rem;
+            height: 11rem;
+            margin-right: 40%;
+    }
+        
+    @media (min-width: 37.5rem) {
+            width: 10rem;
+            height: 22rem;
+    }
+    
+    @media (min-width: 50rem) {
+            width: 10rem;
+            height: 22rem;
+            align-content: center;
+    }
+    
+}
+.stickmanBook {
+    float: left;
+    margin-top: 5em;
+    margin-left: 10%;
+        
+    @media (min-width: 23.4375rem) {
+            width: 4rem;
+            height: 11rem;
+            margin-left: 40%;
+    }
+        
+    @media (min-width: 37.5rem) {
+            width: 10rem;
+            height: 22rem;
+    }
+    
+    @media (min-width: 50rem) {
+            width: 10rem;
+            height: 22rem;
+    }
+    
 }
 
 
