@@ -21,8 +21,8 @@ export const Process = () => {
                             <h5>Look, listen, learn</h5>
                             <ScrollAnimation animateIn="animate__animated animate__fadeIn"><p>I work to clearly define design solutions through interviews and research. A closer look often reveals the first, second, or third solutions
                                 is not the <strong>right</strong> solution. </p>
-                                <p>Here's an expamle in my work.
-                            </p>
+                                <p><LookModal />
+                                </p>
                             </ScrollAnimation>
                         </div>
                     </Col>
@@ -75,7 +75,7 @@ export const Process = () => {
                             <h5>Inclusivity</h5>
                             <ScrollAnimation animateIn="animate__animated animate__fadeIn"><p>I am very interested in inclusive design. I strive to do work that <strong>accessible</strong> to <strong>all people</strong>. I celebrate differences in humans and I believe there is <strong>no typical user</strong>.
                             </p>
-                                <p>Here's and <LookModal /> in my work.</p>
+                                <p>Here's and  in my work.</p>
                             </ScrollAnimation>
                         </div>
                     </Col>
