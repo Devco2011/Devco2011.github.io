@@ -18,7 +18,7 @@ export const About = () => {
                     </Col>
                     <Col md={5}>
                         <div className="about-div">
-                            <ScrollAnimation animateIn="animate__animated animate__fadeIn"><h5>I love solving problems through design.</h5></ScrollAnimation>
+                            <ScrollAnimation animateIn="animate__animated animate__fadeIn"><h5 className="section-title">I love solving problems through design.</h5></ScrollAnimation>
                             <p>I believe <strong>human-centered</strong> design is important work that has the potential to improve lives.
                         I am driven by the desire to do work that makes a difference.</p>
                         </div>
@@ -33,7 +33,7 @@ export const About = () => {
                     </Col>
                     <Col md={5}>
                         <div className="about-div">
-                            <ScrollAnimation animateIn="animate__animated animate__fadeIn"><h5>I am always a student.</h5></ScrollAnimation>
+                            <ScrollAnimation animateIn="animate__animated animate__fadeIn"><h5 className="section-title">I am always a student.</h5></ScrollAnimation>
                             <p>I am currently a student at Nashville Software School. I will graduate in February of 2021, but I will
                             continue to grow as a designer long after. I am passionate about my work, and that passion fuels my
                             desire to constantly learn, expand my knowledge, and improve my craft. I will always be a student.
