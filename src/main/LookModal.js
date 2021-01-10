@@ -10,9 +10,7 @@ export const LookModal = () => {
     return (
         <>
 
-            <Nav.Link onClick={handleShow}>
-                Here's an expample in my work.
-        </Nav.Link>
+            <a href="#work" onClick={handleShow}><strong>View an expample in my work</strong></a>
 
 
             <Modal show={show} onHide={handleClose} dialogClassName={"primaryModal"}>
