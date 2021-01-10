@@ -23,8 +23,8 @@ export const PlanModal = () => {
                     <li>Whiteboard wireframe for first user flow design</li>
                     <li> Figma mockup to solidify design elements</li>
                     <p><Nav.Link>
-                        Here's an expample in my work.
-                      </Nav.Link></p>
+                        <u>View the full case study</u>
+                    </Nav.Link></p>
                 </Modal.Body>
             </Modal>
         </>

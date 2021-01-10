@@ -41,7 +41,7 @@ export const About = () => {
                         </div>
                     </Col>
                     <Col md={10} className="jumpTo2">
-                        <p>Jump to <a href="#work">case studies</a> if you'd like.</p>
+                        <p><a href="#work"><u>Jump to case studies</u></a></p>
                     </Col>
                 </Row>
 
