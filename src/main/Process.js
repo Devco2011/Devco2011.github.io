@@ -1,7 +1,8 @@
 import React from 'react';
 import ScrollAnimation from 'react-animate-on-scroll';
-import { Row, Container, Col, Link } from 'react-bootstrap';
+import { Row, Container, Col } from 'react-bootstrap';
 import { LookModal } from './LookModal';
+import { PlanModal } from './PlanModal';
 
 export const Process = () => {
     return (
@@ -40,7 +41,7 @@ export const Process = () => {
                             <ScrollAnimation animateIn="animate__animated animate__fadeIn"><p>I thrive in the <strong>planning</strong> phase of a project, and I use <strong>visuals</strong> to create and <strong>test</strong>
                             everything, from <strong>brainstorming</strong> sessions to <strong>wireframing</strong> and <strong>prototyping</strong>.
                             </p>
-                                <p>Here's and <LookModal /> in my work.</p>
+                                <p><PlanModal /></p>
                             </ScrollAnimation>
                         </div>
                     </Col>
