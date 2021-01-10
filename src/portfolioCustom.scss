@@ -190,18 +190,19 @@ p {
         
     @media (min-width: 23.4375rem) {
             margin-top: 1em;
-            width: 14rem;
+            width: 12rem;
             height: 16em;
           }
         
     @media (min-width: 37.5rem) {
+        margin-top: 3em;
             width: 10rem;
-            height: 22rem;
+            height: 16rem;
     }
     
     @media (min-width: 50rem) {
             margin-top: 3em;
-            width: 19rem;
+            width: 16rem;
             height: 19rem;
     }
     
@@ -249,6 +250,18 @@ p {
             width: 13rem;
             height: 20rem;
     }
+}
+
+// Modals
+
+.modal-content {
+    background-color: #7298AD;
+}
+.modalTitle {
+    font-family: 'Fjalla One', sans-serif;
+}
+.modalBody {
+    background-color: #4F6977;
 }
 
 
