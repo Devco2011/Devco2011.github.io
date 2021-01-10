@@ -3,6 +3,8 @@ import ScrollAnimation from 'react-animate-on-scroll';
 import { Row, Container, Col } from 'react-bootstrap';
 import { LookModal } from './LookModal';
 import { PlanModal } from './PlanModal';
+import { CollabModal } from './CollabModal';
+import { InclusivityModal } from './InclusivityModal';
 
 export const Process = () => {
     return (
@@ -59,7 +61,7 @@ export const Process = () => {
                             <ScrollAnimation animateIn="animate__animated animate__fadeIn"><p>The <strong>best</strong> design work happens through a collaborative effort with <strong>stakeholders</strong>, <strong>users</strong>, and within the <strong>design team</strong>. Constant <strong>testing</strong> and <strong>communication</strong> lead to positive outcomes.
                             everything, from <strong>brainstorming</strong> sessions to <strong>wireframing</strong> and <strong>prototyping</strong>.
                             </p>
-                                <p>Here's and <LookModal /> in my work.</p>
+                                <p><CollabModal /></p>
                             </ScrollAnimation>
                         </div>
                     </Col>
@@ -76,7 +78,7 @@ export const Process = () => {
                             <h5>Inclusivity</h5>
                             <ScrollAnimation animateIn="animate__animated animate__fadeIn"><p>I am very interested in inclusive design. I strive to do work that <strong>accessible</strong> to <strong>all people</strong>. I celebrate differences in humans and I believe there is <strong>no typical user</strong>.
                             </p>
-                                <p>Here's and  in my work.</p>
+                                <p><InclusivityModal /></p>
                             </ScrollAnimation>
                         </div>
                     </Col>
