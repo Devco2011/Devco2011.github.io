@@ -285,9 +285,14 @@ p {
     
     @media (min-width: 50rem) {
             margin-top: 3em;
-            width: 28rem;
-            height: 23rem;
+            width: 24rem;
+            height: 20rem;
+            transition: .2s;
+            
     }
+}
+.tidyFamHome:hover {
+    transform: scale(1.2);
 }
 
 // Modals
