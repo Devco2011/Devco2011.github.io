@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import { NavBar } from './nav/Nav'
 import { Header } from './main/Header'
 import { About } from './main/About'
-
+import { Process } from './main/Process'
 
 function App() {
   return (
@@ -11,7 +11,7 @@ function App() {
       <NavBar />
       <Header />
       <About />
-      <About />
+      <Process />
 
 
       {/* <header className="App-header">
