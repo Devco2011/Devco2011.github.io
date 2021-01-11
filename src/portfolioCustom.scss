@@ -44,6 +44,10 @@ p {
     color: #c8ebff
 }
 
+p.whatILearnedText {
+    color: #fff
+}
+
 // Navbar
 .nav {
     height: 3em;
@@ -115,7 +119,6 @@ p {
     flex-wrap: wrap;
     padding-top: 6em;
     padding-bottom: 4em;
-    background-color: #7298AD;
 }
 .about-div {
     margin-top: 3em;
@@ -140,6 +143,10 @@ p {
 // Stickman images
 
 .images {
+    display:flex;
+    justify-content: left;
+}
+.csImages {
     display:flex;
     justify-content: left;
 }
@@ -301,6 +308,29 @@ p {
             
     }
 }
+.tidyFamHomeCS {
+   
+
+        
+    @media (min-width: 23.4375rem) {
+            margin-top: 1em;
+            width: 100%;
+            height: 80%;
+          }
+        
+    @media (min-width: 37.5rem) {
+            width: 100%;
+            height: 80%;
+    }
+    
+    @media (min-width: 50rem) {
+            margin-top: 3em;
+            width: 46em;
+            height: 28em;
+            transition: .2s;
+            
+    }
+}
 .tidyFamHome:hover {
     transform: scale(1.2);
 }
@@ -315,6 +345,25 @@ p {
 }
 .modalBody {
     background-color: #4F6977;
+}
+
+// Boxes
+
+.boxBorder {
+    height: 80%;
+    padding: 1em;
+    border: solid 8px #fff;
+    
+}
+
+.knowledgeBox {
+    display: inline-block;
+    margin-top: -5em;
+    margin-bottom: -2em;
+    padding: 2em;
+    background-color: #7298AD;
+    font-size: 1em;
+    color: #fff;
 }
 
 
