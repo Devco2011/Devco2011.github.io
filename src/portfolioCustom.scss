@@ -64,8 +64,10 @@ p {
     justify-content: center;
     text-align: center;
     flex-wrap: wrap;
-    padding-top: 6em;
-    padding-bottom: 6em;
+    padding-top: 8em;
+}
+#about {
+    height: 6em;
 }
 .tagLine {
     padding-top: 4em;
@@ -104,6 +106,14 @@ p {
     justify-content: center;
     flex-wrap: wrap;
     padding-top: 2em;
+    padding-bottom: 4em;
+    background-color: #7298AD;
+}
+#caseStudy-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 6em;
     padding-bottom: 4em;
     background-color: #7298AD;
 }

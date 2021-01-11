@@ -17,6 +17,7 @@ export const Header = () => {
                         <p>Jump to <a href="#work">case studies</a> if you'd like.</p>
                     </Col>
                 </Row>
+                <div id="about"></div>
             </Container>
         </>
 

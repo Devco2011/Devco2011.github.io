@@ -1,11 +1,14 @@
 import React from 'react';
+import { useHistory } from 'react-router-dom';
 import ScrollAnimation from 'react-animate-on-scroll';
 import { Row, Container, Col } from 'react-bootstrap';
+
 
 
 export const Work = () => {
     return (
         <>
+            <div id="CaseStudies"></div>
             <Container id="work-container" fluid={true}>
                 <Row className="justify-content-md-center">
                     <Col md={10}>
@@ -25,7 +28,7 @@ export const Work = () => {
                                 <li>My first solo project</li>
                                 <li>My first case study</li>
                             </p>
-                            <p><a href="#work"><strong>View the case study</strong></a></p>
+                            <p><a href="/CaseStudies/TidyFamily" target="blank"><strong>View the case study</strong></a></p>
                         </div>
 
                     </Col>
