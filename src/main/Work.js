@@ -11,15 +11,15 @@ export const Work = () => {
             <div id="CaseStudies"></div>
             <Container id="work-container" fluid={true}>
                 <Row className="justify-content-md-center">
-                    <Col md={10}>
+                    <Col className="col-10">
                         <h3 className="section-title">CASE STUDIES</h3>
                     </Col>
-                    <Col md={5}>
+                    <Col className="col-5">
                         <div className="images">
                             <a href="#work"><img className="tidyFamHome" src="../../images/FamHome.jpg" alt="Homepage view of Tidy Family web app." /></a>
                         </div>
                     </Col>
-                    <Col md={5}>
+                    <Col className="col-5">
                         <div className="work-div">
                             <ScrollAnimation animateIn="animate__animated animate__fadeIn"><h5 className="section-title">Tidy Family: A Project of Firsts</h5></ScrollAnimation>
                             <p><li>My first react app</li>

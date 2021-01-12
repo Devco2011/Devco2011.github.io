@@ -10,16 +10,18 @@ export const Process = () => {
     return (
         <>
             <Container id="process-container" fluid={true}>
-                <Row className="justify-content-center">
-                    <Col md={10}>
+                <Row className="justify-content-md-center">
+                    <Col className="col-12-md-6">
                         <h3 className="section-title">How I Think About Design</h3>
                     </Col>
-                    <Col md={3}>
+                </Row>
+                <Row className="justify-content-md-center">
+                    <Col className="col-12 col-md-3">
                         <div className="images">
                             <img className="stickmanTelescope" src="../../images/stickmanTelescope.png" alt="Sickman looking through a telescope." />
                         </div>
                     </Col>
-                    <Col md={5}>
+                    <Col className="col-12 col-md-5">
                         <div className="about-div">
                             <h5 className="section-title">Look, listen, learn</h5>
                             <ScrollAnimation animateIn="animate__animated animate__fadeIn"><p>I work to clearly define design solutions through interviews and research. A closer look often reveals the first, second, or third solutions
@@ -31,12 +33,12 @@ export const Process = () => {
                     </Col>
                 </Row>
                 <Row className="justify-content-center pt-5">
-                    <Col md={3}>
+                    <Col className="col-12 col-md-3">
                         <div className="images">
                             <img className="stickmanWhiteboard" src="../../images/stickmanWhiteboard.png" alt="Sickman pointing to a whiteboard." />
                         </div>
                     </Col>
-                    <Col md={5}>
+                    <Col className="col-12 col-md-5">
                         <div className="about-div">
 
                             <h5 className="section-title">Plan, create, test</h5>
@@ -49,12 +51,12 @@ export const Process = () => {
                     </Col>
                 </Row>
                 <Row className="justify-content-center pt-5">
-                    <Col md={3}>
+                    <Col className="col-12 col-md-3">
                         <div className="images">
                             <img className="stickmanTeam" src="../../images/stickmenTeam.png" alt="A team of stickpeople collaborating on an idea." />
                         </div>
                     </Col>
-                    <Col md={5}>
+                    <Col className="col-12 col-md-5">
                         <div className="about-div">
 
                             <h5 className="section-title">Collaboration and Iteration</h5>
@@ -67,12 +69,12 @@ export const Process = () => {
                     </Col>
                 </Row>
                 <Row className="justify-content-center pt-1">
-                    <Col md={3}>
+                    <Col className="col-12 col-md-3">
                         <div className="images">
                             <img className="stickmanSign" src="../../images/StickmanSign.png" alt="A stickman holding a sign that says ACCESS." />
                         </div>
                     </Col>
-                    <Col md={5}>
+                    <Col className="col-12 col-md-5">
                         <div className="about-div">
 
                             <h5 className="section-title">Inclusivity</h5>

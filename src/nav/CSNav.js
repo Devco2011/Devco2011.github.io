@@ -12,7 +12,7 @@ export const CSNavBar = (props) => {
 
 
 
-            <Navbar className="navBarContainer" collapseOnSelect expand="lg" bg="dark" variant="dark" fixed="top">
+            <Navbar className="navBarContainer" collapseOnSelect expand="sm" bg="dark" variant="dark" fixed="top">
 
                 <Container className="justify-content-center">
                     <Row className="justify-content-center">
