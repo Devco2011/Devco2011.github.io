@@ -15,7 +15,7 @@ export const TFCaseStudy = () => {
                     </Col>
                 </Row>
                 <Row className="justify-content-md-center mt-5">
-                    <Col md={8} className="mt-4">
+                    <Col md={6} className="mt-4">
                         <div className="boxBorder">
                             <div className="knowledgeBox"><p className="whatILearnedText"><strong>Three months into my bootcamp at Nashville Software School, I was given an assignment to build my
                                 first React app from the ground up, and I had just two weeks to reach MVP.</strong></p><br></br>
@@ -29,7 +29,7 @@ export const TFCaseStudy = () => {
                             <img className="tidyFamHomeCS" src="../../images/FamHome.jpg" alt="Homepage view of Tidy Family web app." />
                         </div>
                     </Col>
-                    <Col md={8} className="mt-5 mb-5">
+                    <Col md={6} className="mt-5 mb-5">
                         <h5 className="section-title">FRAMING THE CHALLENGE</h5>
                         <h6 className="mb-4">American parents spend an average of 23 hours and 36 munutes on housework per month.</h6>
                         <p>What if parents could get more help with housework from their kids? Motivating children to do
@@ -39,7 +39,7 @@ export const TFCaseStudy = () => {
                     </Col>
                 </Row>
                 <Row className="justify-content-md-center mt-5">
-                    <Col md={8} className="mt-4">
+                    <Col md={6} className="mt-4">
                         <div className="boxBorder">
                             <div className="knowledgeBox"><h6 className="mb-4">WHAT I DID:</h6>
                                 <p className="whatILearnedText"><strong>I defined the problem and researched solutions and constraints.</strong></p><br></br>
@@ -50,7 +50,7 @@ export const TFCaseStudy = () => {
                     </Col>
                 </Row>
                 <Row className="justify-content-md-center pt-5">
-                    <Col md={8} className="mt-5 mb-5">
+                    <Col md={6} className="mt-5 mb-5">
                         <h5 className="section-title">RESEARCH: INTERVIEWING THE EXPERTS</h5>
                         <p>This was a solo project and, given the time constraints, I relied on my wife and kids for user research. I conducted interviews and together we found some possible solutions.</p>
                         <li>Make it a game</li>
@@ -80,7 +80,7 @@ export const TFCaseStudy = () => {
                     </Col>
                 </Row>
                 <Row className="justify-content-md-center pt-5">
-                    <Col md={8} className="mt-5 mb-5">
+                    <Col md={6} className="mt-5 mb-5">
                         <h5 className="section-title">PUTTING MARKER TO WHITEBOARD</h5>
                         <p>Before jumping on to Figma, I created a physical representation of the project on a whiteboard. This helped me quickly visualize where
                         ipmrovements could be made.
