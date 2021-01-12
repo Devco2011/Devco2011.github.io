@@ -61,9 +61,15 @@ export const TFCaseStudy = () => {
                     </Col>
                     <Col md={8} className="mb-5">
                         <div className="csPenPaperImages">
-                            <img className="registrationView" src="../../images/RegistrationView.jpg" alt="Pencil and paper drawing of Tidy Family app." />
-                            <img className="kidView" src="../../images/KidView2.jpg" alt="Pencil and paper drawing of Tidy Family app." />
-                            <img className="cardView" src="../../images/ChoreCard.jpg" alt="Pencil and paper drawing of Tidy Family app." />
+                            <Col>
+                                <img className="registrationView" src="../../images/RegistrationView.jpg" alt="Pencil and paper drawing of Tidy Family app." />
+                            </Col>
+                            <Col>
+                                <img className="kidView" src="../../images/KidView2.jpg" alt="Pencil and paper drawing of Tidy Family app." />
+                            </Col>
+                            <Col>
+                                <img className="cardView" src="../../images/ChoreCard.jpg" alt="Pencil and paper drawing of Tidy Family app." />
+                            </Col>
                         </div>
                         <center><p><i>The first iteration of Tidy Family, after initial user interview.</i></p></center>
                     </Col>

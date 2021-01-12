@@ -15,7 +15,7 @@ export const ApplicationViews = () => {
                 <Home />
             </Route>
 
-            <Route exact path="/CaseStudies/TidyFamily">
+            <Route path="/CaseStudies/TidyFamily">
                 <TFCaseStudy />
             </Route>
         </>

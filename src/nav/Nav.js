@@ -1,6 +1,7 @@
 import { React } from 'react';
 import { Navbar, Nav, Container, Row } from 'react-bootstrap';
-import { useHistory } from 'react-router-dom';
+import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 import './navbar.scss';
 export const NavBar = (props) => {
 
@@ -19,10 +20,10 @@ export const NavBar = (props) => {
                         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                         <Navbar.Collapse id="responsive-navbar-nav">
                             <Nav className="mr-auto">
-                                <Nav.Link className="nav-link" href="#about">ABOUT</Nav.Link>
-                                <Nav.Link href="#CaseStudies">CASE STUDIES</Nav.Link>
-                                <Nav.Link href="#resume">RESUME</Nav.Link>
-                                <Nav.Link href="#contact">GET IN TOUCH</Nav.Link>
+                                <HashLink className="nav-link" to="#about">ABOUT</HashLink>
+                                <HashLink className="nav-link" to="#CaseStudies">CASE STUDIES</HashLink>
+                                <HashLink className="nav-link" to="#resume">RESUME</HashLink>
+                                <HashLink className="nav-link" to="#contact">GET IN TOUCH</HashLink>
                             </Nav>
                         </Navbar.Collapse>
 
