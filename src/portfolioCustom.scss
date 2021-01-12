@@ -40,6 +40,10 @@ h5 {
     font-family: 'Fjalla One', sans-serif;
     font-size: 2.5em; 
 }
+h6 {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 2em; 
+}
 p {
     color: #c8ebff
 }
@@ -150,6 +154,11 @@ p {
     display:flex;
     justify-content: left;
 }
+.csPenPaperImages {
+    display:flex;
+    justify-content: center;
+}
+
 
 .stickmanThumbsUp {
         
@@ -331,8 +340,111 @@ p {
             
     }
 }
+.registrationView {
+   
+margin-right: 1em;
+        
+    @media (min-width: 23.4375rem) {
+            margin-top: 1em;
+            width: 100%;
+            height: 80%;
+          }
+        
+    @media (min-width: 37.5rem) {
+            width: 100%;
+            height: 80%;
+    }
+    
+    @media (min-width: 50rem) {
+            margin-top: 3em;
+            width: 15em;
+            height: 16em;
+            transition: .2s;
+            
+    }
+}
+.kidView {
+   
+    margin-right: 1em;
+        
+    @media (min-width: 23.4375rem) {
+            margin-top: 1em;
+            width: 100%;
+            height: 80%;
+          }
+        
+    @media (min-width: 37.5rem) {
+            width: 100%;
+            height: 80%;
+    }
+    
+    @media (min-width: 50rem) {
+            margin-top: 3em;
+            width: 15em;
+            height: 16em;
+            transition: .2s;
+            
+    }
+}
+.cardView {
+   
+
+        
+    @media (min-width: 23.4375rem) {
+            margin-top: 1em;
+            width: 100%;
+            height: 80%;
+          }
+        
+    @media (min-width: 37.5rem) {
+            width: 100%;
+            height: 80%;
+    }
+    
+    @media (min-width: 50rem) {
+            margin-top: 3em;
+            width: 15em;
+            height: 16em;
+            transition: .2s;
+            
+    }
+}
+.tidyFamWhiteboard {
+   
+
+        
+    @media (min-width: 23.4375rem) {
+            margin-top: 1em;
+            width: 100%;
+            height: 80%;
+          }
+        
+    @media (min-width: 37.5rem) {
+            width: 100%;
+            height: 80%;
+    }
+    
+    @media (min-width: 50rem) {
+            margin-top: 3em;
+            width: 40em;
+            height: 32em;
+            transition: .2s;
+            
+    }
+}
 .tidyFamHome:hover {
     transform: scale(1.2);
+}
+
+.registrationView:hover {
+    transform: scale(1.5);
+}
+
+.kidView:hover {
+    transform: scale(1.5);
+}
+.cardView:hover {
+    transform: scale(1.5);
 }
 
 // Modals
