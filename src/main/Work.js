@@ -25,7 +25,7 @@ export const Work = () => {
                         <div className="work-div">
                             <ScrollAnimation animateIn="animate__animated animate__fadeIn"><h5 className="section-title">Tidy Family: A Project of Firsts</h5></ScrollAnimation>
                             <p><li>My first react app</li>
-                                <li>My first experience with user research</li>
+                                <li>My first user research</li>
                                 <li>My first user interviews</li>
                                 <li>My first solo project</li>
                                 <li>My first case study</li>

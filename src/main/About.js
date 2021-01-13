@@ -15,7 +15,7 @@ export const About = () => {
                 <Row className="justify-content-md-center">
                     <Col className="col-12 col-md-3">
                         <div className="images">
-                            <img className="stickmanThumbsUp" src="../../images/StickmanThumbsUp.png" alt="Sickman giving a thumbs up!" />
+                            <img className="stickmanThumbsUp mt-5" src="../../images/StickmanThumbsUp.png" height="200em" width="100em" alt="Sickman giving a thumbs up!" />
                         </div>
                     </Col>
 
@@ -31,7 +31,7 @@ export const About = () => {
                 <Row className="justify-content-md-center pt-5">
                     <Col className="col-12 col-md-3">
                         <div className="images">
-                            <img className="stickmanBook" src="../../images/stickmanBook.png" alt="Sickman reading a book." />
+                            <img className="stickmanBook mt-5" src="../../images/stickmanBook.png" height="210em" width="100em" alt="Sickman reading a book." />
                         </div>
                     </Col>
                     <Col className="col-12 col-md-5">

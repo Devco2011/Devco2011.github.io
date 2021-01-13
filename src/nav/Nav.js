@@ -2,6 +2,9 @@ import { React } from 'react';
 import { Navbar, Nav, Container, Row } from 'react-bootstrap';
 import { HashLink } from 'react-router-hash-link';
 import './navbar.scss';
+
+
+
 export const NavBar = (props) => {
 
 
@@ -10,7 +13,7 @@ export const NavBar = (props) => {
 
 
 
-            <Navbar className="navBarContainer" collapseOnSelect expand="lg" bg="dark" variant="dark" fixed="top">
+            <Navbar className="navBarContainer" expand="lg" bg="dark" variant="dark" fixed="top">
 
                 <Container className="justify-content-center">
                     <Row className="justify-content-center">
