@@ -7,8 +7,8 @@ export const About = () => {
     return (
         <>
             <Container id="light-blue-container" fluid>
-                <Row className="justify-content-sm-center">
-                    <Col className="col-12-md-6">
+                <Row className="justify-content-md-center">
+                    <Col className="col-12 col-md-6">
                         <h3 className="section-title">ABOUT ME</h3>
                     </Col>
                 </Row>

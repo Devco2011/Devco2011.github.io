@@ -18,7 +18,7 @@ export const Work = () => {
                 <Row className="justify-content-md-center">
                     <Col className="col-12 col-md-5">
                         <div className="images mt-3">
-                            <Link to="/CaseStudies/TidyFamily" target="blank"><img className="tidyFamHome" src="../../images/FamHome.jpg" height="350em" width="390em" alt="Homepage view of Tidy Family web app." /></Link>
+                            <Link to="/CaseStudies/TidyFamily" target="blank"><img className="tidyFamHome" src="../../images/FamHome.jpg" height="340em" width="320em" alt="Homepage view of Tidy Family web app." /></Link>
                         </div>
                     </Col>
                     <Col className="col-12 col-md-5">
