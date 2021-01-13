@@ -7,6 +7,7 @@ import { About } from "./main/About";
 import { Process } from "./main/Process";
 import { Work } from "./main/Work";
 import { TFCaseStudy } from "./caseStudies/TidyFamily";
+import { CSNavBar } from './nav/CSNav';
 
 export const ApplicationViews = () => {
     return (
@@ -16,6 +17,7 @@ export const ApplicationViews = () => {
             </Route>
 
             <Route path="/CaseStudies/TidyFamily">
+                <CSNavBar />
                 <TFCaseStudy />
             </Route>
         </>

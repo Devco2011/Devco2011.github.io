@@ -18,7 +18,7 @@ export const Process = () => {
                 <Row className="justify-content-md-center">
                     <Col className="col-12 col-md-3">
                         <div className="images">
-                            <img className="stickmanTelescope" src="../../images/stickmanTelescope.png" alt="Sickman looking through a telescope." />
+                            <img className="stickmanTelescope mt-5" src="../../images/stickmanTelescope.png" height="210em" width="110em" alt="Sickman looking through a telescope." />
                         </div>
                     </Col>
                     <Col className="col-12 col-md-5">
@@ -35,7 +35,7 @@ export const Process = () => {
                 <Row className="justify-content-center pt-5">
                     <Col className="col-12 col-md-3">
                         <div className="images">
-                            <img className="stickmanWhiteboard" src="../../images/stickmanWhiteboard.png" alt="Sickman pointing to a whiteboard." />
+                            <img className="stickmanWhiteboard mt-5" src="../../images/stickmanWhiteboard.png" height="225em" width="200em" alt="Sickman pointing to a whiteboard." />
                         </div>
                     </Col>
                     <Col className="col-12 col-md-5">
@@ -52,7 +52,7 @@ export const Process = () => {
                 <Row className="justify-content-center pt-5">
                     <Col className="col-12 col-md-3">
                         <div className="images">
-                            <img className="stickmanTeam" src="../../images/stickmenTeam.png" alt="A team of stickpeople collaborating on an idea." />
+                            <img className="stickmanTeam mt-5" src="../../images/stickmenTeam.png" height="300em" width="200em" alt="A team of stickpeople collaborating on an idea." />
                         </div>
                     </Col>
                     <Col className="col-12 col-md-5">
@@ -70,7 +70,7 @@ export const Process = () => {
                 <Row className="justify-content-center pt-1">
                     <Col className="col-12 col-md-3">
                         <div className="images">
-                            <img className="stickmanSign" src="../../images/StickmanSign.png" alt="A stickman holding a sign that says ACCESS." />
+                            <img className="stickmanSign mt-5" src="../../images/StickmanSign.png" height="200em" width="190em" alt="A stickman holding a sign that says ACCESS." />
                         </div>
                     </Col>
                     <Col className="col-12 col-md-5">
