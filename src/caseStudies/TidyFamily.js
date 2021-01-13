@@ -26,7 +26,7 @@ export const TFCaseStudy = () => {
                 <Row className="justify-content-md-center pt-5">
                     <Col className="col-12 col-md-8 mt-4 mb-5">
                         <div className="csImages">
-                            <img className="tidyFamHomeCS" src="../../images/FamHome.jpg" alt="Homepage view of Tidy Family web app." />
+                            <img className="tidyFamHomeCS" src="../../images/FamHome.jpg" height="100%" width="100%" alt="Homepage view of Tidy Family web app." />
                         </div>
                     </Col>
                     <Col md={6} className="mt-5 mb-5">
@@ -60,26 +60,24 @@ export const TFCaseStudy = () => {
                         <li>Reward the whole family and individuals</li>
                     </Col>
                 </Row>
-                <Row>
+                <Row className="justify-content-md-center pt-2">
 
                     {/* <div className="csPenPaperImages"> */}
-                    <Col className="col-4 mr-2">
-                        <img className="registrationView" src="../../images/RegistrationView.jpg" alt="Pencil and paper drawing of Tidy Family app." />
+                    <Col className="col-12 col-md-3 mr-4 pt-3">
+                        <img className="registrationView" src="../../images/RegistrationView.jpg" height="100%" width="100%" alt="Pencil and paper drawing of Tidy Family app." />
                     </Col>
-                </Row>
-                <Row>
-                    <Col className="col-4 mr-2">
-                        <img className="kidView" src="../../images/KidView2.jpg" alt="Pencil and paper drawing of Tidy Family app." />
+
+
+                    <Col className="col-12 col-md-3 mr-4 pt-3">
+                        <img className="kidView" src="../../images/KidView2.jpg" height="100%" width="100%" alt="Pencil and paper drawing of Tidy Family app." />
                     </Col>
-                </Row>
-                <Row>
-                    <Col className="col-4 mr-2">
-                        <img className="cardView" src="../../images/ChoreCard.jpg" alt="Pencil and paper drawing of Tidy Family app." />
+
+
+                    <Col className="col-12 col-md-3 mr-4 pt-3">
+                        <img className="cardView" src="../../images/ChoreCard.jpg" height="100%" width="100%" alt="Pencil and paper drawing of Tidy Family app." />
                     </Col>
-                </Row>
-                {/* </div> */}
-                <Row>
-                    <Col>
+                    {/* </div> */}
+                    <Col className="col-12 col-md-12 mt-2 pb-5">
                         <center><p><i>The first iteration of Tidy Family, after initial user interview.</i></p></center>
                     </Col>
                 </Row>

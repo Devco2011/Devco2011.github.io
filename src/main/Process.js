@@ -52,7 +52,7 @@ export const Process = () => {
                 <Row className="justify-content-center pt-5">
                     <Col className="col-12 col-md-3">
                         <div className="images">
-                            <img className="stickmanTeam mt-5" src="../../images/stickmenTeam.png" height="350em" width="250em" alt="A team of stickpeople collaborating on an idea." />
+                            <img className="stickmanTeam mt-5" src="../../images/stickmenTeam.png" height="300em" width="200em" alt="A team of stickpeople collaborating on an idea." />
                         </div>
                     </Col>
                     <Col className="col-12 col-md-5">
