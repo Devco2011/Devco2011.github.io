@@ -1,4 +1,5 @@
 import { React, useState } from 'react';
+import { HashLink } from 'react-router-hash-link';
 import { Modal, Nav } from 'react-bootstrap';
 
 export const PlanModal = () => {
@@ -10,7 +11,7 @@ export const PlanModal = () => {
     return (
         <>
 
-            <a href="#work" onClick={handleShow}><strong>View an expample in my work</strong></a>
+            <HashLink to="#work" onClick={handleShow}><strong>View an expample in my work</strong></HashLink>
 
 
             <Modal show={show} onHide={handleClose} dialogClassName={"primaryModal"}>

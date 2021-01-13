@@ -10,12 +10,12 @@ export const TFCaseStudy = () => {
             <CSNavBar />
             <Container id="caseStudy-container" fluid={true}>
                 <Row className="justify-content-md-center">
-                    <Col md={12}>
+                    <Col className="col-12">
                         <h3 className="section-title">TESTING NEW KNOWLEDGE</h3>
                     </Col>
                 </Row>
                 <Row className="justify-content-md-center mt-5">
-                    <Col md={6} className="mt-4">
+                    <Col className="col-12 col-md-6 mt-4">
                         <div className="boxBorder">
                             <div className="knowledgeBox"><p className="whatILearnedText"><strong>Three months into my bootcamp at Nashville Software School, I was given an assignment to build my
                                 first React app from the ground up, and I had just two weeks to reach MVP.</strong></p><br></br>
@@ -24,7 +24,7 @@ export const TFCaseStudy = () => {
                     </Col>
                 </Row>
                 <Row className="justify-content-md-center pt-5">
-                    <Col md={8} className="mt-4 mb-5">
+                    <Col className="col-12 col-md-8 mt-4 mb-5">
                         <div className="csImages">
                             <img className="tidyFamHomeCS" src="../../images/FamHome.jpg" alt="Homepage view of Tidy Family web app." />
                         </div>
@@ -57,25 +57,34 @@ export const TFCaseStudy = () => {
                         <li>Make it easy to add, edit, and delete chores</li>
                         <li>Reward each chore a child does</li>
                         <li>Get the whole family involved as a team</li>
-                        <li>Reward the whole family and individual team members</li>
+                        <li>Reward the whole family and individuals</li>
                     </Col>
-                    <Col md={8} className="mb-5">
-                        <div className="csPenPaperImages">
-                            <Col>
-                                <img className="registrationView" src="../../images/RegistrationView.jpg" alt="Pencil and paper drawing of Tidy Family app." />
-                            </Col>
-                            <Col>
-                                <img className="kidView" src="../../images/KidView2.jpg" alt="Pencil and paper drawing of Tidy Family app." />
-                            </Col>
-                            <Col>
-                                <img className="cardView" src="../../images/ChoreCard.jpg" alt="Pencil and paper drawing of Tidy Family app." />
-                            </Col>
-                        </div>
+                </Row>
+                <Row>
+
+                    {/* <div className="csPenPaperImages"> */}
+                    <Col className="col-4 mr-2">
+                        <img className="registrationView" src="../../images/RegistrationView.jpg" alt="Pencil and paper drawing of Tidy Family app." />
+                    </Col>
+                </Row>
+                <Row>
+                    <Col className="col-4 mr-2">
+                        <img className="kidView" src="../../images/KidView2.jpg" alt="Pencil and paper drawing of Tidy Family app." />
+                    </Col>
+                </Row>
+                <Row>
+                    <Col className="col-4 mr-2">
+                        <img className="cardView" src="../../images/ChoreCard.jpg" alt="Pencil and paper drawing of Tidy Family app." />
+                    </Col>
+                </Row>
+                {/* </div> */}
+                <Row>
+                    <Col>
                         <center><p><i>The first iteration of Tidy Family, after initial user interview.</i></p></center>
                     </Col>
                 </Row>
                 <Row className="justify-content-md-center mt-5">
-                    <Col md={8} className="mt-4">
+                    <Col className="col-12 col-md-8 mt-4">
                         <div className="boxBorder">
                             <div className="knowledgeBox"><h6 className="mb-4">WHAT I DID:</h6>
                                 <p className="whatILearnedText"><strong>I conducted user interviews and created the first wireframe for the project.</strong></p><br></br>

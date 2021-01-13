@@ -6,17 +6,20 @@ import { Row, Container, Col } from 'react-bootstrap';
 export const About = () => {
     return (
         <>
-            <Container id="about-container" fluid={true}>
-                <Row className="justify-content-md-center">
-                    <Col md={10}>
+            <Container id="light-blue-container" fluid>
+                <Row className="justify-content-sm-center">
+                    <Col className="col-12-md-6">
                         <h3 className="section-title">ABOUT ME</h3>
                     </Col>
-                    <Col md={3}>
+                </Row>
+                <Row className="justify-content-md-center">
+                    <Col className="col-12 col-md-3">
                         <div className="images">
                             <img className="stickmanThumbsUp" src="../../images/StickmanThumbsUp.png" alt="Sickman giving a thumbs up!" />
                         </div>
                     </Col>
-                    <Col md={5}>
+
+                    <Col className="col-12 col-md-5">
                         <div className="about-div">
                             <ScrollAnimation animateIn="animate__animated animate__fadeIn"><h5 className="section-title">I love solving problems through design.</h5></ScrollAnimation>
                             <p>I believe <strong>human-centered</strong> design is important work that has the potential to improve lives.
@@ -26,12 +29,12 @@ export const About = () => {
                     </Col>
                 </Row>
                 <Row className="justify-content-md-center pt-5">
-                    <Col md={3}>
+                    <Col className="col-12 col-md-3">
                         <div className="images">
                             <img className="stickmanBook" src="../../images/stickmanBook.png" alt="Sickman reading a book." />
                         </div>
                     </Col>
-                    <Col md={5}>
+                    <Col className="col-12 col-md-5">
                         <div className="about-div">
                             <ScrollAnimation animateIn="animate__animated animate__fadeIn"><h5 className="section-title">I am always a student.</h5></ScrollAnimation>
                             <p>I am currently a student at Nashville Software School. I will graduate in February of 2021, but I will
@@ -40,8 +43,10 @@ export const About = () => {
                             </p>
                         </div>
                     </Col>
-                    <Col md={10} className="jumpTo2">
-                        <p><a href="#work"><u>Jump to case studies</u></a></p>
+                </Row>
+                <Row className="justify-content-md-center pt-4">
+                    <Col className="col-10" className="jumpTo">
+                        <p>Jump to <a href="#work">case studies</a> if you'd like.</p>
                     </Col>
                 </Row>
 

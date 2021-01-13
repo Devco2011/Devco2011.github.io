@@ -101,22 +101,10 @@ p.whatILearnedText {
     margin-left: 5em;
     margin-right: 5em;
 }
-#about-container {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding-top: 2em;
-    padding-bottom: 4em;
+#light-blue-container {
     background-color: #7298AD;
 }
-#work-container {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding-top: 2em;
-    padding-bottom: 4em;
-    background-color: #7298AD;
-}
+
 #caseStudy-container {
     display: flex;
     justify-content: center;
@@ -126,19 +114,16 @@ p.whatILearnedText {
 }
 .about-div {
     margin-top: 3em;
-    margin-left: 1em;
+
 }
-.work-div {
+ .work-div {
     margin-top: 3em;
     margin-left: 1em;
-}
+ }
 p {
     font-size: 1.2em;
 }
 #process-container {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
     padding-top: 2em;
     padding-bottom: 8em;
     background-color: #4F6977;
@@ -146,10 +131,10 @@ p {
 
 // Stickman images
 
-.images {
+ .images {
     display:flex;
-    justify-content: left;
-}
+    justify-content: center;
+ }
 .csImages {
     display:flex;
     justify-content: center;
@@ -163,20 +148,21 @@ p {
 .stickmanThumbsUp {
         
     @media (min-width: 23.4375rem) {
-            width: 100%;
-            height: 80%;
+        width: 4em;
+        height: 9em;
             
     }
         
     @media (min-width: 37.5rem) {
-            width: 10rem;
-            height: 22rem;
+        margin-top: 3em;
+        width: 7em;
+        height: 17em;
     }
     
     @media (min-width: 50rem) {
             margin-top: 3em;
-            width: 8rem;
-            height: 18rem;
+            width: 30%;
+            height: 60%;
     }
     
 }
@@ -185,22 +171,21 @@ p {
 
         
     @media (min-width: 23.4375rem) {
-            margin-top: 1em;
-            width: 100%;
-            height: 80%;
+            width: 5em;
+            height: 10em;
             
           }
         
     @media (min-width: 37.5rem) {
-            width: 10rem;
-            height: 22rem;
+            width: 8rem;
+            height: 17rem;
            
     }
     
     @media (min-width: 50rem) {
             margin-top: 3em;
-            width: 8rem;
-            height: 18rem;
+            width: 35%;
+            height: 65%;
     }
     
 }
@@ -210,19 +195,19 @@ p {
         
     @media (min-width: 23.4375rem) {
             margin-top: 1em;
-            width: 100%;
-            height: 80%;
+            width: 30%;
+            height: 50%;
           }
         
     @media (min-width: 37.5rem) {
-            width: 10rem;
-            height: 22rem;
+            width: 30%;
+            height: 50%;
     }
     
     @media (min-width: 50rem) {
             margin-top: 3em;
-            width: 10rem;
-            height: 18rem;
+            width: 45%;
+            height: 70%;
     }
     
     
@@ -233,20 +218,20 @@ p {
         
     @media (min-width: 23.4375rem) {
             margin-top: 1em;
-            width: 100%;
-            height: 90%;
+            width: 60%;
+            height: 80%;
           }
         
     @media (min-width: 37.5rem) {
         margin-top: 3em;
-            width: 10rem;
-            height: 16rem;
+            width: 60%;
+            height: 80%;
     }
     
     @media (min-width: 50rem) {
             margin-top: 3em;
-            width: 16rem;
-            height: 19rem;
+            width: 80%;
+            height: 100%;
     }
     
     
@@ -258,19 +243,19 @@ p {
         
     @media (min-width: 23.4375rem) {
             margin-top: 1em;
-            width: 100%;
+            width: 70%;
             height: 80%;
           }
         
     @media (min-width: 37.5rem) {
-            width: 80%;
-            height: 50%;
+            width: 70%;
+            height: 40%;
     }
     
     @media (min-width: 50rem) {
             margin-top: 3em;
-            width: 20rem;
-            height: 30rem;
+            width: 90%;
+            height: 100%;
     }
 }
 .stickmanSign {
@@ -279,19 +264,19 @@ p {
         
     @media (min-width: 23.4375rem) {
             margin-top: 1em;
-            width: 100%;
-            height: 80%;
+            width: 40%;
+            height: 60%;
           }
         
     @media (min-width: 37.5rem) {
-            width: 100%;
-            height: 80%;
+            width: 30%;
+            height: 40%;
     }
     
     @media (min-width: 50rem) {
             margin-top: 3em;
-            width: 13rem;
-            height: 20rem;
+            width: 60%;
+            height: 80%;
     }
 }
 
@@ -304,7 +289,7 @@ p {
     @media (min-width: 23.4375rem) {
             margin-top: 1em;
             width: 100%;
-            height: 80%;
+            height: 100%;
           }
         
     @media (min-width: 37.5rem) {
@@ -355,8 +340,8 @@ justify-content: center;
         
     @media (min-width: 23.4375rem) {
             margin-top: 1em;
-            width: 40%;
-            height: 80%;
+            width: 20em;
+            height: 20em;
           }
         
     @media (min-width: 37.5rem) {
@@ -378,8 +363,8 @@ justify-content: center;
         
     @media (min-width: 23.4375rem) {
             margin-top: 1em;
-            width: 40%;
-            height: 80%;
+            width: 20em;
+            height: 20em;
           }
         
     @media (min-width: 37.5rem) {
@@ -401,8 +386,8 @@ justify-content: center;
         
     @media (min-width: 23.4375rem) {
             margin-top: 1em;
-            width: 40%;
-            height: 80%;
+            width: 20em;
+            height: 20em;
           }
         
     @media (min-width: 37.5rem) {

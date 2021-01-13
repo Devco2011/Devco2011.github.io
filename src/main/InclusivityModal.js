@@ -1,5 +1,6 @@
 import { React, useState } from 'react';
-import { Modal, Nav } from 'react-bootstrap';
+import { HashLink } from 'react-router-hash-link';
+import { Modal } from 'react-bootstrap';
 
 export const InclusivityModal = () => {
     const [show, setShow] = useState(false);
@@ -10,7 +11,7 @@ export const InclusivityModal = () => {
     return (
         <>
 
-            <a href="#work" onClick={handleShow}><strong>View an expample in my work</strong></a>
+            <HashLink to="#work" onClick={handleShow}><strong>View an expample in my work</strong></HashLink>
 
 
             <Modal show={show} onHide={handleClose} dialogClassName={"primaryModal"}>
