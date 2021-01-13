@@ -116,10 +116,10 @@ p.whatILearnedText {
     margin-top: 3em;
 
 }
- .work-div {
-    margin-top: 3em;
-    margin-left: 1em;
- }
+// //  .work-div {
+
+// //     margin-left: 1em;
+//  }
 p {
     font-size: 1.2em;
 }
@@ -286,32 +286,14 @@ p {
 
 // Main Page case study images
 
-.tidyFamHome {
-   
-
-        
-    @media (min-width: 10rem) {
-            margin-top: 1em;
-            width: 100%;
-            height: 100%;
-          }
-        
-    @media (min-width: 37.5rem) {
-            width: 100%;
-            height: 80%;
-    }
-    
-    @media (min-width: 50rem) {
-            margin-top: 3em;
-            width: 24rem;
-            height: 20rem;
-            transition: .2s;
-            
-    }
-}
-.tidyFamHome:hover {
-    transform: scale(1.2);
-}
+// .tidyFamHome {
+//    height: 20em;
+//    width: 24em;
+//    transition: 1s;
+// }
+// .tidyFamHome:hover {
+//     transform: scale(1.2);
+// }
 
 // Case Study Page Images
 
