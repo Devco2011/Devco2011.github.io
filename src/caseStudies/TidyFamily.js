@@ -117,6 +117,36 @@ export const TFCaseStudy = () => {
                         </div>
                     </Col>
                 </Row>
+                <Row className="justify-content-md-center pt-5">
+                    <Col md={6} className="mt-5 mb-5">
+                        <h5 className="section-title">GETTING SERIOUS ABOUT FUN</h5>
+                        <p>It was clear from user interviews that the app needed to be fun from the moment they log in. From the logo to the language, and the colors to the characters. I began to apply the concepts of simplicity and fun
+                        as I moved on to Figma.
+                        </p>
+                    </Col>
+                </Row>
+                <Row className="justify-content-md-center pt-2">
+                    <Col className="col-12 col-md-4 mt-4">
+                        <img className="figmaFar" src="../../images/figmaFar.jpg" height="100%" width="100%" alt="Figma wireframe of Tidy Family." />
+                    </Col>
+                    <Col className="col-12 col-md-4 mt-4">
+                        <img className="figmaClose" src="../../images/figmaClose.jpg" height="100%" width="100%" alt="Figma wireframe of Tidy Family." />
+                    </Col>
+                    <Col className="col-12 col-md-12 mt-2 pb-5">
+                        <center><p><i>Working in Figma.</i></p></center>
+                    </Col>
+                </Row>
+                <Row className="justify-content-md-center mt-5">
+                    <Col md={8} className="mt-4">
+                        <div className="boxBorder">
+                            <div className="knowledgeBox"><h6 className="mb-4">WHAT I DID:</h6>
+                                <p className="whatILearnedText"><strong>I created a new wireframe in Figma, based off of my whiteboard wireframe, taking user research into account. I mapped user flow for child users and parent admins.</strong></p><br></br>
+                                <h6 className="mb-4">WHAT I LEARNED:</h6>
+                                <p className="whatILearnedText"><strong>Designing for multiple user sets, in this case parents and children, was an exciting challenge. It's important to find and get anchored in the place where all users' needs intersect.</strong></p></div>
+                        </div>
+                    </Col>
+                </Row>
+
 
             </Container>
         </>
