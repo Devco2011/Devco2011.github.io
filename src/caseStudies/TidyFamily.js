@@ -23,13 +23,19 @@ export const TFCaseStudy = () => {
                     </Col>
                 </Row>
                 <Row className="justify-content-md-center pt-5">
-                    <Col className="col-12 col-md-8 mt-4 mb-5">
+                    <Col className="col-12 col-md-6 mt-4 mb-5">
                         <div className="csImages">
                             <img className="tidyFamHomeCS" src="../../images/FamHome.jpg" height="100%" width="100%" alt="Homepage view of Tidy Family web app." />
                         </div>
                     </Col>
-                    <Col md={6} className="mt-5 mb-5">
+                </Row>
+                <Row className="justify-content-md-center mt-5">
+                    <Col className="col-12 mt-5">
                         <h5 className="section-title">FRAMING THE CHALLENGE</h5>
+                    </Col>
+                </Row>
+                <Row className="justify-content-md-center">
+                    <Col className="col-12 col-md-6 mt-2 mb-5">
                         <h6 className="mb-4">American parents spend an average of 23 hours and 36 munutes on housework per month.</h6>
                         <p>What if parents could get more help with housework from their kids? Motivating children to do
                         household chores isn't easy. Chores aren't fun. Parents need an easy way to make them fun. Which begs the question:
@@ -37,8 +43,8 @@ export const TFCaseStudy = () => {
                         </p>
                     </Col>
                 </Row>
-                <Row className="justify-content-md-center mt-5">
-                    <Col md={6} className="mt-4">
+                <Row className="justify-content-md-center">
+                    <Col className="col-12 col-md-6 mt-5 mb-5">
                         <div className="boxBorder">
                             <div className="knowledgeBox"><h6 className="mb-4">WHAT I DID:</h6>
                                 <p className="whatILearnedText"><strong>I defined the problem and researched solutions and constraints.</strong></p><br></br>
@@ -48,9 +54,13 @@ export const TFCaseStudy = () => {
                         </div>
                     </Col>
                 </Row>
-                <Row className="justify-content-md-center pt-5">
-                    <Col md={6} className="mt-5 mb-5">
+                <Row className="justify-content-md-center mt-5">
+                    <Col className="col-12 col-md-12 mt-5">
                         <h5 className="section-title">RESEARCH: INTERVIEWING THE EXPERTS</h5>
+                    </Col>
+                </Row>
+                <Row className="justify-content-md-center">
+                    <Col md={6} className="mt-2 mb-5">
                         <p>This was a solo project and, given the time constraints, I relied on my wife and kids for user research. I conducted interviews and together we found some possible solutions.</p>
                         <li>Make it a game</li>
                         <li>Make it easy to add, edit, and delete chores</li>
@@ -62,17 +72,17 @@ export const TFCaseStudy = () => {
                 <Row className="justify-content-md-center pt-2">
 
                     {/* <div className="csPenPaperImages"> */}
-                    <Col className="col-12 col-md-3 mr-4 pt-3">
+                    <Col className="col-12 col-md-3 pr-2 pt-3">
                         <img className="registrationView" src="../../images/RegistrationView.jpg" height="100%" width="100%" alt="Pencil and paper drawing of Tidy Family app." />
                     </Col>
 
 
-                    <Col className="col-12 col-md-3 mr-4 pt-3">
+                    <Col className="col-12 col-md-3 pr- pt-3">
                         <img className="kidView" src="../../images/KidView2.jpg" height="100%" width="100%" alt="Pencil and paper drawing of Tidy Family app." />
                     </Col>
 
 
-                    <Col className="col-12 col-md-3 mr-4 pt-3">
+                    <Col className="col-12 col-md-3 pt-3">
                         <img className="cardView" src="../../images/ChoreCard.jpg" height="100%" width="100%" alt="Pencil and paper drawing of Tidy Family app." />
                     </Col>
                     {/* </div> */}
@@ -80,8 +90,8 @@ export const TFCaseStudy = () => {
                         <center><p><i>The first iteration of Tidy Family, after initial user interview.</i></p></center>
                     </Col>
                 </Row>
-                <Row className="justify-content-md-center mt-5">
-                    <Col className="col-12 col-md-8 mt-4">
+                <Row className="justify-content-md-center mt-5 mb-5">
+                    <Col className="col-12 col-md-6 mt-4">
                         <div className="boxBorder">
                             <div className="knowledgeBox"><h6 className="mb-4">WHAT I DID:</h6>
                                 <p className="whatILearnedText"><strong>I conducted user interviews and created the first wireframe for the project.</strong></p><br></br>
@@ -92,21 +102,27 @@ export const TFCaseStudy = () => {
                     </Col>
                 </Row>
                 <Row className="justify-content-md-center pt-5">
-                    <Col md={6} className="mt-5 mb-5">
+                    <Col className="col-12 mt-4">
                         <h5 className="section-title">PUTTING MARKER TO WHITEBOARD</h5>
+                    </Col>
+                </Row>
+                <Row className="justify-content-md-center">
+                    <Col className="col-12 col-md-6 mb-2">
                         <p>Before jumping on to Figma, I created a physical representation of the project on a whiteboard. This helped me quickly visualize where
-                        ipmrovements could be made.
+                        improvements could be made.
                         </p>
                     </Col>
-                    <Col md={8} className="mb-5">
+                    <Col md={8}>
                         <div className="csPenPaperImages">
                             <img className="tidyFamWhiteboard" src="../../images/TFWhiteBoard.jpg" alt="Whiteboard drawing of Tidy Family app." />
                         </div>
+                    </Col>
+                    <Col className="col-12 mt-2 pb-5">
                         <center><p><i>Tidy Family, whiteboard edition.</i></p></center>
                     </Col>
                 </Row>
-                <Row className="justify-content-md-center mt-5">
-                    <Col md={8} className="mt-4">
+                <Row className="justify-content-md-center mt-5 mb-5">
+                    <Col className="col-12 col-md-6 mt-4">
                         <div className="boxBorder">
                             <div className="knowledgeBox"><h6 className="mb-4">WHAT I DID:</h6>
                                 <p className="whatILearnedText"><strong>I began to think about user flow, as well as modules and components. I created a new visual representation of the project.</strong></p><br></br>
@@ -117,8 +133,12 @@ export const TFCaseStudy = () => {
                     </Col>
                 </Row>
                 <Row className="justify-content-md-center pt-5">
-                    <Col md={6} className="mt-5 mb-5">
+                    <Col className="col-12 mt-4">
                         <h5 className="section-title">GETTING SERIOUS ABOUT FUN</h5>
+                    </Col>
+                </Row>
+                <Row className="justify-content-md-center">
+                    <Col className="col-12 col-md-6 mb-2">
                         <p>It was clear from user interviews that the app needed to be fun from the moment they log in. From the logo to the language, and the colors to the characters. I began to apply the concepts of simplicity and fun
                         as I moved on to Figma.
                         </p>
@@ -135,13 +155,44 @@ export const TFCaseStudy = () => {
                         <center><p><i>Working in Figma.</i></p></center>
                     </Col>
                 </Row>
-                <Row className="justify-content-md-center mt-5">
-                    <Col md={8} className="mt-4">
+                <Row className="justify-content-md-center mt-5 mb-5">
+                    <Col className="col-12 col-md-6 mt-4">
                         <div className="boxBorder">
                             <div className="knowledgeBox"><h6 className="mb-4">WHAT I DID:</h6>
                                 <p className="whatILearnedText"><strong>I created a new wireframe in Figma, based off of my whiteboard wireframe, taking user research into account. I mapped user flow for child users and parent admins.</strong></p><br></br>
                                 <h6 className="mb-4">WHAT I LEARNED:</h6>
                                 <p className="whatILearnedText"><strong>Designing for multiple user sets, in this case parents and children, was an exciting challenge. It's important to find and get anchored in the place where all users' needs intersect.</strong></p></div>
+                        </div>
+                    </Col>
+                </Row>
+                <Row className="justify-content-md-center pt-5">
+                    <Col className="col-12 mt-4">
+                        <h5 className="section-title">PUTTING MARKER TO WHITEBOARD</h5>
+                    </Col>
+                </Row>
+                <Row className="justify-content-md-center">
+                    <Col className="col-12 col-md-6 mb-2">
+                        <p>Before jumping on to Figma, I created a physical representation of the project on a whiteboard. This helped me quickly visualize where
+                        improvements could be made.
+                        </p>
+                    </Col>
+                    <Col md={8}>
+                        <div className="csPenPaperImages">
+                            <img className="tidyFamWhiteboard" src="../../images/TFWhiteBoard.jpg" alt="Whiteboard drawing of Tidy Family app." />
+                        </div>
+                    </Col>
+                    <Col className="col-12 mt-2 pb-5">
+                        <center><p><i>Tidy Family, whiteboard edition.</i></p></center>
+                    </Col>
+                </Row>
+                <Row className="justify-content-md-center mt-5 mb-5">
+                    <Col className="col-12 col-md-6 mt-4">
+                        <div className="boxBorder">
+                            <div className="knowledgeBox"><h6 className="mb-4">WHAT I DID:</h6>
+                                <p className="whatILearnedText"><strong>I began to think about user flow, as well as modules and components. I created a new visual representation of the project.</strong></p><br></br>
+                                <h6 className="mb-4">WHAT I LEARNED:</h6>
+                                <p className="whatILearnedText"><strong>Answers to design questions often lead to more questions and can cause a project to quickly grow beyond its original scope. A simpler
+                                        approach might be the solution.</strong></p></div>
                         </div>
                     </Col>
                 </Row>

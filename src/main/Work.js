@@ -18,7 +18,7 @@ export const Work = () => {
                 <Row className="justify-content-md-center">
                     <Col className="col-12 col-md-5">
                         <div className="images mt-5">
-                            <Link to="/CaseStudies/TidyFamily" target="blank"><img className="tidyFamHome" src="../../images/FamHome.jpg" height="280em" width="250em" alt="Homepage view of Tidy Family web app." /></Link>
+                            <Link to="/CaseStudies/TidyFamily" target="_blank"><img className="tidyFamHome" src="../../images/FamHome.jpg" height="280em" width="250em" alt="Homepage view of Tidy Family web app." /></Link>
                         </div>
                     </Col>
                     <Col className="col-12 col-md-5">
@@ -29,7 +29,7 @@ export const Work = () => {
                             <li>My first solo project</li>
                             <li>My first case study</li>
                         </p>
-                        <p><Link to="/CaseStudies/TidyFamily" target="blank"><strong>View the case study</strong></Link></p>
+                        <p><Link to="/CaseStudies/TidyFamily" target="_blank"><strong>View the case study</strong></Link></p>
 
                     </Col>
                 </Row>
