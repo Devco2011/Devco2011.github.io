@@ -6,7 +6,7 @@ import { Row, Container, Col } from 'react-bootstrap';
 export const About = () => {
     return (
         <>
-            <Container id="about-container" fluid>
+            <Container id="light-blue-container" fluid>
                 <Row className="justify-content-sm-center">
                     <Col className="col-12-md-6">
                         <h3 className="section-title">ABOUT ME</h3>
@@ -43,8 +43,10 @@ export const About = () => {
                             </p>
                         </div>
                     </Col>
-                    <Col md={10} className="jumpTo2">
-                        <p><a href="#work"><u>Jump to case studies</u></a></p>
+                </Row>
+                <Row className="justify-content-md-center pt-4">
+                    <Col className="col-10" className="jumpTo">
+                        <p>Jump to <a href="#work">case studies</a> if you'd like.</p>
                     </Col>
                 </Row>
 

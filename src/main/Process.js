@@ -42,8 +42,7 @@ export const Process = () => {
                         <div className="about-div">
 
                             <h5 className="section-title">Plan, create, test</h5>
-                            <ScrollAnimation animateIn="animate__animated animate__fadeIn"><p>I thrive in the <strong>planning</strong> phase of a project, and I use <strong>visuals</strong> to create and <strong>test</strong>
-                            everything, from <strong>brainstorming</strong> sessions to <strong>wireframing</strong> and <strong>prototyping</strong>.
+                            <ScrollAnimation animateIn="animate__animated animate__fadeIn"><p>I thrive in the <strong>planning</strong> phase of a project, and I use <strong>visuals</strong> to create and <strong>test</strong> everything, from <strong>brainstorming</strong> sessions to <strong>wireframing</strong> and <strong>prototyping</strong>.
                             </p>
                                 <p><PlanModal /></p>
                             </ScrollAnimation>

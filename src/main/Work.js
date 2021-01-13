@@ -9,17 +9,19 @@ export const Work = () => {
     return (
         <>
             <div id="CaseStudies"></div>
-            <Container id="work-container" fluid={true}>
+            <Container id="light-blue-container" fluid>
                 <Row className="justify-content-md-center">
-                    <Col className="col-10">
-                        <h3 className="section-title">CASE STUDIES</h3>
+                    <Col className="col-12-md-6">
+                        <h3 className="section-title">My Work</h3>
                     </Col>
-                    <Col className="col-5">
+                </Row>
+                <Row className="justify-content-md-center">
+                    <Col className="col-12 col-md-4">
                         <div className="images">
-                            <a href="#work"><img className="tidyFamHome" src="../../images/FamHome.jpg" alt="Homepage view of Tidy Family web app." /></a>
+                            <Link to="/CaseStudies/TidyFamily" target="blank"><img className="tidyFamHome" src="../../images/FamHome.jpg" alt="Homepage view of Tidy Family web app." /></Link>
                         </div>
                     </Col>
-                    <Col className="col-5">
+                    <Col className="col-12 col-md-4">
                         <div className="work-div">
                             <ScrollAnimation animateIn="animate__animated animate__fadeIn"><h5 className="section-title">Tidy Family: A Project of Firsts</h5></ScrollAnimation>
                             <p><li>My first react app</li>
