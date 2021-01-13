@@ -12,17 +12,17 @@ export const Work = () => {
             <Container id="light-blue-container" fluid>
                 <Row className="justify-content-md-center">
                     <Col className="col-12-md-6">
-                        <h3 className="section-title pb-5">My Work</h3>
+                        <h3 className="section-title">My Work</h3>
                     </Col>
                 </Row>
                 <Row className="justify-content-md-center">
                     <Col className="col-12 col-md-5">
-                        <div className="images mt-3">
-                            <Link to="/CaseStudies/TidyFamily" target="blank"><img className="tidyFamHome" src="../../images/FamHome.jpg" height="340em" width="320em" alt="Homepage view of Tidy Family web app." /></Link>
+                        <div className="images mt-5">
+                            <Link to="/CaseStudies/TidyFamily" target="blank"><img className="tidyFamHome" src="../../images/FamHome.jpg" height="300em" width="280em" alt="Homepage view of Tidy Family web app." /></Link>
                         </div>
                     </Col>
                     <Col className="col-12 col-md-5">
-                        <ScrollAnimation animateIn="animate__animated animate__fadeIn"><h5 className="section-title mt-2">Tidy Family: A Project of Firsts</h5></ScrollAnimation>
+                        <ScrollAnimation animateIn="animate__animated animate__fadeIn"><h5 className="section-title mt-4">Tidy Family: A Project of Firsts</h5></ScrollAnimation>
                         <p><li>My first react app</li>
                             <li>My first user research</li>
                             <li>My first user interviews</li>
