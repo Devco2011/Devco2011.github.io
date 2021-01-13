@@ -167,32 +167,94 @@ export const TFCaseStudy = () => {
                 </Row>
                 <Row className="justify-content-md-center pt-5">
                     <Col className="col-12 mt-4">
-                        <h5 className="section-title">PUTTING MARKER TO WHITEBOARD</h5>
+                        <h5 className="section-title">BUILDING THE APPLICATION</h5>
                     </Col>
                 </Row>
                 <Row className="justify-content-md-center">
-                    <Col className="col-12 col-md-6 mb-2">
-                        <p>Before jumping on to Figma, I created a physical representation of the project on a whiteboard. This helped me quickly visualize where
-                        improvements could be made.
+                    <Col className="col-12 col-md-6 mb-5">
+                        <p>I had spent the previous three months learning front-end development, and this was my putting-it-all-together moment.
                         </p>
+                        <li>I created an ERD and built a JSON database</li>
+                        <li>I wrote logic in JS and JSX</li>
+                        <li>I used Sass to customize ReactStrap components</li>
+                        <li>Get the whole family involved as a team</li>
+                        <li>I strove to write clean code</li>
                     </Col>
-                    <Col md={8}>
+                </Row>
+                <Row className="justify-content-md-center">
+                    <Col className="col-12 col-md-6 mt-2 pb-5">
                         <div className="csPenPaperImages">
-                            <img className="tidyFamWhiteboard" src="../../images/TFWhiteBoard.jpg" alt="Whiteboard drawing of Tidy Family app." />
+                            <img className="tferd" src="../../images/tferd.png" height="100%" width="100%" alt="Tidy Family app ERD" />
                         </div>
                     </Col>
-                    <Col className="col-12 mt-2 pb-5">
-                        <center><p><i>Tidy Family, whiteboard edition.</i></p></center>
+                </Row>
+                <Row className="justify-content-md-center">
+                    <Col className="col-12 col-md-6 mt-2">
+                        <div className="csPenPaperImages">
+                            <img className="tferd" src="../../images/Code1.jpg" height="100%" width="100%" alt="Tidy Family app code" />
+                        </div>
+                    </Col>
+                </Row>
+                <Row className="justify-content-md-center">
+                    <Col className="col-12 col-md-6 mt-2 pb-5">
+                        <p><i>As a new developer, it was exciting to use the filter, map, and reduce methods to find each family member's current points.</i></p>
                     </Col>
                 </Row>
                 <Row className="justify-content-md-center mt-5 mb-5">
                     <Col className="col-12 col-md-6 mt-4">
                         <div className="boxBorder">
                             <div className="knowledgeBox"><h6 className="mb-4">WHAT I DID:</h6>
-                                <p className="whatILearnedText"><strong>I began to think about user flow, as well as modules and components. I created a new visual representation of the project.</strong></p><br></br>
+                                <p className="whatILearnedText"><strong>I built a React App that satisfied CRUD, reached MVP, and proved my competency with JavaScript, React JS, CSS, and HTML.</strong></p><br></br>
                                 <h6 className="mb-4">WHAT I LEARNED:</h6>
-                                <p className="whatILearnedText"><strong>Answers to design questions often lead to more questions and can cause a project to quickly grow beyond its original scope. A simpler
-                                        approach might be the solution.</strong></p></div>
+                                <p className="whatILearnedText"><strong>Work on one thing at a time and one small step at a time. Save after each small step so when you break it, you're one small step away from fixing it.</strong></p></div>
+                        </div>
+                    </Col>
+                </Row>
+                <Row className="justify-content-md-center pt-5">
+                    <Col className="col-12 mt-4">
+                        <h5 className="section-title">FINAL THOUGHTS</h5>
+                    </Col>
+                </Row>
+                <Row className="justify-content-md-center">
+                    <Col className="col-12 col-md-6 mb-2">
+                        <p>The primary goal of this project was to assess my front-end development abilities. Although the emphasis was not on research or design, I was able to do some research and user testing. The project was
+                        an important first attempt at designing for the user and overcoming challenges in both design and build.
+                        </p>
+                    </Col>
+                    <Col md={8}>
+                        <div className="csPenPaperImages">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/Jn-1aFymtzY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </Col>
+                    <Col className="col-12 mt-2 pb-5">
+                        <center><p><i>User is logged in as admin.</i></p></center>
+                    </Col>
+                    <Col md={8}>
+                        <div className="csPenPaperImages">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/B6K3IWyQIEE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </Col>
+                    <Col className="col-12 mt-2 pb-5">
+                        <center><p><i>User is logged in as child.</i></p></center>
+                    </Col>
+                </Row>
+                <Row className="justify-content-md-center mt-5 mb-5">
+                    <Col className="col-12 col-md-8 mt-4">
+                        <div className="boxBorder">
+                            <div className="knowledgeBox"><h6 className="mb-4">THE LEARNING CONTINUES:</h6>
+                                <p className="whatILearnedText"><strong>I recently critiqued the app against usability heuristics for user design. Here are some highlights:</strong></p><br></br>
+                                <p className="whatILearnedText pb-3"><strong>Visibility of system status</strong>
+                                    <li>There could be a site menu in the footer</li>
+                                    <li>Better indications on each view</li>
+                                    <li>Overall consistency could be improved</li></p>
+                                <p className="whatILearnedText pb-3"><strong>User control and freedom</strong>
+                                    <li>There should be a way to cancel/close forms</li>
+                                    <li>Better way to return to previous view</li></p>
+                                <p className="whatILearnedText pb-2"><strong>Consistency and standards</strong>
+                                    <li>Navigation stretches convention</li>
+                                    <li>"About" does not need to be on every view</li>
+                                    <li>Logo needs to link to homepage</li></p>
+                            </div>
                         </div>
                     </Col>
                 </Row>
