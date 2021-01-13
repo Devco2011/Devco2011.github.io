@@ -1,7 +1,7 @@
 import React from 'react';
 import ScrollAnimation from 'react-animate-on-scroll';
 import { Row, Container, Col } from 'react-bootstrap';
-import { CSNavBar } from '../nav/CSNav';
+
 
 
 export const TFCaseStudy = () => {
@@ -100,7 +100,7 @@ export const TFCaseStudy = () => {
                     </Col>
                     <Col md={8} className="mb-5">
                         <div className="csPenPaperImages">
-                            <img className="tidyFamWhiteboard" src="../../images/TFWhiteboard.jpg" alt="Whiteboard drawing of Tidy Family app." />
+                            <img className="tidyFamWhiteboard" src="../../images/TFWhiteBoard.jpg" alt="Whiteboard drawing of Tidy Family app." />
                         </div>
                         <center><p><i>Tidy Family, whiteboard edition.</i></p></center>
                     </Col>
