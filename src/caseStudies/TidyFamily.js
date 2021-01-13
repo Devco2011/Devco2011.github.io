@@ -7,7 +7,6 @@ import { CSNavBar } from '../nav/CSNav';
 export const TFCaseStudy = () => {
     return (
         <>
-            <CSNavBar />
             <Container id="caseStudy-container" fluid={true}>
                 <Row className="justify-content-md-center">
                     <Col className="col-12">
