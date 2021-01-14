@@ -177,7 +177,6 @@ export const TFCaseStudy = () => {
                         <li>I created an ERD and built a JSON database</li>
                         <li>I wrote logic in JS and JSX</li>
                         <li>I used Sass to customize ReactStrap components</li>
-                        <li>Get the whole family involved as a team</li>
                         <li>I strove to write clean code</li>
                     </Col>
                 </Row>

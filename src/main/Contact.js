@@ -5,7 +5,7 @@ import { FaGithub, FaDribbble, FaLinkedin } from 'react-icons/fa'
 export const Contact = () => {
     return (
         <>
-            <Container fluid>
+            <Container id="contact" fluid>
                 <Row className="justify-content-md-center">
                     <Col className="col-12 mt-5">
                         <h3 className="section-title">GET IN TOUCH</h3>

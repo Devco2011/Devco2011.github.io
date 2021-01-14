@@ -12,7 +12,7 @@ export const Work = () => {
             <Container id="light-blue-container" fluid>
                 <Row className="justify-content-md-center">
                     <Col className="col-12-md-6 mt-5 mb-3">
-                        <h3 className="section-title">My Work</h3>
+                        <h3 className="section-title">MY WORK</h3>
                     </Col>
                 </Row>
                 <Row className="justify-content-md-center">
