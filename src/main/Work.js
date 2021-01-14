@@ -22,13 +22,13 @@ export const Work = () => {
                         </div>
                     </Col>
                     <Col className="col-12 col-md-5">
-                        <ScrollAnimation animateIn="animate__animated animate__fadeIn"><h5 className="section-title mt-4">Tidy Family: A Project of Firsts</h5></ScrollAnimation>
-                        <p><li>My first react app</li>
+                        <h5 className="section-title mt-4">Tidy Family: A Project of Firsts</h5>
+                        <ScrollAnimation animateIn="animate__animated animate__fadeIn"><p><li>My first react app</li>
                             <li>My first user research</li>
                             <li>My first user interviews</li>
                             <li>My first solo project</li>
                             <li>My first case study</li>
-                        </p>
+                        </p></ScrollAnimation>
                         <p><Link to="/CaseStudies/TidyFamily" target="_blank"><strong>View the case study</strong></Link></p>
 
                     </Col>

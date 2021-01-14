@@ -8,7 +8,7 @@ export const About = () => {
         <>
             <Container id="light-blue-container" fluid>
                 <Row className="justify-content-md-center">
-                    <Col className="col-12 col-md-6">
+                    <Col className="col-12 col-md-6 mt-5">
                         <h3 className="section-title">ABOUT ME</h3>
                     </Col>
                 </Row>
@@ -21,9 +21,9 @@ export const About = () => {
 
                     <Col className="col-12 col-md-5">
                         <div className="about-div">
-                            <ScrollAnimation animateIn="animate__animated animate__fadeIn"><h5 className="section-title">I love solving problems through design.</h5></ScrollAnimation>
-                            <p>I believe <strong>human-centered</strong> design is important work that has the potential to improve lives.
-                        I am driven by the desire to do work that makes a difference.</p>
+                            <h5 className="section-title">I love solving problems through design.</h5>
+                            <ScrollAnimation animateIn="animate__animated animate__fadeIn"><p>I believe <strong>human-centered</strong> design is important work that has the potential to improve lives.
+                        I am driven by the desire to do work that makes a difference.</p></ScrollAnimation>
                         </div>
 
                     </Col>
@@ -36,11 +36,11 @@ export const About = () => {
                     </Col>
                     <Col className="col-12 col-md-5">
                         <div className="about-div">
-                            <ScrollAnimation animateIn="animate__animated animate__fadeIn"><h5 className="section-title">I am always a student.</h5></ScrollAnimation>
-                            <p>I am currently a student at Nashville Software School. I will graduate in February of 2021, but I will
+                            <h5 className="section-title">I am always a student.</h5>
+                            <ScrollAnimation animateIn="animate__animated animate__fadeIn"><p>I am currently a student at Nashville Software School. I will graduate in February of 2021, but I will
                             continue to grow as a designer long after. I am passionate about my work, and that passion fuels my
                             desire to constantly learn, expand my knowledge, and improve my craft. I will always be a student.
-                            </p>
+                            </p></ScrollAnimation>
                         </div>
                     </Col>
                 </Row>

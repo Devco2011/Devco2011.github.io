@@ -6,13 +6,13 @@ export const Header = () => {
         <>
             <Container id="header-div">
                 <Row className="justify-content-md-center">
-                    <Col className="col-12 col-md-8">
+                    <Col className="col-12 col-md-12">
                         <h1>DEVON COX</h1>
                         <h4>UI/UX Designer + Front-End Developer</h4>
                     </Col>
                 </Row>
                 <Row className="justify-content-md-center">
-                    <Col className="col-10" className="tagLine">
+                    <Col className="col-12 col-md-8" className="tagLine">
                         <h4>Eager to learn. Excited to grow. Ready to work.</h4>
                     </Col>
                 </Row>

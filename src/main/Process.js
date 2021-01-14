@@ -24,7 +24,7 @@ export const Process = () => {
                     <Col className="col-12 col-md-5">
                         <div className="about-div">
                             <h5 className="section-title">Look, listen, learn</h5>
-                            <ScrollAnimation animateIn="animate__animated animate__fadeIn"><p>I work to clearly define design solutions through interviews and research. A closer look often reveals the first, second, or third solutions
+                            <ScrollAnimation animateIn="animate__animated animate__fadeIn"><p>I work to clearly define design solutions through interviews and research. A closer look often reveals the first, second, or third solution
                                 is not the <strong>right</strong> solution. </p>
                                 <p><LookModal />
                                 </p>
