@@ -11,12 +11,12 @@ export const Work = () => {
             <div id="CaseStudies"></div>
             <Container id="light-blue-container" fluid>
                 <Row className="justify-content-md-center">
-                    <Col className="col-12-md-6">
+                    <Col className="col-12-md-6 mt-5 mb-3">
                         <h3 className="section-title">My Work</h3>
                     </Col>
                 </Row>
                 <Row className="justify-content-md-center">
-                    <Col className="col-12 col-md-5">
+                    <Col className="col-12 col-md-5 mb-5">
                         <div className="images mt-4">
                             <Link to="/CaseStudies/TidyFamily" target="_blank"><img className="tidyFamHome" src="../../images/FamHome.jpg" height="100%" width="100%" alt="Homepage view of Tidy Family web app." /></Link>
                         </div>

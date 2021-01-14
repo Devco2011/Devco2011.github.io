@@ -1,5 +1,5 @@
 import React from 'react';
-import { Row, Container, Col, Link } from 'react-bootstrap';
+import { Row, Container, Col } from 'react-bootstrap';
 
 export const Header = () => {
     return (
@@ -16,7 +16,7 @@ export const Header = () => {
                         <h4>Eager to learn. Excited to grow. Ready to work.</h4>
                     </Col>
                 </Row>
-                <Row className="justify-content-md-center">
+                <Row className="justify-content-md-center mb-5">
                     <Col className="col-10" className="jumpTo">
                         <p>Jump to <a href="#work">case studies</a> if you'd like.</p>
                     </Col>
