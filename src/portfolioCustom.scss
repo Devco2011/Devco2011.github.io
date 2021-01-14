@@ -145,27 +145,26 @@ p {
 }
 
 
-// .stickmanThumbsUp {
+ .video {
         
-//     @media (min-width: 10rem) {
-//         width: 4em;
-//         height: 9em;
+    @media (min-width: 10rem) {
+         width: 300;
+        height: 215;
             
-//     }
-        
-//     @media (min-width: 37.5rem) {
-//         margin-top: 3em;
-//         width: 7em;
-//         height: 17em;
-//     }
+     }
+     
+    @media (min-width: 37.5rem) {
+        margin-top: 3em;
+        width: 460px;
+        height: 315px;
+     }
     
-//     @media (min-width: 50rem) {
-//             margin-top: 3em;
-//             width: 30%;
-//             height: 60%;
-//     }
+    @media (min-width: 50rem) {
+            width: 560px;
+           height: 315px;
+    }
     
-// }
+ }
 // .stickmanBook {
  
 

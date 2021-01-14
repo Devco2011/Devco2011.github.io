@@ -221,9 +221,9 @@ export const TFCaseStudy = () => {
                         an important first attempt at designing for the user and overcoming challenges in both design and build.
                         </p>
                     </Col>
-                    <Col md={8}>
+                    <Col className="col-12 col-md-8 mt-2">
                         <div className="csPenPaperImages">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/Jn-1aFymtzY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <iframe className="video" src="https://www.youtube.com/embed/Jn-1aFymtzY" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                         </div>
                     </Col>
                     <Col className="col-12 mt-2 pb-5">
@@ -231,7 +231,7 @@ export const TFCaseStudy = () => {
                     </Col>
                     <Col md={8}>
                         <div className="csPenPaperImages">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/B6K3IWyQIEE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <iframe className="video" src="https://www.youtube.com/embed/B6K3IWyQIEE" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                         </div>
                     </Col>
                     <Col className="col-12 mt-2 pb-5">
