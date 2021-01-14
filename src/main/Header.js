@@ -1,4 +1,5 @@
 import React from 'react';
+import { HashLink } from 'react-router-hash-link';
 import { Row, Container, Col } from 'react-bootstrap';
 
 export const Header = () => {
@@ -18,7 +19,7 @@ export const Header = () => {
                 </Row>
                 <Row className="justify-content-md-center mb-5">
                     <Col className="col-10" className="jumpTo">
-                        <p>Jump to <a href="#work">case studies</a> if you'd like.</p>
+                        <p>Jump to <HashLink to="#CaseStudies">case studies</HashLink> if you'd like.</p>
                     </Col>
                 </Row>
                 <div id="about"></div>

@@ -1,5 +1,6 @@
 import React from 'react';
 import ScrollAnimation from 'react-animate-on-scroll';
+import { HashLink } from 'react-router-hash-link';
 import { Row, Container, Col } from 'react-bootstrap';
 
 
@@ -46,7 +47,7 @@ export const About = () => {
                 </Row>
                 <Row className="justify-content-md-center pt-4">
                     <Col className="col-10" className="jumpTo">
-                        <p>Jump to <a href="#work">case studies</a> if you'd like.</p>
+                        <p>Jump to <HashLink to="#CaseStudies">case studies</HashLink> if you'd like.</p>
                     </Col>
                 </Row>
 

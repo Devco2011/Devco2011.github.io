@@ -1,10 +1,6 @@
-// import google font
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
 @import './variables';
-
 @import 'bootstrap/scss/bootstrap.scss';
-
-
 @import './customTest.scss';
 
 
@@ -129,10 +125,6 @@ p.whatILearnedText {
     color: #71d7ff;
 
 }
-// //  .work-div {
-
-// //     margin-left: 1em;
-//  }
 p {
     font-size: 1.2em;
 }
@@ -142,9 +134,7 @@ p {
     background-color: #4F6977;
 }
 
-// Stickman images
-
- .images {
+.images {
     display:flex;
     justify-content: center;
  }
@@ -157,8 +147,7 @@ p {
     justify-content: center;
 }
 
-
- .video {
+.video {
         
     @media (min-width: 10rem) {
          width: 300;
@@ -178,229 +167,7 @@ p {
     }
     
  }
-// .stickmanBook {
- 
 
-        
-//     @media (min-width: 10rem) {
-//             width: 5em;
-//             height: 10em;
-            
-//           }
-        
-//     @media (min-width: 37.5rem) {
-//             margin-top: 3em;
-//             width: 8rem;
-//             height: 17rem;
-           
-//     }
-    
-//     @media (min-width: 50rem) {
-//             margin-top: 3em;
-//             width: 35%;
-//             height: 65%;
-//     }
-    
-// }
-// .stickmanTelescope {
-   
-
-        
-//     @media (min-width: 10rem) {
-//             margin-top: 1em;
-//             width: 30%;
-//             height: 50%;
-//           }
-        
-//     @media (min-width: 37.5rem) {
-//             margin-top: 3em;
-//             width: 8em;
-//             height: 10em;
-//     }
-    
-//     @media (min-width: 50rem) {
-//             margin-top: 3em;
-//             width: 45%;
-//             height: 70%;
-//     }
-    
-    
-// }
-// .stickmanWhiteboard{
-   
-
-        
-//     @media (min-width: 10rem) {
-//             margin-top: 1em;
-//             width: 60%;
-//             height: 80%;
-//           }
-        
-//     @media (min-width: 37.5rem) {
-//             margin-top: 3em;
-//             width: 12em;
-//             height: 10em;
-//     }
-    
-//     @media (min-width: 50rem) {
-//             margin-top: 3em;
-//             width: 80%;
-//             height: 100%;
-//     }
-    
-    
-    
-// }
-// .stickmanTeam {
-   
-
-        
-//     @media (min-width: 10rem) {
-//             margin-top: 1em;
-//             width: 70%;
-//             height: 80%;
-//           }
-        
-//     @media (min-width: 37.5rem) {
-//             margin-top: 3em;
-//             width: 14em;
-//             height: 15em;
-//     }
-    
-//     @media (min-width: 50rem) {
-//             margin-top: 3em;
-//             width: 90%;
-//             height: 100%;
-//     }
-// }
-// // .stickmanSign {
-   
-
-        
-// //     @media (min-width: 10rem) {
-// //             margin-top: 1em;
-// //             width: 40%;
-// //             height: 60%;
-// //           }
-        
-// //     @media (min-width: 37.5rem) {
-// //             margin-top: 3em;
-// //             width: 30%;
-// //             height: 40%;
-// //     }
-    
-// //     @media (min-width: 50rem) {
-// //             margin-top: 3em;
-// //             width: 60%;
-// //             height: 80%;
-// //     }
-// // }
-
-// Main Page case study images
-
-// .tidyFamHome {
-//    height: 20em;
-//    width: 24em;
-//    transition: 1s;
-// }
-// .tidyFamHome:hover {
-//     transform: scale(1.2);
-// }
-
-// Case Study Page Images
-
-// .tidyFamHomeCS {
-   
-// justify-content: center;
-        
-//     @media (min-width: 10rem) {
-//             margin-top: 1em;
-//             width: 100%;
-//             height: 80%;
-//           }
-        
-//     @media (min-width: 37.5rem) {
-//             width: 100%;
-//             height: 80%;
-//     }
-    
-//     @media (min-width: 50rem) {
-//             margin-top: 3em;
-//             width: 46em;
-//             height: 28em;
-//             transition: .2s;
-            
-//     }
-// }
-// .registrationView {
-   
-
-        
-//     @media (min-width: 10rem) {
-//             margin-top: 1em;
-//             width: 20em;
-//             height: 20em;
-//           }
-        
-//     @media (min-width: 37.5rem) {
-//             width: 100%;
-//             height: 80%;
-//     }
-    
-//     @media (min-width: 50rem) {
-//             margin-top: 3em;
-//             width: 15em;
-//             height: 16em;
-//             transition: .2s;
-            
-//     }
-// }
-// .kidView {
-   
-
-        
-//     @media (min-width: 10rem) {
-//             margin-top: 1em;
-//             width: 20em;
-//             height: 20em;
-//           }
-        
-//     @media (min-width: 37.5rem) {
-//             width: 100%;
-//             height: 80%;
-//     }
-    
-//     @media (min-width: 50rem) {
-//             margin-top: 3em;
-//             width: 15em;
-//             height: 16em;
-//             transition: .2s;
-            
-//     }
-// }
-// .cardView {
-   
-
-        
-//     @media (min-width: 10rem) {
-//             margin-top: 1em;
-//             width: 20em;
-//             height: 20em;
-//           }
-        
-//     @media (min-width: 37.5rem) {
-//             width: 100%;
-//             height: 80%;
-//     }
-    
-//     @media (min-width: 50rem) {
-//             margin-top: 3em;
-//             width: 15em;
-//             height: 16em;
-//             transition: .2s;
-            
-//     }
-// }
 .tidyFamWhiteboard {
    
 
@@ -424,8 +191,6 @@ p {
             
     }
 }
-
-
 .registrationView:hover {
     transform: scale(1.5);
 }
