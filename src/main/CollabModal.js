@@ -11,7 +11,7 @@ export const CollabModal = () => {
     return (
         <>
 
-            <HashLink to="#work" onClick={handleShow}><strong>View an expample in my work</strong></HashLink>
+            <HashLink to="#work" onClick={handleShow}><strong>View an example in my work</strong></HashLink>
 
 
             <Modal show={show} onHide={handleClose} dialogClassName={"primaryModal"}>
