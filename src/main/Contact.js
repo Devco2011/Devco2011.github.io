@@ -32,13 +32,13 @@ export const Contact = () => {
                 </Row>
                 <Row className="justify-content-md-center">
                     <Col className="jumpTo col-3 col-md-2">
-                        <FaLinkedin className="icon pb-4" />
+                        <a href="http://www.linkedin.com/in/devonhcox" target="_blank"><FaLinkedin className="icon pb-4" /></a>
                     </Col>
                     <Col className="jumpTo col-3 col-md-2">
-                        <FaGithub className="icon pb-4" />
+                        <a href="https://github.com/Devco2011" target="_blank"><FaGithub className="icon pb-4" /></a>
                     </Col>
                     <Col className="jumpTo col-3 col-md-2">
-                        <FaDribbble className="icon pb-4" />
+                        <a href="https://dribbble.com/DevCo" target="_blank"><FaDribbble className="icon pb-4" /></a>
                     </Col>
                 </Row>
             </Container >

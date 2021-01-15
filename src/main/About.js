@@ -8,8 +8,9 @@ export const About = () => {
     return (
         <>
             <Container id="light-blue-container" fluid>
+                <div id="about"></div>
                 <Row className="justify-content-md-center">
-                    <Col className="col-12 col-md-6 mt-5">
+                    <Col className="col-12 col-md-6 mt-2">
                         <h3 className="section-title">ABOUT ME</h3>
                     </Col>
                 </Row>
@@ -50,6 +51,7 @@ export const About = () => {
                         <p>Jump to <HashLink to="#CaseStudies">case studies</HashLink> if you'd like.</p>
                     </Col>
                 </Row>
+
 
             </Container>
         </>

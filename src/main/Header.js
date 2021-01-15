@@ -22,7 +22,6 @@ export const Header = () => {
                         <p>Jump to <HashLink to="#CaseStudies">case studies</HashLink> if you'd like.</p>
                     </Col>
                 </Row>
-                <div id="about"></div>
             </Container>
         </>
 
