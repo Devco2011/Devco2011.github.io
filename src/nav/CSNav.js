@@ -23,7 +23,7 @@ export const CSNavBar = (props) => {
                             <Nav className="mr-auto">
                                 <HashLink className="nav-link" to="/#about">ABOUT</HashLink>
                                 <HashLink className="nav-link" to="/#CaseStudies">CASE STUDIES</HashLink>
-                                <HashLink className="nav-link" to="/#resume">RESUME</HashLink>
+                                <a className="nav-link" href="./files/Resume.pdf" target="_blank">RESUME</a>
                                 <HashLink className="nav-link" to="/#contact">GET IN TOUCH</HashLink>
                             </Nav>
                         </Navbar.Collapse>
