@@ -1,5 +1,6 @@
 import { React, useState } from 'react';
 import { HashLink } from 'react-router-hash-link';
+import { Link } from 'react-router-dom';
 import { Modal, Nav } from 'react-bootstrap';
 
 export const PlanModal = () => {
@@ -23,9 +24,10 @@ export const PlanModal = () => {
                     <li>Pencil and paper wireframe for V2, after initial interviews</li>
                     <li>Whiteboard wireframe for first user flow design</li>
                     <li> Figma mockup to solidify design elements</li>
-                    <p><Nav.Link>
-                        <u>View the full case study</u>
-                    </Nav.Link></p>
+                    <br></br>
+                    <p><Link to="/CaseStudies/TidyFamily" target="_blank">
+                        View the case study
+                    </Link></p>
                 </Modal.Body>
             </Modal>
         </>

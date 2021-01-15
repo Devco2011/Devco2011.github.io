@@ -36,7 +36,7 @@ export const TFCaseStudy = () => {
                 </Row>
                 <Row className="justify-content-md-center">
                     <Col className="col-12 col-md-6 mt-2 mb-5">
-                        <h6 className="mb-4">American parents spend an average of 23 hours and 36 munutes on housework per month.</h6>
+                        <h6 className="mb-4">American parents spend an average of 23 hours and 36 minutes on housework per month.</h6>
                         <p>What if parents could get more help with housework from their kids? Motivating children to do
                         household chores isn't easy. Chores aren't fun. Parents need an easy way to make them fun. Which begs the question:
                           <strong> How might we make managing household chores easy for parents and fun for kids?</strong>
@@ -177,7 +177,6 @@ export const TFCaseStudy = () => {
                         <li>I created an ERD and built a JSON database</li>
                         <li>I wrote logic in JS and JSX</li>
                         <li>I used Sass to customize ReactStrap components</li>
-                        <li>Get the whole family involved as a team</li>
                         <li>I strove to write clean code</li>
                     </Col>
                 </Row>

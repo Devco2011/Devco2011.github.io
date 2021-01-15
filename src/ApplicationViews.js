@@ -8,17 +8,23 @@ import { Process } from "./main/Process";
 import { Work } from "./main/Work";
 import { TFCaseStudy } from "./caseStudies/TidyFamily";
 import { CSNavBar } from './nav/CSNav';
+import { Contact } from './main/Contact';
+import { Footer } from './main/Footer';
 
 export const ApplicationViews = () => {
     return (
         <>
             <Route exact path="/">
                 <Home />
+                <Contact />
+                <Footer />
             </Route>
 
             <Route path="/CaseStudies/TidyFamily">
                 <CSNavBar />
                 <TFCaseStudy />
+                <Contact />
+                <Footer />
             </Route>
         </>
     )
