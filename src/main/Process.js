@@ -24,7 +24,7 @@ export const Process = () => {
                     <Col className="col-12 col-md-5">
                         <div className="about-div">
                             <h5 className="section-title">Look, listen, learn</h5>
-                            <ScrollAnimation animateIn="animate__animated animate__fadeIn"><p>I work to clearly define design solutions through interviews and research. A closer look often reveals the first, second, or third solution
+                            <ScrollAnimation animateIn="animate__animated animate__fadeIn"><p>I strive to clearly define design solutions through interviews and research. A closer look often reveals the first, second, or third idea
                                 is not the <strong>right</strong> solution. </p>
                                 <p><LookModal />
                                 </p>
@@ -42,7 +42,7 @@ export const Process = () => {
                         <div className="about-div">
 
                             <h5 className="section-title">Plan, create, test</h5>
-                            <ScrollAnimation animateIn="animate__animated animate__fadeIn"><p>I thrive in the <strong>planning</strong> phase of a project, and I use <strong>visuals</strong> to create and <strong>test</strong> everything, from <strong>brainstorming</strong> sessions to <strong>wireframing</strong> and <strong>prototyping</strong>.
+                            <ScrollAnimation animateIn="animate__animated animate__fadeIn"><p>I thrive in the <strong>planning</strong> phase of a project, and use <strong>visuals</strong> to create and <strong>test</strong> everything, from <strong>brainstorming</strong> sessions to <strong>wireframing</strong> and <strong>prototyping</strong>.
                             </p>
                                 <p><PlanModal /></p>
                             </ScrollAnimation>
@@ -59,8 +59,8 @@ export const Process = () => {
                         <div className="about-div">
 
                             <h5 className="section-title">Collaboration and Iteration</h5>
-                            <ScrollAnimation animateIn="animate__animated animate__fadeIn"><p>The <strong>best</strong> design work happens through a collaborative effort with <strong>stakeholders</strong>, <strong>users</strong>, and within the <strong>design team</strong>. Constant <strong>testing</strong> and <strong>communication</strong> lead to positive outcomes.
-                            everything, from <strong>brainstorming</strong> sessions to <strong>wireframing</strong> and <strong>prototyping</strong>.
+                            <ScrollAnimation animateIn="animate__animated animate__fadeIn"><p>The <strong>best</strong> design work happens through a collaborative effort with <strong>stakeholders</strong>, <strong>users</strong>, and within the <strong>design team</strong>. Constant <strong>testing</strong> and <strong>communication</strong> from the beginning of a project lead to positive outcomes.
+
                             </p>
                                 <p><CollabModal /></p>
                             </ScrollAnimation>
@@ -77,7 +77,7 @@ export const Process = () => {
                         <div className="about-div">
 
                             <h5 className="section-title">Inclusivity</h5>
-                            <ScrollAnimation animateIn="animate__animated animate__fadeIn"><p>I am very interested in inclusive design. I strive to do work that <strong>accessible</strong> to <strong>all people</strong>. I celebrate differences in humans and I believe there is <strong>no typical user</strong>.
+                            <ScrollAnimation animateIn="animate__animated animate__fadeIn"><p>I am very interested in inclusive design. I strive to do work that is <strong>accessible</strong> to <strong>all people</strong>. I celebrate differences in humans and I believe there is <strong>no typical user</strong>.
                             </p>
                                 <p><InclusivityModal /></p>
                             </ScrollAnimation>

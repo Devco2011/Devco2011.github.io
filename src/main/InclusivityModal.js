@@ -11,18 +11,16 @@ export const InclusivityModal = () => {
     return (
         <>
 
-            <HashLink to="#work" onClick={handleShow}><strong>View an example in my work</strong></HashLink>
+            <HashLink to="#work" onClick={handleShow}><strong>My thoughts on designing for inclusivity</strong></HashLink>
 
 
             <Modal show={show} onHide={handleClose} dialogClassName={"primaryModal"}>
                 <Modal.Header closeButton>
-                    <Modal.Title className="modalTitle">COHORT 43 WEBSITE</Modal.Title>
+                    <Modal.Title className="modalTitle">WHY INCLUSIVITY MATTERS TO ME</Modal.Title>
                 </Modal.Header>
-                <Modal.Body className="modalBody"><p>While designing our cohort website, my team and I conducted user testing with multiple users via Zoom, and I was the facilitator of one of those tests.</p>
-                    <p>Ultimately, the feedback we received led to major changes and overall improvement of our design.</p>
-                    <p><a href="https://nss-day-cohort-43.github.io/" target="_blank">
-                        View the Cohort 43 website</a>
-                    </p>
+                <Modal.Body className="modalBody"><p>Obviously, designing for <strong>inclusivity</strong> expands the reach of experiences and products to <strong>more people</strong>. That means more people are able to participate in society, and, therefore,
+                society itself will better reflect the true <strong>diversity</strong> of our planet.</p><p> As a designer, I view it as a <strong>responsibility</strong> to represent that diversity in my work,
+                    by thinking beyond myself, empathizing, exploring, and expanding my own world view.</p>
                 </Modal.Body>
             </Modal>
         </>

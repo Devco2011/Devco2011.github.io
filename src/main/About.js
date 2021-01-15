@@ -38,9 +38,9 @@ export const About = () => {
                     </Col>
                     <Col className="col-12 col-md-5">
                         <div className="about-div">
-                            <h5 className="section-title">I am always a student.</h5>
-                            <ScrollAnimation animateIn="animate__animated animate__fadeIn"><p>I am currently a student at Nashville Software School. I will graduate in February of 2021, but I will
-                            continue to grow as a designer long after. I am passionate about my work, and that passion fuels my
+                            <h5 className="section-title">I am always learning.</h5>
+                            <ScrollAnimation animateIn="animate__animated animate__fadeIn"><p>I love to consume information that I can put to work
+                            as a designer and developer. I am passionate about serving the <strong>user</strong>, and that passion fuels my
                             desire to constantly learn, expand my knowledge, and improve my craft. I will always be a student.
                             </p></ScrollAnimation>
                         </div>
