@@ -24,8 +24,8 @@ export const Process = () => {
                     <Col className="col-12 col-md-5">
                         <div className="about-div">
                             <h5 className="section-title">Look, listen, learn</h5>
-                            <ScrollAnimation animateIn="animate__animated animate__fadeIn"><p>I strive to clearly define design solutions through interviews and research. A closer look often reveals the first, second, or third idea
-                                is not the <strong>right</strong> solution. </p>
+                            <ScrollAnimation animateIn="animate__animated animate__fadeIn"><p>I strive to clearly define design <strong>solutions</strong> through interviews and research. The first step
+                                is always to fully <strong>understand</strong> the problem that needs to be solved. </p>
                                 <p><LookModal />
                                 </p>
                             </ScrollAnimation>
@@ -67,7 +67,7 @@ export const Process = () => {
                         </div>
                     </Col>
                 </Row>
-                <Row className="justify-content-center pt-1">
+                <Row className="justify-content-center pt-5">
                     <Col className="col-12 col-md-3">
                         <div className="images">
                             <img className="stickmanSign mt-5" src="../../images/StickmanSign.png" height="200em" width="190em" alt="A stickman holding a sign that says ACCESS." />
