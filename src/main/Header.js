@@ -14,8 +14,6 @@ export const Header = () => {
                     <Col md="12" className="tagLine">
                         <h4>Eager to learn. Excited to grow. Ready to work.</h4>
                     </Col>
-                </Row>
-                <Row className="justify-content-md-center mb-5">
                     <Col className="col-12" className="jumpTo">
                         <p>Jump to <HashLink to="#CaseStudies">case studies</HashLink> if you'd like.</p>
                     </Col>

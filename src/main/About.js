@@ -23,9 +23,9 @@ export const About = () => {
 
                     <Col className="col-12 col-md-5">
                         <div className="about-div">
-                            <h5 className="section-title">I love solving problems through design.</h5>
+                            <h5 className="section-title">I love solving problems through design and code.</h5>
                             <ScrollAnimation animateIn="animate__animated animate__fadeIn"><p>I believe <strong>human-centered</strong> design is important work that has the potential to improve lives.
-                        I am driven by the desire to do work that makes a difference.</p></ScrollAnimation>
+                        My understanding of front-end languages enhances my ability to design for the user. I am driven by the desire to do work that makes a difference.</p></ScrollAnimation>
                         </div>
 
                     </Col>
