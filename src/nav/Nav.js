@@ -14,7 +14,7 @@ export const NavBar = (props) => {
 
 
 
-            <Navbar className="navBarContainer" expand="lg" bg="dark" variant="dark" fixed="top">
+            <Navbar className="navBarContainer" expand="md" bg="dark" variant="dark" fixed="top">
 
                 <Container className="justify-content-center">
                     <Row className="justify-content-center">
