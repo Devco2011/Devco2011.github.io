@@ -9,7 +9,7 @@ import { InclusivityModal } from './InclusivityModal';
 export const Process = () => {
     return (
         <>
-            <Container id="process-container" fluid={true}>
+            <Container id="process-container">
                 <Row className="justify-content-md-center">
                     <Col className="col-12-md-6">
                         <h3 className="section-title">How I Think About Design</h3>

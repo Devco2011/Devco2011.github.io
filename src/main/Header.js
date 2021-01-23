@@ -11,8 +11,8 @@ export const Header = () => {
                         <h1>DEVON COX</h1>
                         <h4>UI/UX Designer + Front-End Developer</h4>
                     </Col>
-                    <Col md="12" className="tagLine">
-                        <h4>Eager to learn. Excited to grow. Ready to work.</h4>
+                    <Col md="12">
+                        <h4 className="tagLine">Eager to learn. Excited to grow. Ready to work.</h4>
                     </Col>
                     <Col className="col-12" className="jumpTo">
                         <p>Jump to <HashLink to="#CaseStudies">case studies</HashLink> if you'd like.</p>
