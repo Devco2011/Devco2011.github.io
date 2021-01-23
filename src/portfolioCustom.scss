@@ -6,30 +6,33 @@
 
 h1 {
     font-family: 'Fjalla One', sans-serif;
-    font-size: 5em;
+    font-size: 6em;
+    color: #313131;
 }
 h2 {
     font-family: 'Fjalla One', sans-serif;
     font-size: 3.5em;
-    color: #4F6977;
+    color: #313131;;
 }
 h3 {
     font-family: 'Fjalla One', sans-serif;
-    font-size: 3.5em;  
+    font-size: 3.5em; 
+    color: #313131; 
 }
 
 h4 {
     font-family: 'Fjalla One', sans-serif;
-    font-size: 1.5em; 
+    font-size: 2em; 
+    color: #313131;
 }
 h3.section-title {
     text-align: center;
-    color: #fff;
+    color: #313131;
     margin-top: .5em;
     margin-bottom: .5em;
 }
 h5.section-title {
-    color: #fff;
+    color: #313131;
     margin-bottom: 1em;
 }
 h5 {
@@ -39,15 +42,20 @@ h5 {
 h6 {
     font-family: 'Fjalla One', sans-serif;
     font-size: 1.5em; 
+    color: #313131;
 }
 p {
-    color: #c8ebff
+    color: #313131;
+    font-size: 1.2em;
 }
 
 p.whatILearnedText {
-    color: #fff
+    color: #313131;
 }
-
+li {
+    color: #313131;
+    font-size: 1.2em;
+}
 // Navbar
 .nav {
     height: 3em;
@@ -75,11 +83,11 @@ p.whatILearnedText {
 .tagLine {
     padding-top: 3em;
     text-align: center;
-    color: #c8ebff;
+    color: #5a647c;
     font-family: 'Fjalla One', sans-serif;
 }
 .footer-contact {
-    color: #c8ebff;
+    color: #313131;
 
 }
 .footer-heading {
@@ -89,7 +97,7 @@ p.whatILearnedText {
 .jumpTo {
     padding-top: 3em;
     text-align: center;
-    color: #fff;
+    color: #313131;
     font-family: 'Fjalla One', sans-serif;
      
 }
@@ -97,7 +105,7 @@ p.whatILearnedText {
     padding-top: 3em;
     padding-bottom: 2em;
     text-align: center;
-    color: #fff;
+    color: #313131;
 }
 .about-row {
     justify-content: center;
@@ -105,7 +113,7 @@ p.whatILearnedText {
     margin-right: 5em;
 }
 #light-blue-container {
-    background-color: #7298AD;
+    background-color: #E3F0F6;
 }
 
 #caseStudy-container {
@@ -122,16 +130,14 @@ p.whatILearnedText {
 .icon {
     height: 5em;
     width: 5em;
-    color: #71d7ff;
+    color: #313131;
 
 }
-p {
-    font-size: 1.2em;
-}
+
 #process-container {
     padding-top: 2em;
     padding-bottom: 8em;
-    background-color: #4F6977;
+    
 }
 
 .images {
@@ -205,13 +211,13 @@ p {
 // Modals
 
 .modal-content {
-    background-color: #7298AD;
+    background-color: #30323D;
 }
 .modalTitle {
     font-family: 'Fjalla One', sans-serif;
 }
 .modalBody {
-    background-color: #4F6977;
+    background-color: #011A28;
 }
 
 // Boxes
@@ -219,18 +225,19 @@ p {
 .boxBorder {
     height: 80%;
     padding: 1em;
-    border: solid 8px #fff;
+    border: solid 7px #313131;
     
 }
 
 .knowledgeBox {
     display: inline-block;
+    border: solid 7px #313131;
     margin-top: -5em;
     margin-bottom: -2em;
     padding: 2em;
-    background-color: #7298AD;
+    background-color: #E3F0F6;
     font-size: 1em;
-    color: #fff;
+    color: #313131;
 }
 
 

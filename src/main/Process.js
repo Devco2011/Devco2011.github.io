@@ -9,19 +9,19 @@ import { InclusivityModal } from './InclusivityModal';
 export const Process = () => {
     return (
         <>
-            <Container id="process-container" fluid={true}>
+            <Container id="process-container">
                 <Row className="justify-content-md-center">
                     <Col className="col-12-md-6">
                         <h3 className="section-title">How I Think About Design</h3>
                     </Col>
                 </Row>
                 <Row className="justify-content-md-center">
-                    <Col className="col-12 col-md-3">
+                    <Col className="col-12 col-md-4">
                         <div className="images">
                             <img className="stickmanTelescope mt-5" src="../../images/stickmanTelescope.png" height="210em" width="110em" alt="Sickman looking through a telescope." />
                         </div>
                     </Col>
-                    <Col className="col-12 col-md-5">
+                    <Col className="col-12 col-md-6">
                         <div className="about-div">
                             <h5 className="section-title">Look, listen, learn</h5>
                             <ScrollAnimation animateIn="animate__animated animate__fadeIn"><p>I strive to clearly define design <strong>solutions</strong> through interviews and research. The first step
@@ -33,12 +33,12 @@ export const Process = () => {
                     </Col>
                 </Row>
                 <Row className="justify-content-center pt-5">
-                    <Col className="col-12 col-md-3">
+                    <Col className="col-12 col-md-4">
                         <div className="images">
                             <img className="stickmanWhiteboard mt-5" src="../../images/stickmanWhiteboard.png" height="225em" width="200em" alt="Sickman pointing to a whiteboard." />
                         </div>
                     </Col>
-                    <Col className="col-12 col-md-5">
+                    <Col className="col-12 col-md-6">
                         <div className="about-div">
 
                             <h5 className="section-title">Plan, create, test</h5>
@@ -50,12 +50,12 @@ export const Process = () => {
                     </Col>
                 </Row>
                 <Row className="justify-content-center pt-5">
-                    <Col className="col-12 col-md-3">
+                    <Col className="col-12 col-md-4">
                         <div className="images">
-                            <img className="stickmanTeam mt-5" src="../../images/StickmenTeam.png" height="300em" width="200em" alt="A team of stickpeople collaborating on an idea." />
+                            <img className="stickmanTeam mt-5" src="../../images/stickmanTeam.png" height="300em" width="200em" alt="A team of stickpeople collaborating on an idea." />
                         </div>
                     </Col>
-                    <Col className="col-12 col-md-5">
+                    <Col className="col-12 col-md-6">
                         <div className="about-div">
 
                             <h5 className="section-title">Collaboration and Iteration</h5>
@@ -68,12 +68,12 @@ export const Process = () => {
                     </Col>
                 </Row>
                 <Row className="justify-content-center pt-5">
-                    <Col className="col-12 col-md-3">
+                    <Col className="col-12 col-md-4">
                         <div className="images">
-                            <img className="stickmanSign mt-5" src="../../images/StickmanSign.png" height="200em" width="190em" alt="A stickman holding a sign that says ACCESS." />
+                            <img className="stickmanSign mt-5" src="../../images/stickmanSign.png" height="200em" width="190em" alt="A stickman holding a sign that says ACCESS." />
                         </div>
                     </Col>
-                    <Col className="col-12 col-md-5">
+                    <Col className="col-12 col-md-6">
                         <div className="about-div">
 
                             <h5 className="section-title">Inclusivity</h5>

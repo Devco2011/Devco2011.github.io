@@ -17,7 +17,7 @@ export const About = () => {
                 <Row className="justify-content-md-center">
                     <Col className="col-12 col-md-3">
                         <div className="images">
-                            <img className="stickmanThumbsUp mt-5" src="../../images/StickmanThumbsUp.png" height="200em" width="100em" alt="Sickman giving a thumbs up!" />
+                            <img className="stickmanThumbsUp mt-5" src="../../images/stickmanThumbsUp.png" height="200em" width="100em" alt="Sickman giving a thumbs up!" />
                         </div>
                     </Col>
 

@@ -1,5 +1,5 @@
 
-$body-bg: #4F6977;
+$body-bg: #c3d6e7;
 $white: #FFF;
 $gray-100: #FFF;
 $gray-200: #4E5D6C;
@@ -11,7 +11,7 @@ $gray-700: #495057;
 $gray-800: #343a40;
 $gray-900: #212529;
 $black: #000;
-$blue: #71d7ff;
+$blue: #44718f;
 $indigo: #6610f2;
 $purple: #6f42c1;
 $pink: #e83e8c;
@@ -28,11 +28,12 @@ $info: $cyan;
 $warning: $yellow;
 $danger: $red;
 $light: lighten($gray-200, 35%);
-$dark: #4D4C4C;
+$dark: #4d4d4d;
 $body-color: $gray-100;
 $dropdown-link-color: $body-color;
 $dropdown-link-hover-color: $dropdown-link-color;
 // $dropdown-link-hover-bg: $table-hover-bg;
 $navbar-dark-color: rgba($white,.75);
 $navbar-dark-hover-color: $white;
+$navbar-disabled-color: $blue;
 
