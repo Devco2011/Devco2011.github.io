@@ -10,6 +10,7 @@ import { TFCaseStudy } from "./caseStudies/TidyFamily";
 import { CSNavBar } from './nav/CSNav';
 import { Contact } from './main/Contact';
 import { Footer } from './main/Footer';
+import { VaccineCaseStudy } from './caseStudies/Vaccine';
 
 export const ApplicationViews = () => {
     return (
@@ -23,6 +24,13 @@ export const ApplicationViews = () => {
             <Route path="/CaseStudies/TidyFamily">
                 <CSNavBar />
                 <TFCaseStudy />
+                <Contact />
+                <Footer />
+            </Route>
+
+            <Route path="/CaseStudies/Vaccine">
+                <CSNavBar />
+                <VaccineCaseStudy />
                 <Contact />
                 <Footer />
             </Route>
