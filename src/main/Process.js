@@ -52,7 +52,7 @@ export const Process = () => {
                 <Row className="justify-content-center pt-5">
                     <Col className="col-12 col-md-4">
                         <div className="images">
-                            <img className="stickmanTeam mt-5" src="../../images/StickmanTeam.png" height="300em" width="200em" alt="A team of stickpeople collaborating on an idea." />
+                            <img className="stickmanTeam mt-5" src="../../images/stickmanTeam.png" height="300em" width="200em" alt="A team of stickpeople collaborating on an idea." />
                         </div>
                     </Col>
                     <Col className="col-12 col-md-6">
@@ -70,7 +70,7 @@ export const Process = () => {
                 <Row className="justify-content-center pt-5">
                     <Col className="col-12 col-md-4">
                         <div className="images">
-                            <img className="stickmanSign mt-5" src="../../images/StickmanSign.png" height="200em" width="190em" alt="A stickman holding a sign that says ACCESS." />
+                            <img className="stickmanSign mt-5" src="../../images/stickmanSign.png" height="200em" width="190em" alt="A stickman holding a sign that says ACCESS." />
                         </div>
                     </Col>
                     <Col className="col-12 col-md-6">
