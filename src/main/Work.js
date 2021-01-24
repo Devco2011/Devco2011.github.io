@@ -18,7 +18,7 @@ export const Work = () => {
                 <Row className="justify-content-md-center">
                     <Col className="col-12 col-md-5 mb-5">
                         <div className="images mt-4">
-                            <Link to="/CaseStudies/Vaccine" target="top"><img className="vaccineCS" src="../../images/vaccineCS.png" height="100%" width="100%" alt="Homepage view of Tidy Family web app." /></Link>
+                            <Link to="/CaseStudies/Vaccine"><img className="vaccineCS" src="../../images/vaccineCS.png" height="100%" width="100%" alt="Homepage view of Tidy Family web app." /></Link>
                         </div>
                     </Col>
                     <Col className="col-12 col-md-5">
@@ -31,14 +31,14 @@ export const Work = () => {
                             <li>Figma prototyping</li>
                             <li>Journey mapping</li>
                         </p></ScrollAnimation>
-                        <p><Link to="/CaseStudies/Vaccine" target="top"><strong>View the case study</strong></Link></p>
+                        <p><Link to="/CaseStudies/Vaccine"><strong>View the case study</strong></Link></p>
 
                     </Col>
                 </Row>
                 <Row className="justify-content-md-center">
                     <Col className="col-12 col-md-5 mb-5">
                         <div className="images mt-4">
-                            <Link to="/CaseStudies/TidyFamily" target="top"><img className="tidyFamHome" src="../../images/FamHome.jpg" height="100%" width="100%" alt="Homepage view of Tidy Family web app." /></Link>
+                            <Link to="/CaseStudies/TidyFamily"><img className="tidyFamHome" src="../../images/FamHome.jpg" height="100%" width="100%" alt="Homepage view of Tidy Family web app." /></Link>
                         </div>
                     </Col>
                     <Col className="col-12 col-md-5">
@@ -51,7 +51,7 @@ export const Work = () => {
                             <li>HTML</li>
                             <li>Figma</li>
                         </p></ScrollAnimation>
-                        <p><Link to="/CaseStudies/TidyFamily" target="top"><strong>View the case study</strong></Link></p>
+                        <p><Link to="/CaseStudies/TidyFamily"><strong>View the case study</strong></Link></p>
 
                     </Col>
                 </Row>

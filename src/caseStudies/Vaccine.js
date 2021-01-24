@@ -62,7 +62,7 @@ export const VaccineCaseStudy = () => {
                 </Row>
                 <Row className="justify-content-md-center mt-5">
                     <Col className="col-12 col-md-12 mt-5">
-                        <h5 className="section-title">FRAMING THE CHALLENGE</h5>
+                        <h5 className="section-title">THE CHALLENGE AND IDEATION</h5>
                     </Col>
                 </Row>
                 <Row className="justify-content-md-center">
@@ -185,12 +185,12 @@ export const VaccineCaseStudy = () => {
                     </Col>
                 </Row>
                 <Row className="justify-content-md-center">
-                    <Col className="col-12 col-md-4">
+                    <Col className="col-12 col-md-4 pt-4">
                         <div className="csPenPaperImages">
                             <img className="navBar" src="../../images/navBar.png" height="100%" width="100%" alt="Mock up of new nav bar." />
                         </div>
                     </Col>
-                    <Col className="col-12 col-md-4">
+                    <Col className="col-12 col-md-4 pt-4">
                         <div className="csPenPaperImages">
                             <img className="newForm" src="../../images/newForm.png" height="100%" width="97%" alt="Mock up of new form page." />
                         </div>
@@ -207,12 +207,12 @@ export const VaccineCaseStudy = () => {
                     </Col>
                 </Row>
                 <Row className="justify-content-md-center">
-                    <Col className="col-12 col-md-4">
+                    <Col className="col-12 col-md-4 pt-4">
                         <div className="csPenPaperImages">
                             <img className="newPhases" src="../../images/newPhases.png" height="100%" width="100%" alt="Mock up of new phases page." />
                         </div>
                     </Col>
-                    <Col className="col-12 col-md-4">
+                    <Col className="col-12 col-md-4 pt-4">
                         <div className="csPenPaperImages">
                             <img className="countyDashboard" src="../../images/countyDashboard.png" height="100%" width="100%" alt="Mock up of new county dashboard page." />
                         </div>
@@ -286,7 +286,7 @@ export const VaccineCaseStudy = () => {
                         <li>A clear timeline on the graphic</li>
                     </Col>
                     <Row className="justify-content-md-center pt-5">
-                        <Col className="col-12 col-md-8">
+                        <Col className="col-12 col-md-8 mb-5">
                             <div className="csPenPaperImages">
                                 <img className="sideBySide" src="../../images/sideBySide.png" height="100%" width="100%" alt="Side by side comparison of original site and our prototype." />
                             </div>
