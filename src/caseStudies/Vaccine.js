@@ -17,10 +17,11 @@ export const VaccineCaseStudy = () => {
                     <Col className="col-12 col-md-6 mt-4">
                         <div className="boxBorder">
                             <div className="knowledgeBox"><center><h5 className="section-title">THE ASSIGNMENT</h5></center>
+                                <p className="whatILearnedText"><strong>This project was part of my UI/UX training at Nashville Software School and was 100% remote.</strong></p><br></br>
                                 <p className="whatILearnedText"><strong>After signing her mother up for an appointment to receive the COVID-19 vaccine on the TN.gov website, our instructor shared
                                     her experience with us. She said the process of scheduling an appointment on the website was confusing and frustrating.</strong></p><br></br>
                                 <p className="whatILearnedText"><strong>Our assignment was to improve the experience for users trying to request an appointment for the vaccine at covid19.TN.gov. We
-                                    were divided into 2 teams of 4 and were given 3 days to complete the assignment and present our designs.</strong></p></div>
+                                    were divided into two teams of four and were given three days to complete the assignment and present our designs.</strong></p></div>
                         </div>
                     </Col>
                 </Row>
@@ -44,7 +45,7 @@ export const VaccineCaseStudy = () => {
                         <li>Sign up links were buried</li>
                         <li>Users had to answer a lengthy questionnaire</li>
                         <li>Sign up form was on an external site and did not look official</li>
-                        <li>Sign up form was redundant, forciing the user to re-enter information</li>
+                        <li>Sign up form was redundant, forcing the user to re-enter information</li>
                     </Col>
                 </Row>
                 <Row className="justify-content-md-center">
@@ -69,7 +70,7 @@ export const VaccineCaseStudy = () => {
                         <p>With millions of Tennesseans being directed to covid19.TN.gov to request a vaccine appointment, it was important that the site be easy to understand and navigate.
                         My team and I articulated the challenge by asking: <strong>How might we make it easier to sign up to receive the COVID-19 vaccine?</strong>
                         </p>
-                        <p>AS a team, we determined some possible solutions.</p>
+                        <p>As a team, we came up with some possible solutions.</p>
                         <li>County vaccination page text should be clear and understandable</li>
                         <li>The “Phases” graphic should be redesigned</li>
                         <li>The form should be redesigned</li>
@@ -257,7 +258,7 @@ export const VaccineCaseStudy = () => {
                     </Col>
                     {/* </div> */}
                     <Col className="col-12 col-md-12 mt-2 pb-5">
-                        <center><p><i>User testing the our prototype.</i></p></center>
+                        <center><p><i>User testing our prototype.</i></p></center>
                     </Col>
                 </Row>
                 <Row className="justify-content-md-center mt-5 mb-5">
