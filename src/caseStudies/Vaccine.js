@@ -288,7 +288,7 @@ export const VaccineCaseStudy = () => {
                     <Row className="justify-content-md-center pt-5">
                         <Col className="col-12 col-md-8 mb-5">
                             <div className="csPenPaperImages">
-                                <img className="sideBySide" src="../../images/sideBySide.png" height="100%" width="100%" alt="Side by side comparison of original site and our prototype." />
+                                <img className="sideBySide" src="../../images/sideByside.png" height="100%" width="100%" alt="Side by side comparison of original site and our prototype." />
                             </div>
                         </Col>
                     </Row>
