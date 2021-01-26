@@ -7,6 +7,7 @@ import { Row, Container, Col } from 'react-bootstrap';
 export const TFCaseStudy = () => {
     return (
         <>
+            <div id="top"></div>
             <Container id="caseStudy-container" fluid={true}>
                 <Row className="justify-content-md-center">
                     <Col className="col-12">

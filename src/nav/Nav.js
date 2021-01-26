@@ -1,7 +1,6 @@
 import { React } from 'react';
 import { Navbar, Nav, Container, Row } from 'react-bootstrap';
 import { HashLink } from 'react-router-hash-link';
-import { Link } from 'react-router-dom';
 import './navbar.scss';
 
 

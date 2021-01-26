@@ -54,7 +54,8 @@ p.whatILearnedText {
 }
 li {
     color: #313131;
-    font-size: 1.2em;
+    font-weight: bold;
+    font-size: 1em;
 }
 // Navbar
 .nav {
@@ -222,16 +223,16 @@ li {
 
 // Boxes
 
-.boxBorder {
-    height: 80%;
-    padding: 1em;
-    border: solid 7px #313131;
+// .boxBorder {
+//     height: 80%;
+//     padding: .5em;
+//     border: solid 6px #E3F0F6;
     
-}
+// }
 
 .knowledgeBox {
     display: inline-block;
-    border: solid 2px #313131;
+    box-shadow:5px 15px 10px rgb(100, 99, 104);
     margin-top: -5em;
     margin-bottom: -2em;
     padding: 2em;
