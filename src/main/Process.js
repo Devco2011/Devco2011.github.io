@@ -11,76 +11,73 @@ export const Process = () => {
         <>
             <Container id="process-container">
                 <Row className="justify-content-md-center">
-                    <Col className="col-12-md-6">
-                        <h3 className="section-title">How I Think About Design</h3>
-                    </Col>
-                </Row>
-                <Row className="justify-content-md-center">
-                    <Col className="col-12 col-md-4">
-                        <div className="images">
-                            <img className="stickmanTelescope mt-5" src="../../images/stickmanTelescope.png" height="210em" width="110em" alt="Sickman looking through a telescope." />
-                        </div>
-                    </Col>
-                    <Col className="col-12 col-md-6">
-                        <div className="about-div">
-                            <h5 className="section-title">Look, listen, learn</h5>
-                            <ScrollAnimation animateIn="animate__animated animate__fadeIn"><p>I strive to clearly define design <strong>solutions</strong> through interviews and research. The first step
-                                is always to fully <strong>understand</strong> the problem that needs to be solved. </p>
-                                <p><LookModal />
-                                </p>
-                            </ScrollAnimation>
+                    <Col className="col-12 col-md-8 mt-2">
+                        <div className="knowledgeBox">
+                            <h3 className="section-title">HOW I THINK ABOUT DESIGN</h3>
                         </div>
                     </Col>
                 </Row>
-                <Row className="justify-content-center pt-5">
-                    <Col className="col-12 col-md-4">
+                <Row>
+                    <Col className="col-12 col-md-2">
                         <div className="images">
-                            <img className="stickmanWhiteboard mt-5" src="../../images/stickmanWhiteboard.png" height="225em" width="200em" alt="Sickman pointing to a whiteboard." />
+                            <img className="stickmanTelescope mt-5" src="../../images/stickmanThumbsUpWhite.png" height="220em" width="85em" alt="Stickman giving a thumbs up." />
+
                         </div>
                     </Col>
-                    <Col className="col-12 col-md-6">
+                    <Col className="col-12 col-md-4 border-right">
                         <div className="about-div">
+                            <h6 className="section-title-light">I love to design <u>and</u> I can code</h6>
+                            <ScrollAnimation animateIn="animate__animated animate__fadeIn"><p>I believe human-centered design is important work that has the potential to improve
+                                lives. My understanding of front-end <strong>languages</strong> and <strong>frameworks</strong> enhances my ability to design for the user. I am driven by the desire to do work that makes a difference. </p>
+                                <br></br> <hr></hr></ScrollAnimation>
+                        </div>
+                    </Col>
 
-                            <h5 className="section-title">Plan, create, test</h5>
-                            <ScrollAnimation animateIn="animate__animated animate__fadeIn"><p>I thrive in the <strong>planning</strong> phase of a project, and use <strong>visuals</strong> to create and <strong>test</strong> everything, from <strong>brainstorming</strong> sessions to <strong>wireframing</strong> and <strong>prototyping</strong>.
-                            </p>
-                                <p><PlanModal /></p>
-                            </ScrollAnimation>
+                    <Col className="col-12 col-md-4 ml-2">
+                        <div className="about-div">
+                            <h6 className="section-title-light">I am always learning</h6>
+                            <ScrollAnimation animateIn="animate__animated animate__fadeIn"><p>I love to consume information that I can put to work as a <strong>designer</strong> and <strong>developer</strong>. I am passionate about serving
+                                the user, and that passion fuels my desire to constantly learn, expand my knowledge, and improve my craft. I will always be a student. </p>
+                                <br></br><hr></hr></ScrollAnimation>
+                        </div>
+                    </Col>
+                    <Col className="col-12 col-md-1">
+                        <div className="images">
+                            <img className="stickmanTelescope mt-5" src="../../images/stickmanBookWhite.png" height="220em" width="110em" alt="Stickman reading a book." />
+
                         </div>
                     </Col>
                 </Row>
-                <Row className="justify-content-center pt-5">
-                    <Col className="col-12 col-md-4">
+                <Row>
+                    <Col className="col-12 col-md-2">
                         <div className="images">
-                            <img className="stickmanTeam mt-5" src="../../images/stickmanTeam.png" height="300em" width="200em" alt="A team of stickpeople collaborating on an idea." />
+                            <img className="stickmanWhiteboard mt-5" src="../../images/stickmanSignWhite.png" height="225em" width="200em" alt="Stickman holding a sign that says Access." />
                         </div>
                     </Col>
-                    <Col className="col-12 col-md-6">
+                    <Col className="col-12 col-md-4 border-right">
                         <div className="about-div">
 
-                            <h5 className="section-title">Collaboration and Iteration</h5>
-                            <ScrollAnimation animateIn="animate__animated animate__fadeIn"><p>The <strong>best</strong> design work happens through a collaborative effort with <strong>stakeholders</strong>, <strong>users</strong>, and within the <strong>design team</strong>. Constant <strong>testing</strong> and <strong>communication</strong> from the beginning of a project lead to positive outcomes.
+                            <h6 className="section-title-light">Inclusivity</h6>
+                            <ScrollAnimation animateIn="animate__animated animate__fadeIn"><p>Designing for <strong>inclusivity</strong> expands the reach of <strong>experiences</strong> and <strong>products</strong> to more people. That means more people
+                                are able to participate in society and, therefore, society itself will better reflect the true <strong>diversity</strong> of our planet.</p>
 
-                            </p>
-                                <p><CollabModal /></p>
+                                <p>As a designer, I view it as a responsibility to represent that diversity in my work, by thinking beyond myself, empathizing, exploring, and expanding my own world view.</p>
                             </ScrollAnimation>
                         </div>
                     </Col>
-                </Row>
-                <Row className="justify-content-center pt-5">
-                    <Col className="col-12 col-md-4">
-                        <div className="images">
-                            <img className="stickmanSign mt-5" src="../../images/stickmanSign.png" height="200em" width="190em" alt="A stickman holding a sign that says ACCESS." />
+
+                    <Col className="col-12 col-md-4 ml-2">
+                        <div className="about-div">
+                            <h6 className="section-title-light">Look, Listen, Learn</h6>
+                            <ScrollAnimation animateIn="animate__animated animate__fadeIn"><p>I strive to clearly define <strong>solutions</strong> through constant communication with stakeholders, the design team,
+                                and users. The first step is always to fully <strong>understand</strong> the problem that needs to be solved.</p>
+                            </ScrollAnimation>
                         </div>
                     </Col>
-                    <Col className="col-12 col-md-6">
-                        <div className="about-div">
+                    <Col className="col-12 col-md-1">
+                        <div className="images">
+                            <img className="stickmanTelescope mt-5" src="../../images/stickmanTelescopeWhite.png" height="220em" width="135em" alt="Stickman looking through a telescope." />
 
-                            <h5 className="section-title">Inclusivity</h5>
-                            <ScrollAnimation animateIn="animate__animated animate__fadeIn"><p>I am very interested in inclusive design. I strive to do work that is <strong>accessible</strong> to <strong>all people</strong>. I celebrate differences in humans and I believe there is <strong>no typical user</strong>.
-                            </p>
-                                <p><InclusivityModal /></p>
-                            </ScrollAnimation>
                         </div>
                     </Col>
                 </Row>
