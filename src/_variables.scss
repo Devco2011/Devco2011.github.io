@@ -28,7 +28,7 @@ $info: $cyan;
 $warning: $yellow;
 $danger: $red;
 $light: lighten($gray-200, 35%);
-$dark: #4d4d4d;
+$dark: #E2F1F8;
 $body-color: $gray-100;
 $dropdown-link-color: $body-color;
 $dropdown-link-hover-color: $dropdown-link-color;
@@ -36,4 +36,7 @@ $dropdown-link-hover-color: $dropdown-link-color;
 $navbar-dark-color: rgba($white,.75);
 $navbar-dark-hover-color: $white;
 $navbar-disabled-color: $blue;
+$navbar-light-brand-color: #243E4B;
+$navbar-light-color: #243E4B;
+$navbar-light-hover-color: rgba(#243E4B,.65);
 
