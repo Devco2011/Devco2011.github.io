@@ -60,7 +60,7 @@ export const About = () => {
                         </div>
                     </Col>
                 </Row>
-                <Row className="justify-content-md-center pt-4">
+                <Row className="justify-content-md-center pt-4 pb-5">
                     <Col className="col-10" className="jumpTo">
                         <p>Jump to <HashLink to="#CaseStudies">case studies</HashLink> if you'd like.</p>
                     </Col>

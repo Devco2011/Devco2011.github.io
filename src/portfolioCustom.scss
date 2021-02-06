@@ -34,6 +34,10 @@ h5.section-title {
     color: #313131;
     margin-bottom: 1em;
 }
+h5.section-title-light {
+    color: #ffffff;
+    margin-bottom: 1em;
+}
 h5 {
     font-family: 'Fjalla One', sans-serif;
     font-size: 2.5em; 
@@ -43,9 +47,15 @@ h6 {
     font-size: 1.5em; 
     color: #313131;
 }
+h6.section-title-light {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 1.5em; 
+    color: #fff;
+    margin-bottom: 1em;
+}
 p {
     color: #fff;
-    font-size: 1.2em;
+
 }
 p.lightBlue {
     color: #012230
@@ -138,14 +148,13 @@ li {
 }
 
 #process-container {
-    padding-top: 2em;
+    padding-top: 6em;
     padding-bottom: 8em;
     
 }
 
 .images {
     display:flex;
-    justify-content: center;
  }
 .csImages {
     display:flex;
