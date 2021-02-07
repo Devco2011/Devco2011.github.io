@@ -13,11 +13,11 @@ export const Process = () => {
                 <Row className="justify-content-md-center">
                     <Col className="col-12 col-md-8 mt-2">
                         <div className="knowledgeBox">
-                            <h3 className="section-title">HOW I THINK ABOUT DESIGN</h3>
+                            <h3 className="section-title">CREDO</h3>
                         </div>
                     </Col>
                 </Row>
-                <Row>
+                <Row className="justify-content-md-center mb-2">
                     <Col className="col-12 col-md-2">
                         <div className="images">
                             <img className="stickmanTelescope mt-5" src="../../images/stickmanThumbsUpWhite.png" height="220em" width="85em" alt="Stickman giving a thumbs up." />
@@ -29,29 +29,32 @@ export const Process = () => {
                             <h6 className="section-title-light">I love to design <u>and</u> I can code</h6>
                             <ScrollAnimation animateIn="animate__animated animate__fadeIn"><p>I believe human-centered design is important work that has the potential to improve
                                 lives. My understanding of front-end <strong>languages</strong> and <strong>frameworks</strong> enhances my ability to design for the user. I am driven by the desire to do work that makes a difference. </p>
-                                <br></br> <hr></hr></ScrollAnimation>
+                                <br></br></ScrollAnimation>
                         </div>
                     </Col>
-
-                    <Col className="col-12 col-md-4 ml-2">
+                    <Col className="col-12 col-md-4 pl-4">
                         <div className="about-div">
                             <h6 className="section-title-light">I am always learning</h6>
                             <ScrollAnimation animateIn="animate__animated animate__fadeIn"><p>I love to consume information that I can put to work as a <strong>designer</strong> and <strong>developer</strong>. I am passionate about serving
                                 the user, and that passion fuels my desire to constantly learn, expand my knowledge, and improve my craft. I will always be a student. </p>
-                                <br></br><hr></hr></ScrollAnimation>
+                                <br></br></ScrollAnimation>
                         </div>
                     </Col>
-                    <Col className="col-12 col-md-1">
+
+                    <Col className="col-12 col-md-2">
                         <div className="images">
                             <img className="stickmanTelescope mt-5" src="../../images/stickmanBookWhite.png" height="220em" width="110em" alt="Stickman reading a book." />
 
                         </div>
                     </Col>
+
                 </Row>
-                <Row>
+                <hr></hr>
+                <Row className="justify-content-md-center  mt-2">
+
                     <Col className="col-12 col-md-2">
                         <div className="images">
-                            <img className="stickmanWhiteboard mt-5" src="../../images/stickmanSignWhite.png" height="225em" width="200em" alt="Stickman holding a sign that says Access." />
+                            <img className="stickmanWhiteboard mt-5" src="../../images/stickmanSignWhite.png" height="225em" width="110em" alt="Stickman holding a sign that says Access." />
                         </div>
                     </Col>
                     <Col className="col-12 col-md-4 border-right">
@@ -65,8 +68,7 @@ export const Process = () => {
                             </ScrollAnimation>
                         </div>
                     </Col>
-
-                    <Col className="col-12 col-md-4 ml-2">
+                    <Col className="col-12 col-md-4 pl-4">
                         <div className="about-div">
                             <h6 className="section-title-light">Look, Listen, Learn</h6>
                             <ScrollAnimation animateIn="animate__animated animate__fadeIn"><p>I strive to clearly define <strong>solutions</strong> through constant communication with stakeholders, the design team,
@@ -74,7 +76,7 @@ export const Process = () => {
                             </ScrollAnimation>
                         </div>
                     </Col>
-                    <Col className="col-12 col-md-1">
+                    <Col className="col-12 col-md-2">
                         <div className="images">
                             <img className="stickmanTelescope mt-5" src="../../images/stickmanTelescopeWhite.png" height="220em" width="135em" alt="Stickman looking through a telescope." />
 
