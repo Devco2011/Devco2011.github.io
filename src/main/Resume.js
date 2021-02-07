@@ -50,7 +50,8 @@ export const Resume = () => {
                                 <ul>
                                     <li>Intensive, full-time, six month front-end web development and UI/UX design bootcamp</li><br></br>
                                     <li>Worked individually and on remote teams in an Agile workflow environment</li><br></br>
-                                    <li>Developed the skills and mindset that will enable me to continually learn new technologies</li>
+                                    <li>Developed the skills and mindset that will enable me to continually learn new technologies</li><br></br>
+                                    <li>100% Remote</li>
                                 </ul>
                                 <br></br></ScrollAnimation>
                         </div>
