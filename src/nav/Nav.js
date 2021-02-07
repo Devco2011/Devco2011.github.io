@@ -23,7 +23,7 @@ export const NavBar = (props) => {
                         <Navbar.Collapse id="responsive-navbar-nav">
                             <Nav className="mr-auto pl-3">
                                 <HashLink className="nav-link" to="#about">ABOUT</HashLink>
-                                <HashLink className="nav-link" to="#process">CREDO</HashLink>
+                                <HashLink className="nav-link" to="#process-container">CREDO</HashLink>
                                 <HashLink className="nav-link" to="#CaseStudies">CASE STUDIES</HashLink>
                                 <a className="nav-link" href="./files/Resume.pdf" target="_blank">RESUME</a>
 

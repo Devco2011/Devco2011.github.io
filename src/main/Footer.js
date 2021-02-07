@@ -33,7 +33,8 @@ export const Footer = () => {
                                 <ul className="list-unstyled">
                                     <li>React | React Bootstrap |</li>
                                     <li>Sass | Git | GitHub |</li>
-                                    <li>User Testing | Figma</li>
+                                    <li>User Testing | Figma |</li>
+                                    <li>HTML | CSS</li>
 
                                 </ul>
                             </Navbar.Text>
