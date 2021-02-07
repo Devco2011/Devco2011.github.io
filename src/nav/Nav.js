@@ -13,7 +13,7 @@ export const NavBar = (props) => {
 
 
 
-            <Navbar className="navBarContainer" expand="md" bg="dark" variant="light" fixed="top">
+            <Navbar className="navBarContainer" expand="lg" bg="dark" variant="light" fixed="top">
 
                 <Container className="justify-content-center">
                     <Row className="justify-content-center">
@@ -21,11 +21,13 @@ export const NavBar = (props) => {
                         <Navbar.Brand className="navBrand" href="/">DEVON COX</Navbar.Brand>
                         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                         <Navbar.Collapse id="responsive-navbar-nav">
-                            <Nav className="mr-auto">
+                            <Nav className="mr-auto pl-3">
                                 <HashLink className="nav-link" to="#about">ABOUT</HashLink>
+                                <HashLink className="nav-link" to="#process-container">CREDO</HashLink>
                                 <HashLink className="nav-link" to="#CaseStudies">CASE STUDIES</HashLink>
                                 <a className="nav-link" href="./files/Resume.pdf" target="_blank">RESUME</a>
-                                <HashLink className="nav-link" to="#contact">GET IN TOUCH</HashLink>
+
+                                <Navbar.Text className="ml-5"><strong>615-310-7665 | devco2011@gmail.com</strong></Navbar.Text>
                             </Nav>
                         </Navbar.Collapse>
 
