@@ -76,10 +76,16 @@ li {
     font-family: 'Fjalla One', sans-serif;
     padding-right: 2em;
 }
+.main-nav-active {
+    color: tomato;
+}
 
 .nav-link {
     margin-right: 2em;
 }
+.nav-link.current {
+    color: red;
+} 
 
 
 #header-div {
