@@ -7,7 +7,7 @@ import { Nav, Navbar } from "react-bootstrap";
 export const Footer = () => {
     return (
 
-        <Navbar expand='lg' variant='dark' bg='dark' sticky='bottom' id='footer'>
+        <Navbar expand='lg' bg='dark' variant='light' sticky='bottom' id='footer'>
             <Nav className='ml-auto mr-auto'>
                 <Container className="pt-4">
                     <Row>
@@ -15,7 +15,7 @@ export const Footer = () => {
                             <Navbar.Text><h6 className="section-title">CONNECT WITH ME</h6>
                                 <ul className="list-unstyled">
                                     <li><FaMobileAlt /> 615-310-7665</li>
-                                    <li><FaEnvelope /> devco2011@gmail.com</li>
+                                    <li><FaEnvelope /> devoncoxdev@gmail.com</li>
                                 </ul>
                             </Navbar.Text>
                         </Col>
@@ -40,15 +40,15 @@ export const Footer = () => {
                             </Navbar.Text>
                         </Col>
 
-                        <Col>
+                        <Col className="col-12">
                             <Navbar.Text>
                                 <p className="lightBlue"> &copy; {new Date().getFullYear()} Devon Cox | All rights reserved.</p>
                             </Navbar.Text>
                         </Col>
                     </Row>
                 </Container>
-            </Nav>
-        </Navbar>
+            </Nav >
+        </Navbar >
 
     )
 }

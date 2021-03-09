@@ -26,7 +26,7 @@ export const NavBar = (props) => {
                                 <HashLink className="nav-link" to="#process-container">CREDO</HashLink>
                                 <HashLink className="nav-link" to="#CaseStudies">CASE STUDIES</HashLink>
                                 <HashLink className="nav-link" to="#resume-container">RESUME</HashLink>
-                                <Navbar.Text className="ml-5"><strong>615-310-7665 | devco2011@gmail.com</strong></Navbar.Text>
+                                <Navbar.Text className="ml-5"><strong>615-310-7665 | devoncoxdev@gmail.com</strong></Navbar.Text>
                             </Nav>
                         </Navbar.Collapse>
 
