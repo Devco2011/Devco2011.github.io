@@ -70,9 +70,11 @@ p.lightBlue {
 p.whatILearnedText {
     color: #313131;
 }
+
 li {
     color: #ffffff;
     font-size: 1rem;
+    line-height: 1.5rem;
 }
 // Navbar
 .nav {
@@ -158,6 +160,13 @@ li {
 }
 
 #process-container {
+    position: relative;
+    padding-top: 6em;
+    padding-bottom: 8em;
+    
+}
+
+#resume-container {
     position: relative;
     padding-top: 6em;
     padding-bottom: 8em;
