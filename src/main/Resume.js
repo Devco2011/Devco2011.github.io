@@ -6,16 +6,16 @@ import { FaGithub, FaDribbble, FaLinkedin } from 'react-icons/fa';
 export const Resume = () => {
     return (
         <>
-            <Container id="contact" fluid>
+            <Container id="process-container" fluid>
                 <Row className="justify-content-md-center">
-                    <Col className="col-12 col-md-8 mt-5">
-                        <div className="knowledgeBoxWork">
+                    <Col className="col-12 col-md-8">
+                        <div className="knowledgeBox">
                             <h3 className="section-title">RESUME</h3>
                         </div>
                     </Col>
                 </Row>
-                <Row className="justify-content-md-center">
-                    <Col className="col-12 col-md-4 border-right">
+                <Row className="justify-content-md-center mt-3">
+                    <Col className="col-12 col-md-4  border-right">
                         <div className="about-div">
                             <h5 className="section-title-light">ABOUT ME</h5>
                             <ScrollAnimation animateIn="animate__animated animate__fadeIn"><p>I am a motivated creative with 6 months of experience in
