@@ -212,29 +212,6 @@ li {
     
  }
 
-.tidyFamWhiteboard {
-   
-
-        
-    @media (min-width: 10rem) {
-            margin-top: 1em;
-            width: 100%;
-            height: 80%;
-          }
-        
-    @media (min-width: 37.5rem) {
-            width: 100%;
-            height: 80%;
-    }
-    
-    @media (min-width: 50rem) {
-            margin-top: 3em;
-            width: 40em;
-            height: 32em;
-            transition: .2s;
-            
-    }
-}
 .registrationView:hover {
     transform: scale(1.1);
 }
@@ -257,15 +234,6 @@ li {
 .modalBody {
     background-color: #011A28;
 }
-
-// Boxes
-
-// .boxBorder {
-//     height: 80%;
-//     padding: .5em;
-//     border: solid 6px #E3F0F6;
-    
-// }
 
 .knowledgeBox {
     float: left;
