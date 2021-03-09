@@ -20,43 +20,34 @@ export const About = () => {
 
                     <Col className="col-12 col-md-8">
                         <div className="about-div">
-                            <center><h5 className="section-title">HOW CAN I HELP YOU?</h5></center>
-                            <ScrollAnimation animateIn="animate__animated animate__fadeIn"><p className="lightBlue p-3">When thinking about what would be relevant about my life to share with you here, I came
-                            to the conclusion that it is all relevant. I won’t write my whole story here, but I would love to elaborate when we connect. My life
-                                experience can be an asset to your organization, your team, and your users. </p></ScrollAnimation>
+                            <center><h6 className="section-title">I love to code and design great experiences, and I'm a...</h6></center>
                         </div>
 
                     </Col>
                 </Row>
-                <Row className="justify-content-md-center pt-3">
-                    <Col className="col-12 col-md-3 p-4 border-right">
-                        <div>
-                            <h5 className="section-title">EMPATHY</h5>
-                            <ScrollAnimation animateIn="animate__animated animate__fadeIn"><p className="lightBlue">I have looked at life from many different perspectives. I came to the field of technology after
-                            ten years of being a full-time performing singer and songwriter. Before that, I owned a small residential construction business. I have four kids, one is
-                                a cancer survivor. I’ve known struggle, success, and all points in between. </p><p className="lightBlue"><strong>When it comes to empathy, I have a deep well of experiences to draw from.
-                                </strong></p></ScrollAnimation>
+                <Row className="justify-content-md-center mb-2">
+                    <Col className="col-12 col-md-4">
+                        <div className="images">
+                            <img className="stickmanTelescope mt-5" src="../../images/stickmanGuitar.png" height="230rem" width="100rem" alt="Stickman giving a thumbs up." />
+                        </div>
+                        <div className="about-div">
+                            <h6 className="about-section-title">Singer, writer, player, and performer</h6>
                         </div>
                     </Col>
-                    <Col className="col-12 col-sm-4 col-lg-3 p-4 border-right">
-                        <div>
-                            <h5 className="section-title">COLLABORATION</h5>
-                            <ScrollAnimation animateIn="animate__animated animate__fadeIn"><p className="lightBlue">Years of songwriting, recording, and performing have taught me the value of everyone in the room being
-                            comfortable enough to put their worst idea on the table. In Nashville, it’s normal for songwriter splits to be equal, even if one writer didn’t write a single line
-                                in the song. That writer’s presence in the room and participation in the process earns them an equal share. I believe in that philosophy.</p>
-
-                                <p className="lightBlue"><strong>My experience at Nashville Software School taught me how to collaborate remotely. Our cohort was 100% remote, full-time, for six months.
-                                </strong></p></ScrollAnimation>
+                    <Col className="col-12 col-md-4">
+                        <div className="images">
+                            <img className="stickmanTelescope mt-5" src="../../images/stickmanFamily.png" height="230rem" width="250rem" alt="Stickman giving a thumbs up." />
+                        </div>
+                        <div className="about-div">
+                            <h6 className="about-section-title">Husband and father</h6>
                         </div>
                     </Col>
-                    <Col className="col-12 col-md-4 col-lg-3 p-4">
-                        <div>
-                            <h5 className="section-title">PURPOSE</h5>
-                            <ScrollAnimation animateIn="animate__animated animate__fadeIn"><p className="lightBlue">The people I work with and the work itself are most important to me. I know what it’s like to hang, have
-                                fun, and accomplish great things together. </p>
-
-                                <p className="lightBlue"><strong>The best situation is one where the team is positive and supportive and the work is challenging and rewarding.
-                                </strong></p></ScrollAnimation>
+                    <Col className="col-12 col-md-4">
+                        <div className="images">
+                            <img className="stickmanTelescope mt-5" src="../../images/stickmanBookWhite.png" height="230rem" width="100rem" alt="Stickman giving a thumbs up." />
+                        </div>
+                        <div className="about-div">
+                            <h6 className="about-section-title">Lifelong learner and explorer</h6>
                         </div>
                     </Col>
                 </Row>
