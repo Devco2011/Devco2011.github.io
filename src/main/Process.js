@@ -54,7 +54,7 @@ export const Process = () => {
 
                     <Col className="col-12 col-md-2">
                         <div className="images">
-                            <img className="stickmanWhiteboard mt-5" src="../../images/stickmanSignWhite.png" height="225em" width="110em" alt="Stickman holding a sign that says Access." />
+                            <img className="stickmanWhiteboard mt-5" src="../../images/stickmanSign.png" height="225em" width="110em" alt="Stickman holding a sign that says Access." />
                         </div>
                     </Col>
                     <Col className="col-12 col-md-4 border-right">
@@ -78,7 +78,7 @@ export const Process = () => {
                     </Col>
                     <Col className="col-12 col-md-2">
                         <div className="images">
-                            <img className="stickmanTelescope mt-5" src="../../images/stickmanTelescopeWhite.png" height="220em" width="135em" alt="Stickman looking through a telescope." />
+                            <img className="stickmanTelescope mt-5" src="../../images/stickmanRoad.png" height="240rem" width="75rem" alt="Stickman looking through a telescope." />
 
                         </div>
                     </Col>
