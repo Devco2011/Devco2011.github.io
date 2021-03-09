@@ -28,19 +28,20 @@ h4 {
 h3.section-title {
     text-align: center;
     color: #fff;
-    font-size: 3rem;
+    font-size: 4vh;
 }
 h5.section-title {
     color: #313131;
     margin-bottom: 1em;
 }
 h5.section-title-light {
-    color: #ffffff;
-    margin-bottom: 1em;
+    color: #dceef8;
+    font-weight: bold;
+    margin-bottom: 1.4rem;
 }
 h5 {
     font-family: 'Fjalla One', sans-serif;
-    font-size: 2.5em; 
+    font-size: 2rem; 
 }
 h6.section-title {
     font-family: 'Fjalla One', sans-serif;
@@ -56,7 +57,7 @@ h6.about-section-title {
 h6.section-title-light {
     font-family: 'Fjalla One', sans-serif;
     font-size: 1.5em; 
-    color: #fff;
+    color: #dceef8;
     margin-bottom: 1em;
 }
 p {
@@ -75,6 +76,10 @@ li {
     color: #ffffff;
     font-size: 1rem;
     line-height: 1.5rem;
+}
+
+.list-unstyled > li {
+    color: #333;
 }
 // Navbar
 .nav {
