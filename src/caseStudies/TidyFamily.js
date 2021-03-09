@@ -11,253 +11,112 @@ export const TFCaseStudy = () => {
             <Container id="caseStudy-container" fluid={true}>
                 <Row className="justify-content-md-center">
                     <Col className="col-12">
-                        <h3 className="section-title">TESTING NEW KNOWLEDGE</h3>
+                        <h5 className="section-title-light">PROJECT: TIDY FAMILY</h5>
                     </Col>
                 </Row>
                 <Row className="justify-content-md-center mt-5">
-                    <Col className="col-12 col-md-6 mt-4">
-                        <div className="boxBorder">
-                            <div className="knowledgeBox"><p className="whatILearnedText"><strong>Three months into my bootcamp at Nashville Software School, I was given an assignment to build my
-                                first React app from the ground up, and I had just two weeks to reach MVP.</strong></p><br></br>
-                                <p className="whatILearnedText"><strong>The primary goal of this project was to assess my proficiency with my new skills in JavaScript, React, JSON, HTML, and CSS.</strong></p></div>
+                    <Col className="col-12 col-md-5 mt-4">
+                        <div>
+                            <div>
+                                <h6 className="section-title-light">OVERVIEW</h6>
+                                <p>I created Tidy Family to provide a solution for managing household chores for families. The main goal was to practice and showcase my front-end dev skills. The project was built using the React JS framework and utilized HTML, CSS, JavaScript, JSON server, and SCSS.</p><br></br>
+                            </div>
+                            <h6 className="section-title-light">FRAMING THE CHALLENGE</h6>
+                            <p>American parents spend an average of 23 hours and 36 minutes on housework per month.
+                            What if parents could get more help with housework from their kids? Motivating children to do
+                            household chores isn't easy. Chores aren't fun. Parents need an easy way to make them fun. Which begs the question:
+                          <strong> How might we make managing household chores easy for parents and fun for kids?</strong></p>
                         </div>
+
                     </Col>
-                </Row>
-                <Row className="justify-content-md-center pt-5">
-                    <Col className="col-12 col-md-6 mt-4 mb-5">
+                    <Col className="col-12 col-md-5 mt-4 mb-5">
                         <div className="csImages">
-                            <img className="tidyFamHomeCS" src="../../images/FamHome.jpg" height="100%" width="100%" alt="Homepage view of Tidy Family web app." />
+                            <img className="tidyFamHomeCS" src="../../images/FamHome.jpg" height="420vh" width="100%" alt="Homepage view of Tidy Family web app." />
                         </div>
                     </Col>
                 </Row>
-                <Row className="justify-content-md-center mt-5">
-                    <Col className="col-12 mt-5">
-                        <h5 className="section-title">FRAMING THE CHALLENGE</h5>
+                <Row id="light-blue-container" className="justify-content-md-center pt-5">
+                    <Col className="col-12 col-md-5 mt-2 mb-5">
+                        <div className="csImages">
+                            <img className="tidyFamHomeCS" src="../../images/TidyFamilyUser.jpg" height="420vh" width="100%" alt="Homepage view of Tidy Family web app." />
+                        </div>
                     </Col>
-                </Row>
-                <Row className="justify-content-md-center">
-                    <Col className="col-12 col-md-6 mt-2 mb-5">
-                        <h6 className="mb-4">American parents spend an average of 23 hours and 36 minutes on housework per month.</h6>
-                        <p>What if parents could get more help with housework from their kids? Motivating children to do
-                        household chores isn't easy. Chores aren't fun. Parents need an easy way to make them fun. Which begs the question:
-                          <strong> How might we make managing household chores easy for parents and fun for kids?</strong>
+                    <Col className="col-12 col-md-5 mt-2 mb-5">
+                        <div>
+                            <div>
+                                <h6 className="section-title-light">RESEARCH: USER INTERVIEWS</h6>
+                                <p className="lightBlue">User interviews were coducted to determine the challenges for both kids and parents when it comes to getting household chores done. The users were involved in the brainstorming process for possible solutions. Together, we came up with some ideas to make the application fun for kids and easy for parents.
+                        </p><br></br>
+                                <h6 className="section-title-light">PERSONA</h6>
+                                <p className="lightBlue">The focus was on busy parents needing more free time and less stress around managing household chores. Tidy Family parents are creative, involved parents who value spending quality time with family.
                         </p>
-                    </Col>
-                </Row>
-                <Row className="justify-content-md-center">
-                    <Col className="col-12 col-md-6 mt-5 mb-5">
-                        <div className="boxBorder">
-                            <div className="knowledgeBox"><h6 className="mb-4">WHAT I DID:</h6>
-                                <p className="whatILearnedText"><strong>I defined the problem and researched solutions and constraints.</strong></p><br></br>
-                                <h6 className="mb-4">WHAT I LEARNED:</h6>
-                                <p className="whatILearnedText"><strong>The <i>perceived</i> problem may only be a symptom of the <i>real</i> problem, and it takes a deep dive to make
-                                that determination.</strong></p></div>
+                            </div>
                         </div>
                     </Col>
-                </Row>
-                <Row className="justify-content-md-center mt-5">
-                    <Col className="col-12 col-md-12 mt-5">
-                        <h5 className="section-title">RESEARCH: INTERVIEWING THE EXPERTS</h5>
-                    </Col>
-                </Row>
-                <Row className="justify-content-md-center">
-                    <Col md={6} className="mt-2 mb-5">
-                        <p>This was a solo project and, given the time constraints, I relied on my wife and kids for user research. I conducted interviews and together we found some possible solutions.</p>
-                        <li>Make it a game</li>
-                        <li>Make it easy to add, edit, and delete chores</li>
-                        <li>Reward each chore a child does</li>
-                        <li>Get the whole family involved as a team</li>
-                        <li>Reward the whole family and individuals</li>
-                    </Col>
-                </Row>
-                <Row className="justify-content-md-center pt-2">
 
-                    {/* <div className="csPenPaperImages"> */}
-                    <Col className="col-12 col-md-3 pr-2 pt-3">
-                        <img className="registrationView" src="../../images/RegistrationView.jpg" height="100%" width="100%" alt="Pencil and paper drawing of Tidy Family app." />
-                    </Col>
-
-
-                    <Col className="col-12 col-md-3 pr- pt-3">
-                        <img className="kidView" src="../../images/KidView2.jpg" height="100%" width="100%" alt="Pencil and paper drawing of Tidy Family app." />
-                    </Col>
-
-
-                    <Col className="col-12 col-md-3 pt-3">
-                        <img className="cardView" src="../../images/ChoreCard.jpg" height="100%" width="100%" alt="Pencil and paper drawing of Tidy Family app." />
-                    </Col>
-                    {/* </div> */}
-                    <Col className="col-12 col-md-12 mt-2 pb-5">
-                        <center><p><i>The first iteration of Tidy Family, after initial user interview.</i></p></center>
-                    </Col>
-                </Row>
-                <Row className="justify-content-md-center mt-5 mb-5">
-                    <Col className="col-12 col-md-6 mt-4">
-                        <div className="boxBorder">
-                            <div className="knowledgeBox"><h6 className="mb-4">WHAT I DID:</h6>
-                                <p className="whatILearnedText"><strong>I conducted user interviews and created the first wireframe for the project.</strong></p><br></br>
-                                <h6 className="mb-4">WHAT I LEARNED:</h6>
-                                <p className="whatILearnedText"><strong>The user lights the way. They are the pathway to new ideas and they will expose hidden dangers.
-                                    The user is part of the design team.</strong></p></div>
-                        </div>
-                    </Col>
                 </Row>
                 <Row className="justify-content-md-center pt-5">
-                    <Col className="col-12 mt-4">
-                        <h5 className="section-title">PUTTING MARKER TO WHITEBOARD</h5>
-                    </Col>
-                </Row>
-                <Row className="justify-content-md-center">
-                    <Col className="col-12 col-md-6 mb-2">
-                        <p>Before jumping on to Figma, I created a physical representation of the project on a whiteboard. This helped me quickly visualize where
-                        improvements could be made.
+                    <Col className="col-12 col-md-10 mt-2 mb-5">
+                        <div>
+                            <div>
+                                <h6 className="section-title-light">ROLE AND RESPONSIBILITIES</h6>
+                                <p>Tidy Family was my first solo project, having spent the previous two months working on remote team projects. I was solely resposible for the idea, research, wireframing, designing, coding, ticketing, and testing. Although this was a solo project, it was framed in Agile development using the Scrum methodology. Daily standups were conducted with the instructor.
+                        </p><br></br>
+                                <h6 className="section-title-light">CONSTRAINTS</h6>
+                                <p>Time was the main constraint for the application. I had a deadline of two weeks from idea to MVP, and only one week of React JS experience under my belt. It was exciting and challenging to build a web application from scratch in a new framework with limited time.
                         </p>
-                    </Col>
-                    <Col md={8}>
-                        <div className="csPenPaperImages">
-                            <img className="tidyFamWhiteboard" src="../../images/TFWhiteBoard.jpg" alt="Whiteboard drawing of Tidy Family app." />
-                        </div>
-                    </Col>
-                    <Col className="col-12 mt-2 pb-5">
-                        <center><p><i>Tidy Family, whiteboard edition.</i></p></center>
-                    </Col>
-                </Row>
-                <Row className="justify-content-md-center mt-5 mb-5">
-                    <Col className="col-12 col-md-6 mt-4">
-                        <div className="boxBorder">
-                            <div className="knowledgeBox"><h6 className="mb-4">WHAT I DID:</h6>
-                                <p className="whatILearnedText"><strong>I began to think about user flow, as well as modules and components. I created a new visual representation of the project.</strong></p><br></br>
-                                <h6 className="mb-4">WHAT I LEARNED:</h6>
-                                <p className="whatILearnedText"><strong>Answers to design questions often lead to more questions and can cause a project to quickly grow beyond its original scope. A simpler
-                                        approach might be the solution.</strong></p></div>
-                        </div>
-                    </Col>
-                </Row>
-                <Row className="justify-content-md-center pt-5">
-                    <Col className="col-12 mt-4">
-                        <h5 className="section-title">GETTING SERIOUS ABOUT FUN</h5>
-                    </Col>
-                </Row>
-                <Row className="justify-content-md-center">
-                    <Col className="col-12 col-md-6 mb-2">
-                        <p>It was clear from user interviews that the app needed to be fun from the moment they log in. From the logo to the language, and the colors to the characters. I began to apply the concepts of simplicity and fun
-                        as I moved on to Figma.
-                        </p>
-                    </Col>
-                </Row>
-                <Row className="justify-content-md-center pt-2">
-                    <Col className="col-12 col-md-4 mt-4">
-                        <img className="figmaFar" src="../../images/figmaFar.jpg" height="100%" width="100%" alt="Figma wireframe of Tidy Family." />
-                    </Col>
-                    <Col className="col-12 col-md-4 mt-4">
-                        <img className="figmaClose" src="../../images/figmaClose.jpg" height="100%" width="100%" alt="Figma wireframe of Tidy Family." />
-                    </Col>
-                    <Col className="col-12 col-md-12 mt-2 pb-5">
-                        <center><p><i>Working in Figma.</i></p></center>
-                    </Col>
-                </Row>
-                <Row className="justify-content-md-center mt-5 mb-5">
-                    <Col className="col-12 col-md-6 mt-4">
-                        <div className="boxBorder">
-                            <div className="knowledgeBox"><h6 className="mb-4">WHAT I DID:</h6>
-                                <p className="whatILearnedText"><strong>I created a new wireframe in Figma, based off of my whiteboard wireframe, taking user research into account. I mapped user flow for child users and parent admins.</strong></p><br></br>
-                                <h6 className="mb-4">WHAT I LEARNED:</h6>
-                                <p className="whatILearnedText"><strong>Designing for multiple user sets, in this case parents and children, was an exciting challenge. It's important to find and get anchored in the place where all users' needs intersect.</strong></p></div>
-                        </div>
-                    </Col>
-                </Row>
-                <Row className="justify-content-md-center pt-5">
-                    <Col className="col-12 mt-4">
-                        <h5 className="section-title">BUILDING THE APPLICATION</h5>
-                    </Col>
-                </Row>
-                <Row className="justify-content-md-center">
-                    <Col className="col-12 col-md-6 mb-5">
-                        <p>I had spent the previous three months learning front-end development, and this was my putting-it-all-together moment.
-                        </p>
-                        <li>I created an ERD and built a JSON database</li>
-                        <li>I wrote logic in JS and JSX</li>
-                        <li>I used Sass to customize ReactStrap components</li>
-                        <li>I strove to write clean code</li>
-                    </Col>
-                </Row>
-                <Row className="justify-content-md-center">
-                    <Col className="col-12 col-md-6 mt-2 pb-5">
-                        <div className="csPenPaperImages">
-                            <img className="tferd" src="../../images/tferd.png" height="100%" width="100%" alt="Tidy Family app ERD" />
-                        </div>
-                    </Col>
-                </Row>
-                <Row className="justify-content-md-center">
-                    <Col className="col-12 col-md-6 mt-2">
-                        <div className="csPenPaperImages">
-                            <img className="tferd" src="../../images/Code1.jpg" height="100%" width="100%" alt="Tidy Family app code" />
-                        </div>
-                    </Col>
-                </Row>
-                <Row className="justify-content-md-center">
-                    <Col className="col-12 col-md-6 mt-2 pb-5">
-                        <p><i>As a new developer, it was exciting to use the filter, map, and reduce methods to find each family member's current points.</i></p>
-                    </Col>
-                </Row>
-                <Row className="justify-content-md-center mt-5 mb-5">
-                    <Col className="col-12 col-md-6 mt-4">
-                        <div className="boxBorder">
-                            <div className="knowledgeBox"><h6 className="mb-4">WHAT I DID:</h6>
-                                <p className="whatILearnedText"><strong>I built a React App that satisfied CRUD, reached MVP, and proved my competency with JavaScript, React JS, CSS, and HTML.</strong></p><br></br>
-                                <h6 className="mb-4">WHAT I LEARNED:</h6>
-                                <p className="whatILearnedText"><strong>Work on one thing at a time and one small step at a time. Save after each small step so when you break it, you're one small step away from fixing it.</strong></p></div>
-                        </div>
-                    </Col>
-                </Row>
-                <Row className="justify-content-md-center pt-5">
-                    <Col className="col-12 mt-4">
-                        <h5 className="section-title">FINAL THOUGHTS</h5>
-                    </Col>
-                </Row>
-                <Row className="justify-content-md-center">
-                    <Col className="col-12 col-md-6 mb-2">
-                        <p>The primary goal of this project was to assess my front-end development abilities. Although the emphasis was not on research or design, I was able to do some research and user testing. The project was
-                        an important first attempt at designing for the user and overcoming challenges in both design and build.
-                        </p>
-                    </Col>
-                    <Col className="col-12 col-md-8 mt-2">
-                        <div className="csPenPaperImages">
-                            <iframe className="video" src="https://www.youtube.com/embed/Jn-1aFymtzY" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-                        </div>
-                    </Col>
-                    <Col className="col-12 mt-2 pb-5">
-                        <center><p><i>User is logged in as admin.</i></p></center>
-                    </Col>
-                    <Col md={8}>
-                        <div className="csPenPaperImages">
-                            <iframe className="video" src="https://www.youtube.com/embed/B6K3IWyQIEE" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-                        </div>
-                    </Col>
-                    <Col className="col-12 mt-2 pb-5">
-                        <center><p><i>User is logged in as child.</i></p></center>
-                    </Col>
-                </Row>
-                <Row className="justify-content-md-center mt-5 mb-5">
-                    <Col className="col-12 col-md-8 mt-4">
-                        <div className="boxBorder">
-                            <div className="knowledgeBox"><h6 className="mb-4">THE LEARNING CONTINUES:</h6>
-                                <p className="whatILearnedText"><strong>I recently critiqued the app against usability heuristics for user design. Here are some highlights:</strong></p><br></br>
-                                <p className="whatILearnedText pb-3"><strong>Visibility of system status</strong>
-                                    <li>There could be a site menu in the footer</li>
-                                    <li>Better indications on each view</li>
-                                    <li>Overall consistency could be improved</li></p>
-                                <p className="whatILearnedText pb-3"><strong>User control and freedom</strong>
-                                    <li>There should be a way to cancel/close forms</li>
-                                    <li>Better way to return to previous view</li></p>
-                                <p className="whatILearnedText pb-2"><strong>Consistency and standards</strong>
-                                    <li>Navigation stretches convention</li>
-                                    <li>"About" does not need to be on every view</li>
-                                    <li>Logo needs to link to homepage</li></p>
                             </div>
                         </div>
                     </Col>
                 </Row>
+                <Row className="justify-content-md-center">
+                    <Col className="col-12 col-md-5 mt-2 mb-5">
+                        <div className="csPenPaperImages">
+                            <img className="tidyFamWhiteboard" src="../../images/TFWhiteBoard.jpg" height="320vh" width="100%" alt="Whiteboard drawing of Tidy Family app." />
+                        </div>
+                        <div>
+                            <center><p><i>Tidy Family, whiteboard edition</i></p></center>
+                        </div>
+                    </Col>
+                    <Col className="col-12 col-md-5 mt-2 mb-5">
+                        <div className="csPenPaperImages">
+                            <img className="tidyFamWhiteboard" src="../../images/figmaClose.jpg" height="320vh" width="100%" alt="Figma wireframe of Tidy Family." />
+                        </div>
+                        <div>
+                            <center><p><i>Figma wireframe</i></p></center>
+                        </div>
+                    </Col>
+
+                </Row>
+                <Row id="light-blue-container" className="justify-content-md-center pt-3">
+                    <Col className="col-12 col-md-5 mt-4">
+                        <div>
+                            <div>
+                                <h6 className="section-title-light">Outcomes and Takeaways</h6>
+                                <p>Over the course of two weeks, I built an application that gamifies household chores. Admins add chores with a points value. Admins add family prizes with a points value, and set the weekly family prize. When a family member marks a chore as completed, the points value for that chore is added to the family member's total points. When an individual's points total is high enough, they are allowed to spin the wheel of prizes. When the total points for all family members is equal to the points value of the weekly family prize, the family is awarded that prize. Admin users can add, edit, and delete prized, chores, and family members.</p><br></br>
+                            </div>
+                            <p>I advanced my understanding of JavaScript and React JS. I learned about using a component library with React, as well as Sass. I got practice creating an ERD and building a Json database. I gained more experience with Git and Github, as well as Agile and Scrum. </p>
+                            <p>If I were to continue to work on the app, I would start with the following changes based on usability heuristics:</p>
+                            <ul>
+                                <li>Visibility of system status and overall consistency</li>
+                                <li>User control and freedom- better forms control</li>
+                                <li>More conventional navigation</li>
+                            </ul>
+                        </div>
+
+                    </Col>
+                    <Col className="col-12 col-md-5">
+                        <div className="csPenPaperImages">
+                            <iframe className="video" src="https://www.youtube.com/embed/Jn-1aFymtzY" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                        </div>
+                        <center><p><i>User is logged in as admin</i></p></center>
+                        <div className="csPenPaperImages">
+                            <iframe className="video" src="https://www.youtube.com/embed/B6K3IWyQIEE" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                        </div>
+                        <center><p><i>User is logged in as family member</i></p></center>
+                    </Col>
+                </Row>
+
 
 
             </Container>
