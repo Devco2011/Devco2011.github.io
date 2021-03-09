@@ -26,24 +26,22 @@ export const Process = () => {
                     </Col>
                     <Col className="col-12 col-md-4 border-right">
                         <div className="about-div">
-                            <h6 className="section-title-light">I love to design <u>and</u> I can code</h6>
-                            <ScrollAnimation animateIn="animate__animated animate__fadeIn"><p>I believe human-centered design is important work that has the potential to improve
-                                lives. My understanding of front-end <strong>languages</strong> and <strong>frameworks</strong> enhances my ability to design for the user. I am driven by the desire to do work that makes a difference. </p>
+                            <h6 className="section-title-light">Be Creative</h6>
+                            <ScrollAnimation animateIn="animate__animated animate__fadeIn"><p>Nothing gives me more pleasure than creating, and I strive to do so in a way that makes a difference.</p>
                                 <br></br></ScrollAnimation>
                         </div>
                     </Col>
                     <Col className="col-12 col-md-4 pl-4">
                         <div className="about-div">
-                            <h6 className="section-title-light">I am always learning</h6>
-                            <ScrollAnimation animateIn="animate__animated animate__fadeIn"><p>I love to consume information that I can put to work as a <strong>designer</strong> and <strong>developer</strong>. I am passionate about serving
-                                the user, and that passion fuels my desire to constantly learn, expand my knowledge, and improve my craft. I will always be a student. </p>
+                            <h6 className="section-title-light">Live with Empathy</h6>
+                            <ScrollAnimation animateIn="animate__animated animate__fadeIn"><p>I have looked at life from many different perspectives. When it comes to empathy, I have a deep well to draw from. </p>
                                 <br></br></ScrollAnimation>
                         </div>
                     </Col>
 
                     <Col className="col-12 col-md-2">
                         <div className="images">
-                            <img className="stickmanTelescope mt-5" src="../../images/stickmanBookWhite.png" height="220em" width="110em" alt="Stickman reading a book." />
+                            <img className="stickmanTelescope mt-5" src="../../images/stickmanRoad.png" height="220rem" width="85rem" alt="Stickman reading a book." />
 
                         </div>
                     </Col>
@@ -54,31 +52,27 @@ export const Process = () => {
 
                     <Col className="col-12 col-md-2">
                         <div className="images">
-                            <img className="stickmanWhiteboard mt-5" src="../../images/stickmanSign.png" height="225em" width="110em" alt="Stickman holding a sign that says Access." />
+                            <img className="stickmanWhiteboard mt-5" src="../../images/stickmanTelescopeWhite.png" height="235rem" width="120rem" alt="Stickman holding a sign that says Access." />
                         </div>
                     </Col>
                     <Col className="col-12 col-md-4 border-right">
                         <div className="about-div">
 
-                            <h6 className="section-title-light">Inclusivity</h6>
-                            <ScrollAnimation animateIn="animate__animated animate__fadeIn"><p>Designing for <strong>inclusivity</strong> expands the reach of <strong>experiences</strong> and <strong>products</strong> to more people. That means more people
-                                are able to participate in society and, therefore, society itself will better reflect the true <strong>diversity</strong> of our planet.</p>
-
-                                <p>As a designer, I view it as a responsibility to represent that diversity in my work, by thinking beyond myself, empathizing, exploring, and expanding my own world view.</p>
+                            <h6 className="section-title-light">Exploration</h6>
+                            <ScrollAnimation animateIn="animate__animated animate__fadeIn"><p>The desire to constantly grow as a human drives my passion for exploration.</p>
                             </ScrollAnimation>
                         </div>
                     </Col>
                     <Col className="col-12 col-md-4 pl-4">
                         <div className="about-div">
-                            <h6 className="section-title-light">Look, Listen, Learn</h6>
-                            <ScrollAnimation animateIn="animate__animated animate__fadeIn"><p>I strive to clearly define <strong>solutions</strong> through constant communication with stakeholders, the design team,
-                                and users. The first step is always to fully <strong>understand</strong> the problem that needs to be solved.</p>
+                            <h6 className="section-title-light">Purpose</h6>
+                            <ScrollAnimation animateIn="animate__animated animate__fadeIn"><p>Purpose comes from positive, supportive collaborators and work that is challenging, rewarding, and impactful. </p>
                             </ScrollAnimation>
                         </div>
                     </Col>
                     <Col className="col-12 col-md-2">
                         <div className="images">
-                            <img className="stickmanTelescope mt-5" src="../../images/stickmanRoad.png" height="240rem" width="75rem" alt="Stickman looking through a telescope." />
+                            <img className="stickmanTelescope mt-5" src="../../images/stickmanSign.png" height="240rem" width="110rem" alt="Stickman looking through a telescope." />
 
                         </div>
                     </Col>
