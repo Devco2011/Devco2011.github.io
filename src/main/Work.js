@@ -30,7 +30,7 @@ export const Work = () => {
 
                     </Col>
 
-                    <Col className="col-12 col-md-5 mb-5 pl-4 p-3 border-right">
+                    <Col className="col-12 col-md-5 mb-5 pl-4 p-3">
                         <div className="images mt-3">
                             <HashLink to="/CaseStudies/TidyFamily#top"><img className="tidyFamHome" src="../../images/FamHome.jpg" height="100%" width="100%" alt="Homepage view of Tidy Family web app." /></HashLink>
                         </div>
