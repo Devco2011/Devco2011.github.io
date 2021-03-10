@@ -89,6 +89,21 @@ export const VaccineCaseStudy = () => {
                     </Col>
 
                 </Row>
+                <Row className="justify-content-md-center">
+                    <Col className="col-12 col-md-5 mt-2 mb-5">
+                        <div className="csPenPaperImages">
+                            <img className="tidyFamWhiteboard" src="../../images/theirCounty.png" height="320vh" width="100%" alt="Whiteboard drawing of Tidy Family app." />
+                        </div>
+
+                    </Col>
+                    <Col className="col-12 col-md-5 mt-2 mb-5">
+                        <div className="csPenPaperImages">
+                            <img className="tidyFamWhiteboard" src="../../images/ourCounty.png" height="320vh" width="100%" alt="Figma wireframe of Tidy Family." />
+                        </div>
+
+                    </Col>
+
+                </Row>
             </Container>
         </>
     )
