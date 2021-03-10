@@ -77,13 +77,13 @@ export const VaccineCaseStudy = () => {
                 <Row className="justify-content-md-center">
                     <Col className="col-12 col-md-5 mt-2 mb-5">
                         <div className="csPenPaperImages">
-                            <img className="tidyFamWhiteboard" src="../../images/theirNav.png" height="320vh" width="100%" alt="Whiteboard drawing of Tidy Family app." />
+                            <img className="tidyFamWhiteboard" src="../../images/theirNav.png" height="320vh" width="90%" alt="Original navbar dropdown" />
                         </div>
 
                     </Col>
                     <Col className="col-12 col-md-5 mt-2 mb-5">
                         <div className="csPenPaperImages">
-                            <img className="tidyFamWhiteboard" src="../../images/ourNav.png" height="320vh" width="100%" alt="Figma wireframe of Tidy Family." />
+                            <img className="tidyFamWhiteboard" src="../../images/ourNav.png" height="320vh" width="90%" alt="Our navbar dropdown" />
                         </div>
 
                     </Col>
@@ -92,17 +92,42 @@ export const VaccineCaseStudy = () => {
                 <Row className="justify-content-md-center">
                     <Col className="col-12 col-md-5 mt-2 mb-5">
                         <div className="csPenPaperImages">
-                            <img className="tidyFamWhiteboard" src="../../images/theirCounty.png" height="320vh" width="100%" alt="Whiteboard drawing of Tidy Family app." />
+                            <img className="tidyFamWhiteboard" src="../../images/theirCounty.png" height="320vh" width="90%" alt="Original county view" />
                         </div>
 
                     </Col>
                     <Col className="col-12 col-md-5 mt-2 mb-5">
                         <div className="csPenPaperImages">
-                            <img className="tidyFamWhiteboard" src="../../images/ourCounty.png" height="320vh" width="100%" alt="Figma wireframe of Tidy Family." />
+                            <img className="tidyFamWhiteboard" src="../../images/ourCounty.png" height="320vh" width="90%" alt="Our county view" />
                         </div>
 
                     </Col>
 
+                </Row>
+                <Row className="justify-content-md-center">
+                    <Col className="col-12 col-md-5 mt-2 mb-5">
+                        <div className="csPenPaperImages">
+                            <img className="tidyFamWhiteboard" src="../../images/originalPhases.png" height="320vh" width="90%" alt="Original phases chart" />
+                        </div>
+
+                    </Col>
+                    <Col className="col-12 col-md-5 mt-2 mb-5">
+                        <div className="csPenPaperImages">
+                            <img className="tidyFamWhiteboard" src="../../images/ourPhases.png" height="320vh" width="90%" alt="Our phases chart" />
+                        </div>
+
+                    </Col>
+                </Row>
+                <Row className="justify-content-md-center pt-5">
+                    <Col className="col-12 col-md-6 mt-2 mb-5">
+                        <div>
+                            <div>
+                                <p>After completing our redesign, we conducted more user tests. We found that users could now get to the vaccine scheduling page in a matter of seconds, when before it took much longer or they never found it. </p><p>Overall, users found our redesign was much easier to navigate and understand, but the phases chart still needed to be clearer.</p>
+                                <p>This was a fun and challenging project that utilized user testing, journey mapping, research, prototyping, and presenting.
+                        </p>
+                            </div>
+                        </div>
+                    </Col>
                 </Row>
             </Container>
         </>
