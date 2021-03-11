@@ -18,7 +18,7 @@ export const Resume = () => {
                         <div className="about-div">
                             <h5 className="section-title-light">ABOUT ME</h5>
                             <p>I am a motivated creative with experience in
-                            ux/ui design and frontend software development. Prior to
+                            UX/UI design and frontend software development. Prior to
                             becoming a frontend software developer, I was a professional
                             musician. I am personable and an enthusiastic collaborator,
                             fueled by a passion for creating honest, inclusive, and

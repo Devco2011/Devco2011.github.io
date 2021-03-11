@@ -61,7 +61,7 @@ export const About = () => {
                 </Row>
                 <Row className="justify-content-md-center pb-5">
                     <Col className="col-10" className="jumpTo">
-                        <p>Jump to <HashLink to="#CaseStudies">case studies</HashLink> if you'd like.</p>
+                        <p>Jump to <HashLink to="#CaseStudies">my work</HashLink> if you'd like.</p>
                     </Col>
                 </Row>
 

@@ -72,7 +72,7 @@ export const Process = () => {
                     </Col>
                     <Col className="col-12 col-md-2">
                         <div className="images">
-                            <img className="stickmanTelescope mt-5" src="../../images/stickmanSign.png" height="240rem" width="110rem" alt="Stickman looking through a telescope." />
+                            <img className="stickmanTelescope mt-5" src="../../images/StickmanPurposeSign.png" height="240rem" width="110rem" alt="Stickman holding a Purpose sign" />
 
                         </div>
                     </Col>
