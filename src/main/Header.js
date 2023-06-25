@@ -15,7 +15,7 @@ export const Header = () => {
                         <h4 className="tagLine">HTML5 | CSS3 | JavaScript ES6 | React | Vue | UI/UX Design</h4>
                     </Col>
                     <Col className="jumpTo col-12">
-                        <p>Jump to <HashLink to="#CaseStudies">case studies</HashLink> if you'd like.</p>
+                        <p>Jump to <HashLink to="#CaseStudies">my work</HashLink> if you'd like.</p>
                     </Col>
                 </Row>
             </Container>
