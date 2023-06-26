@@ -167,11 +167,11 @@ export const Resume = () => {
                             <br></br>
                         </div>
                     </Col>
-                    <Col className="col-12 col-md-8">
+                    {/* <Col className="col-12 col-md-8">
                         <div className="about-div">
                             <a className="link" href="./files/Devon-Cox.pdf" target="_blank">View/Download Resume PDF</a>
                         </div>
-                    </Col>
+                    </Col> */}
 
                 </Row>
 
