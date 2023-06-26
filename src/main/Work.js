@@ -17,6 +17,14 @@ export const Work = () => {
                         </div>
                     </Col>
                 </Row>
+                <Row className="justify-content-md-center pt-4">
+                    <Col className="col-12 col-md-6">
+                        <div className="about-div">
+                            <ScrollAnimation animateIn="animate__animated animate__fadeIn"><p class="lightBlue">For the past two years I have worked as a business services consultant. I have played an important role on seven figure projects for some of the biggest companies in the world, helping to make those business run more efficiently. Becuase of non-disclosure agreements, I can't share specifics of those projects here. What follows are some of the projects I worked on as a student at Nashville Software School.</p>
+                                <br></br></ScrollAnimation>
+                        </div>
+                    </Col>
+                </Row>
                 <Row className="justify-content-md-center mb-3 mt-5 pt-5 pb-3">
                     <Col className="col-12 col-md-5 mb-5 pr-4 p-3 border-right">
                         <div className="images mt-3">
