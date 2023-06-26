@@ -26,9 +26,8 @@ export const Resume = () => {
                     <Col className="col-12 col-md-8">
                         <div className="about-div">
                             <h5 className="section-title-light">SKILLS</h5>
-                            <p><strong>JavaScript ES6 | HTML5 | CSS3 | Sass | React JS | Vue JS | REST API | User Research | User Testing | UX Design |
-                            Experience Strategy | Interaction Design | Personas | User Interface Design | Journey Mapping | Usability Testing | Prototyping | Wireframing |
-                                Agile | Scrum | Remote | Figma | Adobe CC | JSON | Firebase</strong></p>
+                            <p><strong>JavaScript | HTML | CSS | Sass | React JS | Vue JS | REST and SOAP APIs | Data Mapping | Systems Integrations | Web Development | Experience Strategy | Interaction Design | Personas | User Interface Design | Journey Mapping | Usability Testing | Prototyping | Wireframing |
+                                Agile | Scrum | Remote | Figma | Adobe CC | JSON | XML | Firebase</strong></p>
                             <br></br>
                         </div>
                     </Col>
@@ -37,6 +36,30 @@ export const Resume = () => {
                     <Col className="col-12 col-md-8">
                         <div className="about-div">
                             <h5 className="section-title-light">TECHNICAL EXPERIENCE</h5>
+                            <h6 className="section-title-light">Spaulding Ridge</h6>
+                            <p>Integrations Consultant<br></br>
+                                January 2022 - Present</p><br></br>
+                            <p className="resume">Architect and develop systems integration solutions for enterprise level clients</p>
+                            <ul>
+                                <li>Design and develop solutions that automate manual processes and improve efficiency</li>
+                                <li>Lead discovery sessions, train-the-trainer and user training sessions, participate in Scrum meetings</li>
+                                <li>High attention to detail, field mapping, documentation</li>
+                                <li>Constant and efficient communication with internal and external teams and stakeholders</li>
+                                <li>Regularly learn and become proficient with new tools</li>
+                                <li>Certified DocuSign Developer, Jitterbit Certified Developer</li>
+                            </ul>
+                            <br></br>
+                            <h6 className="section-title-light">Cloud Development Resources</h6>
+                            <p>Consultant<br></br>
+                                April 2021 - January 2022</p><br></br>
+                            <p className="resume">Develop reactive web applications for clients across a variety of industries</p>
+                            <ul>
+                                <li>Collaborate with internal and external teams, attention to detail and timelines</li>
+                                <li>Write clear unit test and code review documentation to ensure quality control and identify bugs</li>
+                                <li>Foster creativity, collaboration, productivity and support within multiple simultaneous projects and teams</li>
+                                <li>Certified OutSystems Mobile Developer, Certified OutSystems Reactive Web Developer</li>
+                            </ul>
+                            <br></br>
                             <h6 className="section-title-light">Nashville Software School</h6>
                             <p>Software Developer<br></br>
                                 August 2020 - February 2021</p><br></br>
@@ -54,7 +77,7 @@ export const Resume = () => {
                 <Row className="justify-content-md-center mt-3">
                     <Col className="col-12 col-md-8">
                         <div className="about-div">
-                            <h5 className="section-title-light">PROJECTS</h5>
+                            <h5 className="section-title-light">SCHOOL PROJECTS</h5>
                         </div>
                     </Col>
                 </Row>
@@ -109,7 +132,7 @@ export const Resume = () => {
                 <Row className="justify-content-md-center mt-5">
                     <Col className="col-12 col-md-8">
                         <div className="about-div">
-                            <h5 className="section-title-light">PROFFESIONAL EXPERIENCE</h5>
+                            <h5 className="section-title-light">OTHER EXPERIENCE</h5>
                             <h6 className="section-title-light">DEVON HEATH MUSIC</h6>
 
                             <p>Musician<br></br>
