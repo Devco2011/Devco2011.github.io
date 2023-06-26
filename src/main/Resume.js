@@ -17,7 +17,7 @@ export const Resume = () => {
                     <Col className="col-12 col-md-8">
                         <div className="about-div">
                             <h5 className="section-title-light">ABOUT ME</h5>
-                            <p>I am a motivated creative with experience in
+                            <p>I am a motivated creative with experience in stuff.
 </p>
                             <br></br>
                         </div>
