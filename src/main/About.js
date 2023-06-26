@@ -54,7 +54,7 @@ export const About = () => {
                 <Row className="justify-content-md-center pt-4">
                     <Col className="col-12 col-md-6">
                         <div className="about-div">
-                            <ScrollAnimation animateIn="animate__animated animate__fadeIn"><p class="lightBlue">I am also a nature lover, wannabe gardener, history buff, vegan, with an uncontrollable fear of heights and bugs. I believe we can all make the world a better place and I love a good IPA.</p>
+                            <ScrollAnimation animateIn="animate__animated animate__fadeIn"><p class="lightBlue">I am also a nature lover, trail runner, gardener, history buff, and vegan. I have an uncontrollable fear of heights and bugs. I believe we can all make the world a better place and I love a good IPA.</p>
                                 <br></br></ScrollAnimation>
                         </div>
                     </Col>
