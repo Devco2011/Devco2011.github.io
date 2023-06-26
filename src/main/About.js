@@ -20,7 +20,7 @@ export const About = () => {
 
                     <Col className="col-12 col-md-6">
                         <div className="about-div">
-                            <center><h5 className="section-title">I love to code and design great experiences, and I'm a...</h5></center>
+                            <center><h5 className="section-title">I love to solve problems and deliver beyond what is expected, and I'm a...</h5></center>
                         </div>
 
                     </Col>
@@ -54,14 +54,14 @@ export const About = () => {
                 <Row className="justify-content-md-center pt-4">
                     <Col className="col-12 col-md-6">
                         <div className="about-div">
-                            <ScrollAnimation animateIn="animate__animated animate__fadeIn"><p class="lightBlue">I am also a nature lover, wannabe gardener, history buff, mostly-vegan vegetarian, with an uncontrollable fear of heights and bugs. I love a good IPA.</p>
+                            <ScrollAnimation animateIn="animate__animated animate__fadeIn"><p class="lightBlue">I am also a nature lover, wannabe gardener, history buff, vegan, with an uncontrollable fear of heights and bugs. I love a good IPA.</p>
                                 <br></br></ScrollAnimation>
                         </div>
                     </Col>
                 </Row>
                 <Row className="justify-content-md-center pb-5">
-                    <Col className="col-10" className="jumpTo">
-                        <p>Jump to <HashLink to="#CaseStudies">my work</HashLink> if you'd like.</p>
+                    <Col className="col-10"> <div className="jumpTo">
+                        <p>Jump to <HashLink to="#CaseStudies">my work</HashLink> if you'd like.</p></div>
                     </Col>
                 </Row>
 

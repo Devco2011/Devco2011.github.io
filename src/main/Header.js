@@ -9,10 +9,10 @@ export const Header = () => {
                 <Row className="justify-content-md-center mb-5">
                     <Col xs md="auto">
                         <h1>DEVON COX</h1>
-                        <h4>Front-End Developer</h4>
+                        <h4>Technology Professional</h4>
                     </Col>
                     <Col md="12">
-                        <h4 className="tagLine">HTML5 | CSS3 | JavaScript ES6 | React | Vue | UI/UX Design</h4>
+                        <h4 className="tagLine">HTML5 | CSS3 | JavaScript ES6 | Integrations | APIs | Data</h4>
                     </Col>
                     <Col className="jumpTo col-12">
                         <p>Jump to <HashLink to="#CaseStudies">my work</HashLink> if you'd like.</p>
