@@ -50,7 +50,7 @@ export const Work = () => {
                     <Col className="col-12 col-md-5 mb-5 pl-4 p-3">
                     <h6 className="section-title mt-4">DocuSign CLM Developer Capstone</h6>
                        <div className="images mt-3">
-                            <img className="tidyFamHome" src="../../images/DocuSignWF2.png" height="322rem" width="100%" alt="Screenshot of Devon Cox DocuSign capstone" />
+                            <img className="tidyFamHome" src="../../images/DocusignWF2.png" height="322rem" width="100%" alt="Screenshot of Devon Cox DocuSign capstone" />
                         </div>
                         
                         <p>
