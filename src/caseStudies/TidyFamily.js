@@ -72,10 +72,10 @@ export const TFCaseStudy = () => {
                 <Row className="justify-content-md-center">
                     <Col className="col-12 col-md-5 mt-2 mb-5">
                         <div className="csPenPaperImages">
-                            <img className="tidyFamWhiteboard" src="../../images/TFWhiteBoard.jpg" height="320vh" width="100%" alt="Whiteboard drawing of Tidy Family app." />
+                            <img className="tidyFamWhiteboard" src="../../images/TFKidView.jpg" height="320vh" width="100%" alt="Whiteboard drawing of Tidy Family app." />
                         </div>
                         <div>
-                            <center><p><i>Tidy Family, whiteboard edition</i></p></center>
+                            <center><p><i>Tidy Family, pencil and paper</i></p></center>
                         </div>
                     </Col>
                     <Col className="col-12 col-md-5 mt-2 mb-5">
