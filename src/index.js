@@ -3,8 +3,8 @@ import ReactDOM from 'react-dom';
 import { HashRouter as Router } from "react-router-dom"
 import './portfolioCustom.scss';
 import "animate.css/animate.min.css";
-import { App } from "./src/App";
-import reportWebVitals from './src/reportWebVitals';
+import { App } from "./App";
+import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
