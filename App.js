@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { Route } from "react-router-dom";
-import { ApplicationViews } from "./ApplicationViews.js";
+import { ApplicationViews } from "./src/ApplicationViews.js";
 
 export const App = () => {
   return (
