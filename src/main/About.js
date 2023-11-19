@@ -20,7 +20,7 @@ export const About = () => {
 
                     <Col className="col-12 col-md-6">
                         <div className="about-div">
-                            <center><h5 className="section-title">I llove to solve problems and deliver beyond what is expected, and I'm a...</h5></center>
+                            <center><h5 className="section-title">I love to solve problems and deliver beyond what is expected, and I'm a...</h5></center>
                         </div>
 
                     </Col>
