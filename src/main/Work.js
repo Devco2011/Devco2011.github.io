@@ -20,7 +20,7 @@ export const Work = () => {
                 <Row className="justify-content-md-center pt-5 mt-4">
                     <Col className="col-12 col-md-6  mt-3">
                         <div className="about-div">
-                            <ScrollAnimation animateIn="animate__animated animate__fadeIn"><p class="lightBlue">For the past two and a half years, I have worked as an application developer and a integrations developer. I have played an important role on seven figure projects for some of the biggest companies in the world, helping them operate more efficiently. Because of non-disclosure agreements, I can't share specifics of those projects here, but highlights include: </p>
+                            <ScrollAnimation animateIn="animate__animated animate__fadeIn"><p class="lightBlue">For the past two and a half years, I have worked as an applications developer and an integrations consultant/developer. I have played an important role on seven figure projects for some of the biggest companies in the world, helping them operate more efficiently. Because of non-disclosure agreements, I can't share specifics of those projects here, but highlights include: </p>
                                 </ScrollAnimation>
                         </div>
                     </Col>
