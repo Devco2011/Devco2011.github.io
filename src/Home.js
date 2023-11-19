@@ -3,7 +3,7 @@ import { Header } from './main/Header'
 import { About } from './main/About'
 import { Process } from './main/Process'
 import { Work } from './main/Work'
-import { Resume } from './main/Resume'
+
 
 export const Home = () => {
     return (
@@ -14,7 +14,7 @@ export const Home = () => {
             <About />
             <Process />
             <Work />
-            <Resume />
+          
 
         </div>
     );

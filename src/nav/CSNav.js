@@ -24,7 +24,6 @@ export const CSNavBar = (props) => {
                                 <HashLink className="nav-link" to="/#about">ABOUT</HashLink>
                                 <HashLink className="nav-link" to="/#process-container">CREDO</HashLink>
                                 <HashLink className="nav-link" to="/#CaseStudies">WORK</HashLink>
-                                <HashLink className="nav-link" to="/#resume-container">RESUME</HashLink>
                                 <Navbar.Text className="ml-5"><strong><a href="tel:615-310-7665" target="_blank" rel="noreferrer">615-310-7665</a> | <a href="mailto:devcoxdev@gmail.com" target="_blank" rel="noreferrer">devoncoxdev@gmail.com</a></strong></Navbar.Text>
                             </Nav>
                         </Navbar.Collapse>
