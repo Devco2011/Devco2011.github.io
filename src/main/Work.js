@@ -11,14 +11,14 @@ export const Work = () => {
             <div id="CaseStudies"></div>
             <Container id="light-blue-container" fluid>
                 <Row className="justify-content-md-center">
-                    <Col className="col-12 col-md-8 mb-4">
+                    <Col className="col-12 col-md-8 mb-3">
                         <div className="knowledgeBoxWork">
                             <h3 className="section-title">MY WORK</h3>
                         </div>
                     </Col>
                 </Row>
-                <Row className="justify-content-md-center pt-4">
-                    <Col className="col-12 col-md-6">
+                <Row className="justify-content-md-center pt-5 mt-4">
+                    <Col className="col-12 col-md-6  mt-3">
                         <div className="about-div">
                             <ScrollAnimation animateIn="animate__animated animate__fadeIn"><p class="lightBlue">For the past two and a half years, I have worked as an application developer and a integrations developer. I have played an important role on seven figure projects for some of the biggest companies in the world, helping them operate more efficiently. Because of non-disclosure agreements, I can't share specifics of those projects here, but highlights include: </p>
                                 </ScrollAnimation>
@@ -32,16 +32,16 @@ export const Work = () => {
                         <div className="images mt-3">
                        
                             <ul>
-                                <li className='mb-2' class="lightBlue"><p class="lightBlue">As certified OutSystems developer, I was part of a team that developed an application for a major telecom company. The application allows pole workers in the field to access and update pole tower information in real time. The app displays data, allows users to input data, and processes data to ensure it is properly displayed based on filters provided by the user. We accomplished this by creating database diagrams and developing an indepth understanding of the business. We built the application to UI/UX design specifications provided by our design team.  </p></li>
-                                <li className='mb-2' class="lightBlue"><p class="lightBlue">I helped develop an application to streamline a business services organization's resource management. This application gives project managers access to resource availablity, location, rate, etc. It also provides executives insight into utilization. As part of the team that designed the application, I participated in UX research including interviews with stakeholders. </p></li>
+                                <li className='mb-2' class="lightBlue"><p class="lightBlue">As certified OutSystems developer, I was part of a team that developed an application for a major telecom company. The application allows pole workers in the field to access and update pole tower information in real time. The app displays data, allows users to input data, and processes data to ensure it is properly displayed based on filters provided by the user. We accomplished this by creating ERDs and developing an indepth understanding of the business. We built the application to UI/UX design specifications provided by our design team.  </p></li>
+                                <li className='mb-2' class="lightBlue"><p class="lightBlue">I helped develop an application to streamline a business services organization's resource management. This application gives project managers access to resource availablity, location, rate, etc. It also provides executives insight into utilization. In addition to developing, I was part of the team that designed the application, and I participated in UX research including interviews with stakeholders. </p></li>
                             </ul>
                         </div>
                         <h6 className="section-title mt-4">Integrations Consultant/Developer</h6> 
                         <div className="images mt-3">
                         <ul>
-                               <li className='mb-2' class="lightBlue"><p class="lightBlue">I worked on a team helping to automate and improve procurement processes for one of the world's largest snack companies, through an integration with their homegrown systems and DocuSign CLM. Acions in the source system trigger an API request, which kicks off workflows in DocuSign CLM. These workflows receive data from the source system via the API request, then validate and prepare that data for various uses within DocuSign CLM, including contracting and reporting. Status updates and other data are sent back to the source system via API requests. I also designed and developed CSV intake workflows, allowing the client to load large amounts of data into DocuSign CLM via SFTP or API, with automated processes including validation, file replacement, and scheduled archiving. I implemented automated error handling including logs, authentication and request retries, and emails to the appropriate parties.</p></li>
+                               <li className='mb-2' class="lightBlue"><p class="lightBlue">I worked on a team helping to automate and improve procurement processes for one of the world's largest snack companies, through an integration with their homegrown systems and DocuSign CLM. Actions in the source system trigger an API request, which kicks off workflows in DocuSign CLM. These workflows receive data from the source system via the API request, then validate and prepare that data for various uses within DocuSign CLM, including contracting and reporting. Status updates and other data are sent back to the source system via API requests. I also designed and developed CSV intake workflows, allowing the client to load large amounts of data into DocuSign CLM via SFTP or API, with automated processes including validation, file replacement, and scheduled archiving. I implemented automated error handling including logs, authentication and request retries, and emails to the appropriate parties.</p></li>
                                 <li className='mb-2' class="lightBlue"><p class="lightBlue">Working on projects for the second largest communications company in the world, I developed integrations that improved efficiency in HR, procurement, and reporting. I built complex workflows in DocuSign CLM that communcate with various external systems via API. For example, if an employee is transfered to a new department, the source system sends an API request, with the employee data in the body, to DocuSign CLM, which kicks off a workflow. This workflow validates the data, sends status updates to back to the source system, determines if the employee has been transferred, newly hired, or terminated, among other things. Based on a number of conditionals, the workflow follows the appropriate path and the employee file is updated and moved to the correct root folder.</p></li>
-                                <li className='mb-2' class="lightBlue"><p class="lightBlue">I developed integrations via API between systems such as Salesforce, NetSuite, PEGA, and others, for companies across a variety of industries using middleware including Jitterbit, Mulesoft, and Boomi. Often using scheduled requests to extract data from various sources, transforming the data and making a request to the target system to load that data.  </p></li>
+                                <li className='mb-2' class="lightBlue"><p class="lightBlue">I developed integrations via API between systems such as Salesforce, NetSuite, PEGA, and others, for companies across a variety of industries using middleware including Jitterbit, Mulesoft, and Boomi. Often using scheduled requests and SQL to extract data from various sources, transforming the data and making a request to the target system to load that data.  </p></li>
                            </ul>
                            </div>
 
@@ -64,7 +64,7 @@ export const Work = () => {
                         
                         <p>
                             <p className="lightBlue pt-4">I designed and developed my first WordPress website in late 2022. I worked with my client to design the site and used Elementor along with custom CSS, HTML, and PHP code to build it. View the live site <a href="https://lakewayfinancialplanning.com/">here</a>. </p>
-                            <p className="lightBlue">Throughout this time, I also developed using other platforms and became a certified Jitterbit Developer. </p>
+                            
                         </p>
                     
                     
